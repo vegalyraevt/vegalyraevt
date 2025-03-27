@@ -1,33 +1,76 @@
-![image](https://github.com/user-attachments/assets/736816e0-5903-479a-b5e7-93078b10ed1a)
-## Hi there, I'm Vega, a Twitch streamer and computer scientist.
-Most of my programming background is in the IT field, but I am a Software Dev at heart.
-I work on various projects for stream and on stream, and post some of them here!
+# Vega Lyrae | Twitch Streamer & Computer Scientist
 
--  I’m always looking to collaborate on projects I find interesting that benefit streamers or add new and exciting capabilities to my Stream AI AuroraChan!
--  I’m looking for help with: LLM Training guidance and Streamers to volunteer data to train Aurora! (Female Vtubers with a concurrent average view count of 10+ preferred, but all streamers are helpful)
+![Banner](https://github.com/user-attachments/assets/736816e0-5903-479a-b5e7-93078b10ed1a)
 
-## How to reach me:
-- For collabs or general questions, feel free to join my community [Discord](https://discord.gg/UPQgsszwZA). Please note that if you don't finish the short onboarding after joining the server will assume you are a bot and auto-kick you after you leave the page!
-- For business contact and inquiries, you can email me at constellationvirtualmedia@gmail.com or directly reach out on [Discord](discord.com/users/1091113489428398150) or [Twitter](https://x.com/VegaLyraeVT).
-- To commission me please see my [Ko-fi](https://ko-fi.com/vegalyrae)!
+[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraevt)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/VegaLyraeVT)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/UPQgsszwZA)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/vegalyrae)
 
-## I'm currently working on a few projects.
-Here are some of my most notable, in my opinion:
+## 📑 Site Navigation
 
-### The AuroraChanAI Project (or just AuroraChan)
-  A collection of LLMs and other neural networks running in tandem to create a Virtual streamer. AuroraChan is my main project and the culmination of thousands of hours of learning and programming work. Her main goal is to do everything a regular streamer would in the most lifelike way possible while also leveraging her capabilities as a custom-trained LLM. I am working towards the day I start her programs running autonomously and never shut her off again except for small preplanned windows for updates.
+| [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
+|-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
 
-### Aurora Vocal and Music Engine
-  A series of neural networks working with Aurora's existing models to allow karaoke live and original song creation by Aurora. This also involves a custom vocaloid I am creating for this project. More info later but you can preview the songs from my early testing playing on the first 5 minutes of every twitch stream on my "starting soon section".
+## 👋 About Me
 
-### Unanmed Indie Game
-  A Godot indie game I am working on with a few friends. Top-down 2.5D horde shooter with deep lore and perk skill trees, where you play as a malfunctioning AI set on a dying server. Planned AuroraChan integration to allow collabs and challenges from her on stream.
+Software developer with an IT background, focused on creating innovative streaming technologies and AI solutions. I regularly work on projects live on Twitch and share my most interesting developments here!
 
-### Stream overlay based VTuber Card Game
-  More info on this soon!
+[Read more about my journey →](about.md)
 
-### I run a Minecraft SMP where I make custom mods, and I am in the process of adding AuroraChan to Minecraft!
-Find out more about the [Constellation SMP here](https://smp.constellationvirtualmedia.com/)!
+## 🔭 Featured Projects
 
-## Here's my roadmap progress on some new skills I'm learning! I plan to make this a community project soon. For more info, stay tuned in my community [Discord](https://discord.gg/UPQgsszwZA).
+<details>
+<summary><strong>📡 AuroraChanAI Project</strong></summary>
+<br>
+A sophisticated collection of LLMs and neural networks working in tandem to create a fully autonomous virtual streamer. AuroraChan represents thousands of hours of R&D, with the goal of creating a lifelike streamer experience powered by custom-trained LLMs.
+</details>
+
+<details>
+<summary><strong>🎵 Aurora Vocal and Music Engine</strong></summary>
+<br>
+Neural networks enabling live karaoke and original song creation by Aurora. This project includes a custom vocaloid implementation. Preview songs play during the first 5 minutes of each Twitch stream.
+</details>
+
+<details>
+<summary><strong>🎮 Indie Game Development</strong></summary>
+<br>
+A Godot-based top-down 2.5D horde shooter featuring deep lore and perk skill trees. Players take on the role of a malfunctioning AI in a dying server environment. The game will feature AuroraChan integration for stream collaborations.
+</details>
+
+<details>
+<summary><strong>🎲 Stream Overlay VTuber Card Game</strong></summary>
+<br>
+Interactive card game system integrated with streaming platforms. More details coming soon!
+</details>
+
+<details>
+<summary><strong>⛏️ Minecraft SMP & Custom Mods</strong></summary>
+<br>
+Running a Minecraft SMP with custom-developed mods, currently implementing AuroraChan integration for Minecraft.
+Learn more about the <a href="https://smp.constellationvirtualmedia.com/">Constellation SMP here</a>.
+</details>
+
+[View all projects →](projects.md)
+
+## 🤝 Collaboration Opportunities
+
+- **Open to collaborating** on projects that benefit streamers or enhance AuroraChan's capabilities
+- **Seeking help with** LLM training guidance and volunteer data from streamers (particularly female VTubers with 10+ average concurrent viewers)
+
+## 📊 Learning Journey
+
+I'm continuously expanding my skill set across several domains. Track my progress:
+
 [![roadmap.sh](https://roadmap.sh/card/tall/67e4a5d2616abc6b0b69db0a?variant=dark&roadmaps=data-analyst%2Cgame-developer%2Cpython%2Cbackend)](https://roadmap.sh)
+
+## 📫 Quick Contact
+
+| Purpose | Contact Method |
+|---------|----------------|
+| **Collaborations & Questions** | [Join Discord Community](https://discord.gg/UPQgsszwZA) |
+| **Business Inquiries** | constellationvirtualmedia@gmail.com |
+
+[More contact options →](contact.md) | [Support my work →](support.md)
+
+> **Note:** Please complete the Discord onboarding after joining to avoid automatic removal.
