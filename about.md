@@ -6,6 +6,7 @@
 |-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
 
 ![Vega Profile](https://via.placeholder.com/800x400?text=Vega+Profile)
+[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
 
 ## 👋 Who I Am
 

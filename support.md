@@ -26,7 +26,7 @@ My Ko-fi page is the primary platform for:
 
 ### 🔴 Twitch
 
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraevt)
+[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
 
 Support through Twitch by:
 - Subscribing (Tier 1-3)
@@ -34,7 +34,7 @@ Support through Twitch by:
 - Cheering with Bits
 - Watching ads during streams
 
-[Follow on Twitch →](https://twitch.tv/vegalyraevt)
+[Follow on Twitch →](https://twitch.tv/vegalyraebard)
 
 ### 🤝 Project Collaboration
 

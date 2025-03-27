@@ -50,7 +50,7 @@ Please provide detailed information about your project requirements, timeline, a
 For public conversations and announcements:
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/VegaLyraeVT)
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraevt)
+[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
 
 ### 🤖 For AuroraChan Project
 
@@ -73,7 +73,7 @@ I typically respond to inquiries during these hours (Eastern Time):
 - Monday-Friday: 11am - 9pm
 - Weekends: Limited availability
 
-Stream schedule is available on my [Twitch channel](https://twitch.tv/vegalyraevt).
+Stream schedule is available on my [Twitch channel](https://twitch.tv/vegalyraebard).
 
 ---
 
