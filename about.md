@@ -57,6 +57,7 @@ I believe in continuous learning. Currently, I'm expanding my knowledge in:
 - Python Development
 
 View my learning roadmap progress:
+
 [![roadmap.sh](https://roadmap.sh/card/tall/67e4a5d2616abc6b0b69db0a?variant=dark&roadmaps=data-analyst%2Cgame-developer%2Cpython%2Cbackend)](https://roadmap.sh)
 
 ## 🎯 Personal Philosophy
