@@ -6,7 +6,7 @@ I work on various projects for stream and on stream, and post some of them here!
 -  I’m always looking to collaborate on projects I find interesting that benefit streamers or add new and exciting capabilities to my Stream AI AuroraChan!
 -  I’m looking for help with: LLM Training guidance and Streamers to volunteer data to train Aurora! (Female Vtubers with a concurrent average view count of 10+ preferred, but all streamers are helpful)
 
-###How to reach me:
+## How to reach me:
 - For collabs or general questions, feel free to join my community [Discord](https://discord.gg/UPQgsszwZA). Please note that if you don't finish the short onboarding after joining the server will assume you are a bot and auto-kick you after you leave the page!
 - For business contact and inquiries, you can email me at constellationvirtualmedia@gmail.com or directly reach out on [Discord](discord.com/users/1091113489428398150) or [Twitter](https://x.com/VegaLyraeVT).
 - To commission me please see my [Ko-fi](https://ko-fi.com/vegalyrae)!
@@ -28,30 +28,6 @@ Here are some of my most notable, in my opinion:
 
 ### I run a Minecraft SMP where I make custom mods, and I am in the process of adding AuroraChan to Minecraft!
 Find out more about the [Constellation SMP here](https://smp.constellationvirtualmedia.com/)!
-
-## Check out my Twitch here!
-<html>
-<body>
-<!-- Add a placeholder for the Twitch embed -->
-<div id="twitch-embed"></div>
-
-<!-- Load the Twitch embed JavaScript file -->
-<script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-<!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
-<script type="text/javascript">
-new Twitch.Embed("twitch-embed", {
-width: "100%",
-height: 712,
-channel: "vegalyraebard",
-parent: ["vegalyrae.carrd.co", "vegalyrae.carrd.co"]
-});
-</script>
-</body>
-</html>
-
-## Support me on Kofi here!
-<iframe id='kofiframe' src='https://ko-fi.com/vegalyrae/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='vegalyrae'></iframe>
 
 ## Here's my roadmap progress on some new skills I'm learning! I plan to make this a community project soon. For more info, stay tuned in my community [Discord](https://discord.gg/UPQgsszwZA).
 [![roadmap.sh](https://roadmap.sh/card/tall/67e4a5d2616abc6b0b69db0a?variant=dark&roadmaps=data-analyst%2Cgame-developer%2Cpython%2Cbackend)](https://roadmap.sh)
