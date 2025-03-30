@@ -21,11 +21,10 @@ A sophisticated collection of LLMs and neural networks working in tandem to crea
 - Custom-trained on streaming content
 - Dynamic memory and context handling
 - Simi-Autonomous decision making for content creation
-- 
 
 ## Current Status:
 
-I am working towards the day I start her programs running autonomously and never shut her off again except for small preplanned windows for updates.
+####I am working towards the day I start her programs running autonomously and never shut her off again except for small preplanned windows for updates.
 I hope that one day she continues running as the face/Mascot of my media company Constellation Virtual Media long after I'm gone.
 ---
 
