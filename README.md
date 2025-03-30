@@ -29,7 +29,7 @@ A sophisticated collection of LLMs and neural networks working in tandem to crea
 <details>
 <summary><strong>🎵 Aurora Vocal and Music Engine</strong></summary>
 <br>
-Neural networks enabling live karaoke and original song creation by Aurora. This project includes a custom vocaloid implementation. Preview songs play during the first 5 minutes of each Twitch stream.
+Neural networks enabling live karaoke and original song creation by Aurora. This project includes a custom vocaloid implementation. Preview songs play during the first 5 minutes of each Twitch stream. Please note this is not AI generated music but instead a workspace tool I use to allow aurora to view and make requests about songs I make with a vocaloid program I work in.
 </details>
 
 <details>
