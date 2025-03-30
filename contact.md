@@ -61,6 +61,7 @@ If you're interested in contributing to the AuroraChan AI project, especially:
 - Female Voice actors/singers intrested in creating a voicebank for TTS and Vocaloid.
 
 Please email: constellationvirtualmedia@gmail.com or reach out directly on Twitter or Discord.
+If you wouldnlike to volunteer to help train Aurora on how to stream please see [this form](https://docs.google.com/forms/d/1wk8xr39PAWbq1H_wXJwZhetltHBV6Uys6AlFa97b1tA)!
 
 ## 📋 Press Kit
 
