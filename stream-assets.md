@@ -41,8 +41,8 @@
 ## 🎵 Audio Assets
 
 ### Custom Stream Music
-- "Chiptune Constellations" by Vega Lyrae - [Creative Commons Attribution (Pay What You Want on Ko-Fi)](https://creativecommons.org/licenses/by/4.0/)
-- "Funky Computer" by Vega Lyrae - [Personal Use Only - Not Licensable]
+- "[Chiptune Constellations](https://ko-fi.com/s/768000eed8)" by Vega Lyrae - [Creative Commons Attribution (Pay What You Want on Ko-Fi)](https://creativecommons.org/licenses/by/4.0/)
+- "[Funky Computer](https://on.soundcloud.com/tEzd1QGjq29WjTAC6)" by Vega Lyrae - [Personal Use Only - Not Licensable]
 - "Portentous Prevarication" by Vega Lyrae - [Personal Use Only - Not Licensable]
 
 ### AuroraChan Original Music
@@ -54,7 +54,7 @@
 ## 💻 Technical Assets
 
 ### Overlays & Extensions
-- Chatter Avatars by Vega - Proprietary Commercial License - Available for purchase with single-user or multi-user licensing options
+- Chatter Avatars by Vega - Proprietary Commercial License - Working towards making this available for purchase with single-user or multi-user licensing options in the future.
 - Chatbot commands by Vega
 
 ### Custom Software
