@@ -56,7 +56,7 @@ Learn more about the <a href="https://smp.constellationvirtualmedia.com/">Conste
 ## 🤝 Collaboration Opportunities
 
 - **Open to collaborating** on projects that benefit streamers or enhance AuroraChan's capabilities
-- **Seeking help with** LLM training guidance and volunteer data from streamers (particularly female VTubers with 10+ average concurrent viewers)
+- **Seeking help with** LLM training guidance and volunteer data from streamers (particularly female VTubers with 10+ average concurrent viewers). Please read over this short form to [sign up here](https://docs.google.com/forms/d/1wk8xr39PAWbq1H_wXJwZhetltHBV6Uys6AlFa97b1tA).
 
 ## 📊 Learning Journey
 
