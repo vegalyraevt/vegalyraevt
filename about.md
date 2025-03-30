@@ -32,7 +32,7 @@ As a VTuber, I blend my technical know-how with entertainment to create an inter
 - Music Creation
 - Literature Deep dives
 - Community events
-- and my passion for all things Horror and horror gaming!
+- My passion for all things Horror and horror gaming!
 
 ## 🔬 Research Interests
 
@@ -45,7 +45,7 @@ I'm particularly interested in:
 
 ## 🌱 Vision for the Future
 
-I'm working toward creating truly autonomous AI companions and entertainers that can engage meaningfully with humans. My flagship project, AuroraChan, represents the culmination of this vision - an AI that aims to stream, create content, and interact with viewers without constant supervision. I also want to grow my media company COnstellation Virtual Media to a known name in the streamer and tech spaces!
+I'm working toward creating truly autonomous AI companions and entertainers that can engage meaningfully with humans. My flagship project, AuroraChan, represents the culmination of this vision - an AI that aims to stream, create content, and interact with viewers without constant supervision. I also want to grow my media company Constellation Virtual Media to a known name in the streamer and tech spaces!
 
 ## 📚 Education & Learning Path
 
@@ -64,3 +64,10 @@ View my learning roadmap progress:
 ## 🎯 Personal Philosophy
 
 "Technology should enhance human creativity, not replace it. The best AI works alongside humans, adding to what you can do not doing it for you."
+
+## 🐉 Why make another AI streamer?
+
+As someone who has always found AI interesting and had a "Ill only truly understand how it works if I do it myself mentally" I immediately started tinkering with the idea after seeing similar projects. At first Aurora was just going to be a little chat bot plugin to help do TTS, but the more I dug into the project the more I belived I was seeing something in the future I wanted to make and work towards. I also belive have a unique set of ideas and directon for her systems and streams that will become more apparent as I continue my dev work. 
+
+This isn't just a attempt to cash in on the "AI craze" I plan to drop one day when the bubble pops. I plan to keep working on her and hope for her to be one of the most impactful things I'll leave behind one day. This may come across a bit dramatic or sappy, but I don't have the best health and worry about how many years I will be around. Don't worry im okay and in the best health I've been in for anlong time lately, I dont plan on going anywhere soon. I just hope with enough work in the time I do have that when I'm gone I can leave something to interact what I leave behind and maybe if I play my cards right she can carry memories of me and my friends into the future. Right now its just a really big and probably silly sounding dream... but I think its okay to dream as long as you work towards making that dream a reality. She's not the only thing I plan to leave behind but she has a big part in my future plans for my company and content.
+
