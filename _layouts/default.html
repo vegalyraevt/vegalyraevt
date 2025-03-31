@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,13 +12,23 @@
 <body>
     <nav class="top-nav">
         <div class="nav-container">
-            <div class="nav-links">
+            <div class="mobile-nav-toggle">
+                <button id="menu-toggle" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <div class="nav-links" id="nav-links">
                 <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
                 <a href="{{ '/projects' | relative_url }}" class="nav-link {% if page.url == '/projects/' %}active{% endif %}">Projects</a>
                 <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About Me</a>
                 <a href="{{ '/stream-assets' | relative_url }}" class="nav-link {% if page.url == '/stream-assets/' %}active{% endif %}">Stream Assets</a>
                 <a href="{{ '/support' | relative_url }}" class="nav-link {% if page.url == '/support/' %}active{% endif %}">Support</a>
                 <a href="{{ '/contact' | relative_url }}" class="nav-link {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
             </div>
         </div>
     </nav>
@@ -29,11 +39,7 @@
                 <div class="profile-header">
                     {% if page.url == "/" %}
                     <div class="avatar-container">
-                        {% if site.logo %}
-                        <img src="{{ site.logo }}" alt="Vega Lyrae" class="avatar">
-                        {% else %}
                         <img src="{{ '/assets/css/images/pfp1.jpg' | relative_url }}" alt="Vega Lyrae" class="avatar">
-                        {% endif %}
                     </div>
                     <h1 class="profile-name">{{ site.title }}</h1>
                     <p class="profile-tagline">{{ site.description }}</p>
@@ -180,6 +186,69 @@
                 observer.observe(card);
                 card.classList.add('animate');
             });
+            
+            // Mobile navigation toggle
+            const menuToggle = document.getElementById('menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+            
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('show-mobile-nav');
+                
+                // Change icon based on menu state
+                const icon = this.querySelector('i');
+                if (navLinks.classList.contains('show-mobile-nav')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+            
+            // Close menu when clicking outside on mobile
+            document.addEventListener('click', function(event) {
+                if (!event.target.closest('.nav-container') && navLinks.classList.contains('show-mobile-nav')) {
+                    navLinks.classList.remove('show-mobile-nav');
+                    const icon = menuToggle.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+            
+            // Theme toggling functionality
+            const themeToggleBtn = document.getElementById('theme-toggle-btn');
+            const htmlElement = document.documentElement;
+            const themeIcon = themeToggleBtn.querySelector('i');
+            
+            // Check for saved theme preference or use system preference
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                htmlElement.setAttribute('data-theme', savedTheme);
+                updateThemeIcon(savedTheme);
+            } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                htmlElement.setAttribute('data-theme', 'dark');
+                updateThemeIcon('dark');
+            }
+            
+            // Toggle theme when button is clicked
+            themeToggleBtn.addEventListener('click', function() {
+                const currentTheme = htmlElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                htmlElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                updateThemeIcon(newTheme);
+            });
+            
+            function updateThemeIcon(theme) {
+                if (theme === 'dark') {
+                    themeIcon.classList.remove('fa-moon');
+                    themeIcon.classList.add('fa-sun');
+                } else {
+                    themeIcon.classList.remove('fa-sun');
+                    themeIcon.classList.add('fa-moon');
+                }
+            }
         });
     </script>
 </body>
