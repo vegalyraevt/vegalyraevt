@@ -38,6 +38,16 @@ html[data-theme="dark"] {
   --transition: all 0.3s ease;
 }
 
+/* Theme transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Initial load - disable transitions */
+html:not(.theme-loaded) * {
+  transition: none !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -329,6 +339,7 @@ body {
   margin-top: 0.5rem;
 }
 
+/* Social Buttons - Brand Colors in Light Mode */
 .social-button {
   display: flex;
   align-items: center;
@@ -341,6 +352,47 @@ body {
   text-decoration: none;
   transition: var(--transition);
   box-shadow: var(--box-shadow);
+}
+
+/* Brand-specific colors in light mode */
+html[data-theme="light"] {
+  .social-button.twitch {
+    background-color: #6441a5; /* Twitch purple */
+  }
+  
+  .social-button.twitter {
+    background-color: #1DA1F2; /* Twitter blue */
+  }
+  
+  .social-button.discord {
+    background-color: #5865F2; /* Discord blue */
+  }
+  
+  .social-button.kofi {
+    background-color: #FF5E5B; /* Ko-fi red */
+  }
+  
+  .social-button.youtube {
+    background-color: #FF0000; /* YouTube red */
+  }
+  
+  .social-button.soundcloud {
+    background-color: #FF7700; /* SoundCloud orange */
+  }
+  
+  .social-button.throne {
+    background-color: #6E4A9E; /* Throne purple */
+  }
+  
+  .social-button.tiktok {
+    background-color: #000000; /* TikTok black */
+  }
+}
+
+/* Dark mode buttons can remain as they are */
+html[data-theme="dark"] .social-button {
+  background-color: var(--light-gray);
+  color: var(--primary-color);
 }
 
 .social-button:hover {
@@ -505,6 +557,21 @@ body {
   font-size: 1.1rem;
   margin-top: 1.2rem;
   margin-bottom: 0.8rem;
+}
+
+/* Make bold text with colons purple to match headers */
+.content-container strong {
+  color: var(--primary-color); /* Make bold text purple by default */
+}
+
+/* Style for lists with bold headers */
+.content-container li strong:first-child {
+  color: var(--primary-color); /* Ensure list items with bold text at the start are purple */
+}
+
+/* Ensure dark mode shows the bold text correctly */
+html[data-theme="dark"] .content-container strong {
+  color: var(--primary-color); /* Make bold text purple in dark mode too */
 }
 
 /* Specifically hide site navigation in GitHub Pages rendered content */
@@ -835,7 +902,7 @@ html[data-theme="dark"] .content-container h4 {
   color: var(--accent-color);
 }
 
-.contact-card h3 {
+contact-card h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
 }

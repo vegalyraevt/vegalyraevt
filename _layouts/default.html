@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
+    
+    <!-- Early theme initialization to prevent flash -->
+    <script>
+        (function() {
+            // Apply the saved theme immediately before page renders
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-theme', savedTheme);
+            } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
+    
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     {% seo %}
     <style>
-        /* Hide site navigation tables in rendered content */
-        .content-container h2:contains("Site Navigation") + table,
-        .content-container h2[id="site-navigation"] + table,
-        .content-container h2:contains("📑") + table {
+        /* Hide navigation sections in rendered content */
+        .content-container h2:contains("Site Navigation"),
+        .content-container h2:contains("📑"),
+        .content-container table.site-nav-table {
             display: none !important;
         }
-        /* Hide Jekyll Liquid tags that might appear in content */
-        .jekyll-liquid-tag { display: none !important; }
+        
+        /* Prevent flash of unstyled content */
+        html, body {
+            transition: background-color 0s; /* Override the transition delay during initial load */
+        }
+        
+        html.theme-loaded, html.theme-loaded body {
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Restore transitions after load */
+        }
     </style>
 </head>
 <body>
@@ -264,30 +285,55 @@
                     themeIcon.classList.add('fa-moon');
                 }
             }
+            
+            // Mark theme as loaded to enable transitions
+            document.documentElement.classList.add('theme-loaded');
         });
 
-        // Add to the existing script section
-        window.addEventListener('DOMContentLoaded', function() {
-            // Hide navigation tables that appear in content
-            const h2Elements = document.querySelectorAll('h2');
-            h2Elements.forEach(function(el) {
-                if (el.textContent.includes('Site Navigation') || el.textContent.includes('📑')) {
-                    const nextEl = el.nextElementSibling;
-                    if (nextEl && nextEl.tagName === 'TABLE') {
-                        el.style.display = 'none';
-                        nextEl.style.display = 'none';
+        // Add simplified filtering for navigation sections only
+        document.addEventListener('DOMContentLoaded', function() {
+            // Function to hide site navigation sections
+            function hideNavigationSections() {
+                // Find and hide headers with navigation text
+                const headers = document.querySelectorAll('.content-container h2');
+                headers.forEach(function(header) {
+                    const headerText = header.textContent.trim();
+                    if (headerText.includes('Site Navigation') || 
+                        headerText.includes('📑') || 
+                        header.id === 'site-navigation') {
+                        
+                        console.log('Found navigation header:', headerText);
+                        header.style.display = 'none';
+                        
+                        // Also hide the table that follows
+                        let nextElement = header.nextElementSibling;
+                        while (nextElement) {
+                            if (nextElement.tagName === 'TABLE') {
+                                nextElement.style.display = 'none';
+                                console.log('Hidden navigation table');
+                                break;
+                            } else if (nextElement.tagName === 'P' && nextElement.innerHTML.trim() === '') {
+                                // Skip empty paragraphs
+                                nextElement = nextElement.nextElementSibling;
+                            } else {
+                                // Stop if we find any other content
+                                break;
+                            }
+                        }
                     }
-                }
-            });
+                });
 
-            // Hide any Jekyll Liquid tags that might appear
-            document.querySelectorAll('.content-container').forEach(function(container) {
-                const html = container.innerHTML;
-                // Replace Jekyll Liquid tags with empty string
-                container.innerHTML = html.replace(/{%.*?%}/g, '');
-            });
+                // Find any headers with level 4 (#### in markdown) and ensure they have proper styling
+                document.querySelectorAll('.content-container h4').forEach(function(h4) {
+                    h4.style.color = getComputedStyle(document.documentElement).getPropertyValue('--primary-color');
+                });
+            }
 
-            // The rest of your existing script...
+            // Run the function on page load
+            hideNavigationSections();
+
+            // Also run it after a short delay to catch any dynamically loaded content
+            setTimeout(hideNavigationSections, 500);
         });
     </script>
 </body>
