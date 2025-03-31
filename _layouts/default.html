@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     {% seo %}
+    <style>
+        /* Hide site navigation tables in rendered content */
+        .content-container h2:contains("Site Navigation") + table,
+        .content-container h2[id="site-navigation"] + table,
+        .content-container h2:contains("📑") + table {
+            display: none !important;
+        }
+        /* Hide Jekyll Liquid tags that might appear in content */
+        .jekyll-liquid-tag { display: none !important; }
+    </style>
 </head>
 <body>
     <nav class="top-nav">
@@ -34,9 +44,11 @@
     </nav>
     
     <div class="page-container">
-        <!-- Hide header on homepage since we have it in the home layout -->
         {% if page.url != "/" %}
-
+            <!-- Include navigation only if not rendering Markdown files -->
+            {% unless page.path contains ".md" %}
+                {% include navigation.html %}
+            {% endunless %}
         {% endif %}
         
         <main class="content-container">
@@ -252,6 +264,30 @@
                     themeIcon.classList.add('fa-moon');
                 }
             }
+        });
+
+        // Add to the existing script section
+        window.addEventListener('DOMContentLoaded', function() {
+            // Hide navigation tables that appear in content
+            const h2Elements = document.querySelectorAll('h2');
+            h2Elements.forEach(function(el) {
+                if (el.textContent.includes('Site Navigation') || el.textContent.includes('📑')) {
+                    const nextEl = el.nextElementSibling;
+                    if (nextEl && nextEl.tagName === 'TABLE') {
+                        el.style.display = 'none';
+                        nextEl.style.display = 'none';
+                    }
+                }
+            });
+
+            // Hide any Jekyll Liquid tags that might appear
+            document.querySelectorAll('.content-container').forEach(function(container) {
+                const html = container.innerHTML;
+                // Replace Jekyll Liquid tags with empty string
+                container.innerHTML = html.replace(/{%.*?%}/g, '');
+            });
+
+            // The rest of your existing script...
         });
     </script>
 </body>

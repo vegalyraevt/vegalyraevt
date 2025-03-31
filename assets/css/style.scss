@@ -45,6 +45,30 @@ html[data-theme="dark"] {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
+/* Markdown Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color); /* Ensure headers are readable in both themes */
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: var(--primary-color); /* Make `####` headers purple in both themes */
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6 {
+  color: var(--text-color); /* Ensure headers are white in dark mode */
+}
+
+html[data-theme="dark"] h4 {
+  color: var(--primary-color); /* Make `####` headers purple in dark mode */
+}
+
 /* Body and Page Container */
 body {
   font-family: 'Poppins', sans-serif;
@@ -473,6 +497,39 @@ body {
   text-align: center;
   padding: 5px;
   font-size: 0.9rem; /* Slightly smaller text for better fit */
+}
+
+/* Additional styles for markdown content */
+.content-container h4 {
+  color: var(--primary-color) !important; /* Force h4 headers to be purple */
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Specifically hide site navigation in GitHub Pages rendered content */
+.content-container h2:first-of-type + table,
+.content-container h2[id="site-navigation"] + table {
+  display: none !important;
+}
+
+/* Make all headers in dark mode properly visible */
+html[data-theme="dark"] .content-container h1,
+html[data-theme="dark"] .content-container h2,
+html[data-theme="dark"] .content-container h3,
+html[data-theme="dark"] .content-container h4,
+html[data-theme="dark"] .content-container h5,
+html[data-theme="dark"] .content-container h6 {
+  color: var(--text-color) !important; /* Force headers to be white in dark mode */
+}
+
+html[data-theme="dark"] .content-container h4 {
+  color: var(--primary-color) !important; /* Force h4 headers to be purple in dark mode */
+}
+
+/* Hide Jekyll specific tags that may appear in rendered content */
+.content-container .jekyll-liquid-tag {
+  display: none !important;
 }
 
 /* Home Page Specific Layout */
