@@ -1,8 +1,3 @@
----
-layout: default
-title: Support My Work | Vega Lyrae
----
-
 # Support My Work
 
 {% if site.github %} <!-- Exclude this section from the GitHub Pages site -->

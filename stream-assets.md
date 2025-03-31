@@ -1,8 +1,3 @@
----
-layout: default
-title: Stream Assets & Credits | Vega Lyrae
----
-
 # Stream Assets & Credits
 
 {% if site.github %} <!-- Exclude this section from the GitHub Pages site -->

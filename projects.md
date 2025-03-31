@@ -1,8 +1,3 @@
----
-layout: default
-title: Projects | Vega Lyrae
----
-
 # Projects
 
 {% if site.github %} <!-- Exclude this section from the GitHub Pages site -->

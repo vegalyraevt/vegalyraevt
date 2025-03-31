@@ -1,8 +1,3 @@
----
-layout: default
-title: Contact Me | Vega Lyrae
----
-
 # Contact Me
 
 {% if site.github %} <!-- Exclude this section from the GitHub Pages site -->

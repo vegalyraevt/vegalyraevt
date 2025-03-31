@@ -1,8 +1,3 @@
----
-layout: default
-title: About Me | Vega Lyrae
----
-
 # About Me
 
 {% if site.github %} <!-- Exclude this section from the GitHub Pages site -->
