@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home | Vega Lyrae
+---
+
 # Vega Lyrae | Twitch Streamer & Computer Scientist
 
 ![Banner](https://github.com/user-attachments/assets/736816e0-5903-479a-b5e7-93078b10ed1a)
@@ -6,6 +11,10 @@
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/VegaLyraeVT)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/UPQgsszwZA)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/vegalyrae)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@vegalyrae)
+[![SoundCloud](https://img.shields.io/badge/SoundCloud-FF7700?style=for-the-badge&logo=soundcloud&logoColor=white)](https://soundcloud.com/vegalyrae)
+[![Throne](https://img.shields.io/badge/Throne-6E4A9E?style=for-the-badge&logo=gift&logoColor=white)](https://throne.com/vegalyrae)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@vegalyraevtuber)
 
 ## 📑 Site Navigation
 

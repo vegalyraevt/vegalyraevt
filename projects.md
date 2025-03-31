@@ -1,3 +1,8 @@
+---
+layout: default
+title: Projects | Vega Lyrae
+---
+
 # Projects
 
 ## 📑 Site Navigation

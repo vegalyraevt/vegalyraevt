@@ -1,3 +1,8 @@
+---
+layout: default
+title: Stream Assets & Credits | Vega Lyrae
+---
+
 # Stream Assets & Credits
 
 ## 📑 Site Navigation

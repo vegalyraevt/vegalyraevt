@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    {% seo %}
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+                <a href="{{ '/projects' | relative_url }}" class="nav-link {% if page.url == '/projects/' %}active{% endif %}">Projects</a>
+                <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About Me</a>
+                <a href="{{ '/stream-assets' | relative_url }}" class="nav-link {% if page.url == '/stream-assets/' %}active{% endif %}">Stream Assets</a>
+                <a href="{{ '/support' | relative_url }}" class="nav-link {% if page.url == '/support/' %}active{% endif %}">Support</a>
+                <a href="{{ '/contact' | relative_url }}" class="nav-link {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="page-container">
+        <header>
+            <div class="profile-container">
+                <div class="profile-header">
+                    {% if page.url == "/" %}
+                    <div class="avatar-container">
+                        <img src="{{ '/assets/images/pfp1.jpg' | relative_url }}" alt="Vega Lyrae" class="avatar">
+                    </div>
+                    <h1 class="profile-name">{{ site.title }}</h1>
+                    <p class="profile-tagline">{{ site.description }}</p>
+                    {% else %}
+                    <a href="{{ '/' | relative_url }}" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+                    <h1 class="page-title">{{ page.title }}</h1>
+                    {% endif %}
+                </div>
+                
+                <div class="social-links">
+                    {% if site.social_links.twitch %}
+                    <a href="https://twitch.tv/{{ site.social_links.twitch }}" class="social-button twitch" aria-label="Twitch">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social_links.twitter %}
+                    <a href="https://x.com/{{ site.social_links.twitter }}" class="social-button twitter" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social_links.discord %}
+                    <a href="https://discord.gg/{{ site.social_links.discord }}" class="social-button discord" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social_links.kofi %}
+                    <a href="https://ko-fi.com/{{ site.social_links.kofi }}" class="social-button kofi" aria-label="Ko-fi">
+                        <i class="fas fa-mug-hot"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social_links.youtube %}
+                    <a href="https://youtube.com/@{{ site.social_links.youtube }}" class="social-button youtube" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social_links.soundcloud %}
+                    <a href="https://soundcloud.com/{{ site.social_links.soundcloud }}" class="social-button soundcloud" aria-label="SoundCloud">
+                        <i class="fab fa-soundcloud"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social_links.throne %}
+                    <a href="https://throne.com/{{ site.social_links.throne }}" class="social-button throne" aria-label="Throne">
+                        <i class="fas fa-crown"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.social_links.tiktok %}
+                    <a href="https://tiktok.com/@{{ site.social_links.tiktok }}" class="social-button tiktok" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </header>
+        
+        <main class="content-container">
+            {% if page.url != "/" %}
+                <div class="page-content {% if page.url == '/about/' %}about-page{% endif %}">
+                    {{ content }}
+                </div>
+            {% else %}
+                <div class="home-content">
+                    <section class="intro-section">
+                        <div class="intro-content">
+                            <h2>👋 About Me</h2>
+                            <p>Software developer with an IT background, focused on creating innovative streaming technologies and AI solutions. I regularly work on projects live on Twitch and share my most interesting developments here!</p>
+                            <a href="{{ '/about' | relative_url }}" class="cta-button">Read more about my journey →</a>
+                        </div>
+                    </section>
+
+                    <section class="contact-section">
+                        <h2>📫 Quick Contact</h2>
+                        <div class="contact-cards">
+                            <a href="https://discord.gg/{{ site.social_links.discord }}" class="contact-card discord">
+                                <i class="fab fa-discord"></i>
+                                <h3>Discord Community</h3>
+                                <p>Join for collaborations & questions</p>
+                            </a>
+                            
+                            <a href="mailto:constellationvirtualmedia@gmail.com" class="contact-card email">
+                                <i class="fas fa-envelope"></i>
+                                <h3>Email</h3>
+                                <p>For business inquiries</p>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="projects-section">
+                        <h2>🔭 Featured Projects</h2>
+                        <div class="card-grid">
+                            <div class="project-card">
+                                <div class="card-icon">📡</div>
+                                <h3>AuroraChanAI Project</h3>
+                                <p>A sophisticated collection of LLMs and neural networks working in tandem to create a fully autonomous virtual streamer.</p>
+                                <a href="{{ '/projects#aurorachan' | relative_url }}" class="card-link">Learn more →</a>
+                            </div>
+                            
+                            <div class="project-card">
+                                <div class="card-icon">🎵</div>
+                                <h3>Aurora Vocal Engine</h3>
+                                <p>Neural networks enabling live karaoke and original song creation by Aurora with custom vocaloid implementation.</p>
+                                <a href="{{ '/projects#vocalengine' | relative_url }}" class="card-link">Learn more →</a>
+                            </div>
+                            
+                            <div class="project-card">
+                                <div class="card-icon">🎮</div>
+                                <h3>Indie Game Development</h3>
+                                <p>A Godot-based top-down 2.5D horde shooter featuring deep lore and perk skill trees.</p>
+                                <a href="{{ '/projects#indiegame' | relative_url }}" class="card-link">Learn more →</a>
+                            </div>
+                            
+                            <div class="project-card">
+                                <div class="card-icon">🎲</div>
+                                <h3>VTuber Card Game</h3>
+                                <p>Interactive card game system integrated with streaming platforms.</p>
+                                <a href="{{ '/projects#cardgame' | relative_url }}" class="card-link">Learn more →</a>
+                            </div>
+                        </div>
+                        <a href="{{ '/projects' | relative_url }}" class="view-all-link">View all projects →</a>
+                    </section>
+                </div>
+            {% endif %}
+        </main>
+        
+        <footer>
+            <p>&copy; {{ site.time | date: '%Y' }} Vega Lyrae | <a href="https://constellationvirtualmedia.com">Constellation Virtual Media</a></p>
+        </footer>
+    </div>
+    
+    <script>
+        // Wait for all content to load before initializing animations
+        window.addEventListener('load', function() {
+            const cards = document.querySelectorAll('.project-card, .contact-card');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            cards.forEach(card => {
+                observer.observe(card);
+                card.classList.add('animate');
+            });
+        });
+    </script>
+</body>
+</html>

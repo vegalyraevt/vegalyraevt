@@ -1,3 +1,8 @@
+---
+layout: default
+title: Support My Work | Vega Lyrae
+---
+
 # Support My Work
 
 ## 📑 Site Navigation

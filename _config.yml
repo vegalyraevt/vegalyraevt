@@ -1,0 +1,42 @@
+title: Vega Lyrae | Twitch Streamer & Computer Scientist
+description: Software developer focused on AI, streaming technologies, and game development
+url: "https://vega.constellationvirtualmedia.com"
+baseurl: ""
+permalink: /:title/
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Navigation
+header_pages:
+  - projects.md
+  - about.md
+  - stream-assets.md
+  - support.md
+  - contact.md
+
+# GitHub Pages settings
+github_username: vegalyraevt
+show_downloads: false
+
+# Custom settings for Vega's site
+logo: https://github.com/user-attachments/assets/736816e0-5903-479a-b5e7-93078b10ed1a
+social_links:
+  twitch: vegalyraebard
+  twitter: VegaLyraeVT
+  discord: UPQgsszwZA
+  kofi: vegalyrae
+  youtube: VegaLyrae
+  soundcloud: vegalyrae
+  throne: vegalyrae
+  tiktok: vegalyraevtuber
+
+# SASS processing
+sass:
+  style: compressed

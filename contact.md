@@ -1,3 +1,8 @@
+---
+layout: default
+title: Contact Me | Vega Lyrae
+---
+
 # Contact Me
 
 ## 📑 Site Navigation

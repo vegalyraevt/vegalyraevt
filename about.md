@@ -1,3 +1,8 @@
+---
+layout: default
+title: About Me | Vega Lyrae
+---
+
 # About Me
 
 ## 📑 Site Navigation
