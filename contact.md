@@ -10,6 +10,7 @@ title: Contact Me | Vega Lyrae
 
 | [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
 |-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
+
 {% endif %}
 
 ![Contact Banner](https://via.placeholder.com/800x400?text=Contact+Me)

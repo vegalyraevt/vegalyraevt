@@ -10,6 +10,7 @@ title: Stream Assets & Credits | Vega Lyrae
 
 | [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
 |-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
+
 {% endif %}
 
 ## 🎨 Visual Assets
