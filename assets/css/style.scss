@@ -29,8 +29,8 @@ html[data-theme="dark"] {
   --dark-color: #18181B;
   --light-gray: #2a2a2a;
   --medium-gray: #444444;
-  --text-color: #EEEEEE;
-  --text-light: #BBBBBB;
+  --text-color: #FFFFFF; /* Brighter white for better contrast */
+  --text-light: #DDDDDD; /* Much lighter gray for dark mode */
   --background-color: linear-gradient(135deg, #171717 0%, #282840 100%);
   --card-bg: #252530;
   --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -45,15 +45,24 @@ html[data-theme="dark"] {
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
+/* Body and Page Container */
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   color: var(--text-color);
   background: var(--background-color);
   background-attachment: fixed;
-  min-height: 100vh;
+  min-height: 100vh; /* Ensure the body always fills the viewport height */
+  min-width: 320px; /* Set a minimum width for small devices */
   padding: 20px;
   padding-top: 70px; /* Add padding to account for fixed nav height */
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  min-height: calc(100vh - 70px); /* Ensure the page container fills the viewport minus the nav height */
 }
 
 /* Theme Toggle Button */
@@ -144,7 +153,7 @@ body {
 }
 
 /* Media queries for responsive nav */
-@media (max-width: 768px) {
+@media (max-width: 992px), (max-height: 600px) { /* Switch to mobile view if width <= 992px OR height <= 600px */
   .mobile-nav-toggle {
     display: block;
     position: absolute;
@@ -157,6 +166,7 @@ body {
   .nav-container {
     padding: 0.75rem 0;
     justify-content: center;
+    flex-direction: column; /* Stack navigation links vertically */
   }
   
   .nav-links {
@@ -204,6 +214,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 0.5rem;
+  min-height: calc(100vh - 70px); /* Ensure the page container fills the viewport minus the nav height */
 }
 
 /* Remove the old main-nav */
@@ -212,27 +223,20 @@ body {
 }
 
 /* Media queries for responsive nav */
-@media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    padding: 0.75rem 0;
-  }
-  
-  .site-brand {
-    margin-bottom: 0.5rem;
-  }
-  
-  .nav-links {
+@media (max-width: 992px), (max-height: 600px) { /* Switch to mobile view if width <= 992px OR height <= 600px */
+  .home-grid {
+    grid-template-columns: 1fr; /* Switch to single-column layout */
     width: 100%;
-    overflow-x: auto;
-    justify-content: center;
-    padding-bottom: 0.5rem;
+    min-height: 600px; /* Ensure the grid has a minimum height */
   }
   
-  .nav-links .nav-link {
-    white-space: nowrap;
-    padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
+  .profile-section {
+    margin-bottom: 1.5rem;
+    min-height: 250px; /* Adjust minimum height for smaller screens */
+  }
+  
+  .contact-cards, .card-grid {
+    grid-template-columns: 1fr; /* Ensure single-column layout for cards */
   }
 }
 
@@ -243,32 +247,44 @@ body {
   border-radius: var(--card-radius);
   padding: 2rem;
   box-shadow: var(--box-shadow);
-  margin-bottom: 1.5rem;
-  text-align: center;
+  margin-bottom: 2rem;
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  width: 100%;
 }
 
 .profile-header {
+  text-align: center;
   margin-bottom: 1.5rem;
 }
 
 .avatar-container {
-  width: 120px;
-  height: 120px;
+  position: relative;
+  width: 160px;
+  height: 160px;
   margin: 0 auto 1.5rem;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid var(--primary-color);
+  border: 4px solid var(--primary-color);
   box-shadow: var(--box-shadow);
+  display: flex; /* Use flexbox for centering */
+  align-items: center;
+  justify-content: center;
+  background-color: var(--card-bg); /* Add background to avoid transparency issues */
 }
 
 .avatar {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center center; /* Ensure proper centering */
+  display: block; /* Remove any extra spacing */
 }
 
 .profile-name {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: var(--primary-color);
@@ -278,32 +294,15 @@ body {
   color: var(--text-light);
   font-weight: 300;
   font-size: 1.1rem;
+  margin-bottom: 1.5rem;
 }
 
-.back-link {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: var(--text-light);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-.back-link:hover {
-  color: var(--primary-color);
-}
-
-.page-title {
-  font-size: 2rem;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-/* Social Links */
 .social-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .social-button {
@@ -325,36 +324,103 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.twitch {
-  background-color: #6441a5;
+/* Profile Section */
+.profile-section {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border-radius: var(--card-radius);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Ensure content starts at the top */
+  height: fit-content;
+  min-height: 300px; /* Set a minimum height for the profile section */
+  width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
-.twitter {
-  background-color: #1DA1F2;
+.avatar-container {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--card-bg);
 }
 
-.discord {
-  background-color: #5865F2;
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
-.kofi {
-  background-color: #F16061;
+/* Fix for desktop aspect ratios */
+@media (min-width: 992px) {
+  .home-grid {
+    grid-template-columns: 300px minmax(0, 1fr);
+    align-items: start; /* Ensure grid items align at the top */
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .profile-section {
+    position: sticky;
+    top: 90px; /* Account for top nav */
+    align-self: start; /* Prevent it from being pushed downward */
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
+
+  .avatar-container {
+    width: 140px; /* Slightly smaller for better scaling */
+    height: 140px;
+  }
+
+  .avatar {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.youtube {
-  background-color: #FF0000;
+/* Back Link */
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--text-light);
+  text-decoration: none;
+  transition: var(--transition);
 }
 
-.soundcloud {
-  background-color: #FF7700;
+.back-link:hover {
+  color: var(--primary-color);
 }
 
-.throne {
-  background-color: #6E4A9E;
+.page-title {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
 }
 
-.tiktok {
-  background-color: #000000;
+/* Social Links */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 /* Content */
@@ -365,8 +431,11 @@ body {
   border-radius: var(--card-radius);
   padding: 2rem;
   box-shadow: var(--box-shadow);
-  overflow: hidden; /* Add this to contain the content */
-  width: 100%; /* Ensure it's full width */
+  overflow: hidden;
+  width: 100%;
+  clear: both; /* Ensure no floating elements affect this */
+  position: relative;
+  z-index: 1;
 }
 
 .content-container img {
@@ -406,6 +475,152 @@ body {
   font-size: 0.9rem; /* Slightly smaller text for better fit */
 }
 
+/* Home Page Specific Layout */
+.home-content {
+  width: 100%;
+}
+
+.home-grid {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+/* Profile Section */
+.profile-section {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border-radius: var(--card-radius);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  min-height: 300px; /* Set a minimum height for the profile section */
+  width: 100%;
+  position: relative; /* Ensure proper positioning context */
+  z-index: 1;
+}
+
+/* Main Content Section */
+.main-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: fit-content;
+  width: 100%; /* Ensure it takes full width of its grid cell */
+}
+
+.intro-section, .contact-section {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border-radius: var(--card-radius);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  margin: 0;
+  width: 100%; /* Ensure full width */
+}
+
+/* Projects Section */
+.projects-section {
+  background-color: var(--card-bg);
+  border-radius: var(--card-radius);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+}
+
+.projects-section h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive Layout */
+@media (min-width: 992px) {
+  /* Desktop Layout */
+  .home-grid {
+    grid-template-columns: 300px minmax(0, 1fr); /* Fix for space issue - minmax prevents overflow */
+    align-items: start;
+    width: 100%;
+  }
+  
+  .profile-section {
+    position: sticky;
+    top: 90px; /* Account for top nav */
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
+  
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Projects section needs full width on desktop */
+  .projects-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  /* Small Mobile Adjustments */
+  .profile-section {
+    padding: 1.25rem;
+    margin: 0 auto 1.5rem;
+    max-width: 100%;
+  }
+
+  .avatar-container {
+    width: 110px; /* Slightly reduced size for stability */
+    height: 110px;
+    margin: 0 auto 1.2rem;
+    border-width: 3px;
+  }
+
+  .avatar {
+    width: 104px; /* Exact size to avoid any scaling issues */
+    height: 104px;
+  }
+
+  .intro-section, .contact-section, .projects-section {
+    padding: 1.5rem;
+  }
+  
+  .avatar-container {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .profile-name {
+    font-size: 1.6rem;
+  }
+  
+  .profile-tagline {
+    font-size: 1rem;
+  }
+  
+  .social-button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+}
+
 /* Home Page Sections */
 .intro-section, .contact-section, .projects-section {
   margin-bottom: 2rem;
@@ -413,17 +628,19 @@ body {
 }
 
 .intro-section {
-  padding-bottom: 1rem;
+  padding: 1.5rem;
   border-bottom: 1px solid var(--medium-gray);
 }
 
 .contact-section {
-  padding: 1rem 0;
+  padding: 1.5rem;
   border-bottom: 1px solid var(--medium-gray);
 }
 
 .projects-section {
-  padding-top: 1rem;
+  padding: 1.5rem;
+  margin-top: 2rem; /* Add spacing between the grid and projects */
+  width: 100%;
 }
 
 /* Project Cards */
@@ -463,6 +680,12 @@ body {
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
 }
 
 .card-icon {
@@ -558,6 +781,12 @@ body {
 .contact-card h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+}
+
+contact-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
 }
 
 .contact-card p {
@@ -665,6 +894,15 @@ footer a {
   text-decoration: none;
 }
 
+html[data-theme="dark"] .text-light,
+html[data-theme="dark"] .profile-tagline,
+html[data-theme="dark"] .project-card p,
+html[data-theme="dark"] .contact-card p,
+html[data-theme="dark"] footer,
+html[data-theme="dark"] .intro-content p {
+  color: var(--text-light); /* This will now use the brighter gray we defined */
+}
+
 /* Animations */
 .animate {
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -719,5 +957,34 @@ footer a {
     right: 3.5rem;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  .profile-container {
+    padding: 1.5rem;
+  }
+
+  .avatar-container {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .profile-tagline {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .social-links {
+    gap: 0.75rem;
+  }
+
+  .social-button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
   }
 }

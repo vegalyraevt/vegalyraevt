@@ -5,10 +5,12 @@ title: Support My Work | Vega Lyrae
 
 # Support My Work
 
+{% if site.github %} <!-- Exclude this section from the GitHub Pages site -->
 ## 📑 Site Navigation
 
 | [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
 |-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
+{% endif %}
 
 ![Support Banner](https://via.placeholder.com/800x400?text=Support+My+Work)
 

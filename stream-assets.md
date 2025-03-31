@@ -5,10 +5,12 @@ title: Stream Assets & Credits | Vega Lyrae
 
 # Stream Assets & Credits
 
+{% if site.github %} <!-- Exclude this section from the GitHub Pages site -->
 ## 📑 Site Navigation
 
 | [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
 |-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
+{% endif %}
 
 ## 🎨 Visual Assets
 

@@ -5,10 +5,12 @@ title: About Me | Vega Lyrae
 
 # About Me
 
+{% if site.github %} <!-- Exclude this section from the GitHub Pages site -->
 ## 📑 Site Navigation
 
 | [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
 |-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
+{% endif %}
 
 ![Vega Profile](https://via.placeholder.com/800x400?text=Vega+Profile)
 [![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)

@@ -34,65 +34,10 @@
     </nav>
     
     <div class="page-container">
-        <header>
-            <div class="profile-container">
-                <div class="profile-header">
-                    {% if page.url == "/" %}
-                    <div class="avatar-container">
-                        <img src="{{ '/assets/css/images/pfp1.jpg' | relative_url }}" alt="Vega Lyrae" class="avatar">
-                    </div>
-                    <h1 class="profile-name">{{ site.title }}</h1>
-                    <p class="profile-tagline">{{ site.description }}</p>
-                    {% else %}
-                    <a href="{{ '/' | relative_url }}" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
-                    <h1 class="page-title">{{ page.title }}</h1>
-                    {% endif %}
-                </div>
-                
-                <div class="social-links">
-                    {% if site.social_links.twitch %}
-                    <a href="https://twitch.tv/{{ site.social_links.twitch }}" class="social-button twitch" aria-label="Twitch">
-                        <i class="fab fa-twitch"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.social_links.twitter %}
-                    <a href="https://x.com/{{ site.social_links.twitter }}" class="social-button twitter" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.social_links.discord %}
-                    <a href="https://discord.gg/{{ site.social_links.discord }}" class="social-button discord" aria-label="Discord">
-                        <i class="fab fa-discord"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.social_links.kofi %}
-                    <a href="https://ko-fi.com/{{ site.social_links.kofi }}" class="social-button kofi" aria-label="Ko-fi">
-                        <i class="fas fa-mug-hot"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.social_links.youtube %}
-                    <a href="https://youtube.com/@{{ site.social_links.youtube }}" class="social-button youtube" aria-label="YouTube">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.social_links.soundcloud %}
-                    <a href="https://soundcloud.com/{{ site.social_links.soundcloud }}" class="social-button soundcloud" aria-label="SoundCloud">
-                        <i class="fab fa-soundcloud"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.social_links.throne %}
-                    <a href="https://throne.com/{{ site.social_links.throne }}" class="social-button throne" aria-label="Throne">
-                        <i class="fas fa-crown"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.social_links.tiktok %}
-                    <a href="https://tiktok.com/@{{ site.social_links.tiktok }}" class="social-button tiktok" aria-label="TikTok">
-                        <i class="fab fa-tiktok"></i>
-                    </a>
-                    {% endif %}
-                </div>
-            </div>
-        </header>
+        <!-- Hide header on homepage since we have it in the home layout -->
+        {% if page.url != "/" %}
+
+        {% endif %}
         
         <main class="content-container">
             {% if page.url != "/" %}
@@ -101,31 +46,89 @@
                 </div>
             {% else %}
                 <div class="home-content">
-                    <section class="intro-section">
-                        <div class="intro-content">
-                            <h2>👋 About Me</h2>
-                            <p>Software developer with an IT background, focused on creating innovative streaming technologies and AI solutions. I regularly work on projects live on Twitch and share my most interesting developments here!</p>
-                            <a href="{{ '/about' | relative_url }}" class="cta-button">Read more about my journey →</a>
-                        </div>
-                    </section>
-
-                    <section class="contact-section">
-                        <h2>📫 Quick Contact</h2>
-                        <div class="contact-cards">
-                            <a href="https://discord.gg/{{ site.social_links.discord }}" class="contact-card discord">
-                                <i class="fab fa-discord"></i>
-                                <h3>Discord Community</h3>
-                                <p>Join for collaborations & questions</p>
-                            </a>
+                    <div class="home-grid">
+                        <!-- Profile Section - Left Column on Desktop, Top on Mobile -->
+                        <div class="profile-section">
+                            <div class="avatar-container">
+                                <img src="{{ '/assets/css/images/pfp1.jpg' | relative_url }}" alt="Vega Lyrae" class="avatar">
+                            </div>
+                            <h1 class="profile-name">{{ site.title }}</h1>
+                            <p class="profile-tagline">{{ site.description }}</p>
                             
-                            <a href="mailto:constellationvirtualmedia@gmail.com" class="contact-card email">
-                                <i class="fas fa-envelope"></i>
-                                <h3>Email</h3>
-                                <p>For business inquiries</p>
-                            </a>
+                            <div class="social-links">
+                                {% if site.social_links.twitch %}
+                                <a href="https://twitch.tv/{{ site.social_links.twitch }}" class="social-button twitch" aria-label="Twitch">
+                                    <i class="fab fa-twitch"></i>
+                                </a>
+                                {% endif %}
+                                {% if site.social_links.twitter %}
+                                <a href="https://x.com/{{ site.social_links.twitter }}" class="social-button twitter" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                {% endif %}
+                                {% if site.social_links.discord %}
+                                <a href="https://discord.gg/{{ site.social_links.discord }}" class="social-button discord" aria-label="Discord">
+                                    <i class="fab fa-discord"></i>
+                                </a>
+                                {% endif %}
+                                {% if site.social_links.kofi %}
+                                <a href="https://ko-fi.com/{{ site.social_links.kofi }}" class="social-button kofi" aria-label="Ko-fi">
+                                    <i class="fas fa-mug-hot"></i>
+                                </a>
+                                {% endif %}
+                                {% if site.social_links.youtube %}
+                                <a href="https://youtube.com/@{{ site.social_links.youtube }}" class="social-button youtube" aria-label="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                {% endif %}
+                                {% if site.social_links.soundcloud %}
+                                <a href="https://soundcloud.com/{{ site.social_links.soundcloud }}" class="social-button soundcloud" aria-label="SoundCloud">
+                                    <i class="fab fa-soundcloud"></i>
+                                </a>
+                                {% endif %}
+                                {% if site.social_links.throne %}
+                                <a href="https://throne.com/{{ site.social_links.throne }}" class="social-button throne" aria-label="Throne">
+                                    <i class="fas fa-crown"></i>
+                                </a>
+                                {% endif %}
+                                {% if site.social_links.tiktok %}
+                                <a href="https://tiktok.com/@{{ site.social_links.tiktok }}" class="social-button tiktok" aria-label="TikTok">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                                {% endif %}
+                            </div>
                         </div>
-                    </section>
+                        
+                        <!-- Main Content - Right Column on Desktop, Below on Mobile -->
+                        <div class="main-section">
+                            <section class="intro-section">
+                                <div class="intro-content">
+                                    <h2>👋 About Me</h2>
+                                    <p>Software developer with an IT background, focused on creating innovative streaming technologies and AI solutions. I regularly work on projects live on Twitch and share my most interesting developments here!</p>
+                                    <a href="{{ '/about' | relative_url }}" class="cta-button">Read more about my journey →</a>
+                                </div>
+                            </section>
 
+                            <section class="contact-section">
+                                <h2>📫 Quick Contact</h2>
+                                <div class="contact-cards">
+                                    <a href="https://discord.gg/{{ site.social_links.discord }}" class="contact-card discord">
+                                        <i class="fab fa-discord"></i>
+                                        <h3>Discord Community</h3>
+                                        <p>Join for collaborations & questions</p>
+                                    </a>
+                                    
+                                    <a href="mailto:constellationvirtualmedia@gmail.com" class="contact-card email">
+                                        <i class="fas fa-envelope"></i>
+                                        <h3>Email</h3>
+                                        <p>For business inquiries</p>
+                                    </a>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    
+                    <!-- Projects Section - Below Both Columns -->
                     <section class="projects-section">
                         <h2>🔭 Featured Projects</h2>
                         <div class="card-grid">
