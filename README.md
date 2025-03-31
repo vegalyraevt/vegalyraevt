@@ -1,8 +1,3 @@
----
-layout: default
-title: Home | Vega Lyrae
----
-
 # Vega Lyrae | Twitch Streamer & Computer Scientist
 
 ![Banner](https://github.com/user-attachments/assets/736816e0-5903-479a-b5e7-93078b10ed1a)
