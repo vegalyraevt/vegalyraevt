@@ -29,7 +29,11 @@
                 <div class="profile-header">
                     {% if page.url == "/" %}
                     <div class="avatar-container">
-                        <img src="{{ '/assets/images/pfp1.jpg' | relative_url }}" alt="Vega Lyrae" class="avatar">
+                        {% if site.logo %}
+                        <img src="{{ site.logo }}" alt="Vega Lyrae" class="avatar">
+                        {% else %}
+                        <img src="{{ '/assets/css/images/pfp1.jpg' | relative_url }}" alt="Vega Lyrae" class="avatar">
+                        {% endif %}
                     </div>
                     <h1 class="profile-name">{{ site.title }}</h1>
                     <p class="profile-tagline">{{ site.description }}</p>
