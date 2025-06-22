@@ -10,7 +10,7 @@
 [![SoundCloud](https://img.shields.io/badge/SoundCloud-FF7700?style=for-the-badge&logo=soundcloud&logoColor=white)](https://soundcloud.com/vegalyrae)
 [![Throne](https://img.shields.io/badge/Throne-6E4A9E?style=for-the-badge&logo=gift&logoColor=white)](https://throne.com/vegalyrae)
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@vegalyraevtuber)
-[![AIVtuber Reddit](https://img.shields.io/badge/Throne-6E4A9E?style=for-the-badge&logo=gift&logoColor=white)](https://www.reddit.com/r/ArtificialVTubers/s/LStb0HMwW8)
+[![Reddit](https://img.shields.io/badge/AIVtuber_Reddit-6E4A9E?style=for-the-badge&logo=gift&logoColor=white)](https://www.reddit.com/r/ArtificialVTubers/s/LStb0HMwW8)
 
 ## 📑 Site Navigation
 
