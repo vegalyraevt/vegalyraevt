@@ -11,7 +11,7 @@
 
 ## 👋 Who I Am
 
-I'm Vega Lyrae, a Twitch VTuber with a background in computer science and a passion for AI development. My journey began in IT infrastructure, but my heart has always belonged to software development and creative computing. To that end I develop various programs live and test them on chat and AuroraChan my AI.
+I'm Vega Lyrae, a Twitch VTuber with a background in computer science and a passion for AI development. My journey began in IT infrastructure, but my heart has always belonged to software development and creative computing. To that end I develop various programs live and test them on chat and AuroraChan my AI. I am also currently pursuing a bachelors degree with a Interdisciplinary Studies focused on Coding, AI research, and 3D modeling/animation. I plan to hopefully go all the way to a masters or phd in the future!
 
 ## 🖥️ Professional Background
 
