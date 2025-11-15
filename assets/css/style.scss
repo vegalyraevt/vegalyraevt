@@ -1,1114 +1,367 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* === 1. ROOT & THEME DEFINITIONS === */
+:root {
+    /* Font Definitions */
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
 
-/* Theme Variables */
+    /* Spacing & Borders */
+    --border-radius-sm: 6px;
+    --border-radius-lg: 12px;
+}
+
+/* === 2. LIGHT/DARK MODE THEME VARIABLES === */
+
+/* Light Theme (Default) */
 html[data-theme="light"] {
-  --primary-color: #6441a5;
-  --primary-light: #7d5bbe;
-  --secondary-color: #1DA1F2;
-  --accent-color: #F16061;
-  --dark-color: #18181B;
-  --light-gray: #f8f9fa;
-  --medium-gray: #e9ecef;
-  --text-color: #333;
-  --text-light: #6c757d;
-  --background-color: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  --card-bg: white;
-  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --card-radius: 12px;
-  --transition: all 0.3s ease;
+    --primary-color: #6441a5;
+    --primary-color-hover: #5a3d83;
+    --nav-text-color: rgba(255, 255, 255, 0.85);
+    --nav-text-hover: #ffffff;
+
+    --page-bg: #f8f9fa;
+    --card-bg: #ffffff;
+    --text-color: #212529;
+    --text-color-muted: #6c757d;
+    --border-color: rgba(0, 0, 0, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.05);
 }
 
+/* Dark Theme */
 html[data-theme="dark"] {
-  --primary-color: #9370DB; /* Brighter purple for dark mode */
-  --primary-light: #A989E5;
-  --secondary-color: #4DA5FF;
-  --accent-color: #FF8585;
-  --dark-color: #18181B;
-  --light-gray: #2a2a2a;
-  --medium-gray: #444444;
-  --text-color: #FFFFFF; /* Brighter white for better contrast */
-  --text-light: #DDDDDD; /* Much lighter gray for dark mode */
-  --background-color: linear-gradient(135deg, #171717 0%, #282840 100%);
-  --card-bg: #252530;
-  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  --card-radius: 12px;
-  --transition: all 0.3s ease;
+    --primary-color: #9370DB;
+    --primary-color-hover: #a989e5;
+    --nav-text-color: rgba(255, 255, 255, 0.85);
+    --nav-text-hover: #ffffff;
+
+    --page-bg: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #e1e1e1;
+    --text-color-muted: #868e96;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Theme transitions */
-* {
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+/* === 3. GLOBAL STYLES === */
+
+/* Smooth scrolling and box-sizing */
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
 }
 
-/* Initial load - disable transitions */
-html:not(.theme-loaded) * {
-  transition: none !important;
+/* Prevent flash of unstyled content */
+html, body {
+    transition: background-color 0s;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+/* Re-enable transitions after theme is loaded */
+html.theme-loaded, html.theme-loaded body {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Markdown Headers */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--text-color); /* Ensure headers are readable in both themes */
-  margin-bottom: 1rem;
-}
-
-h4 {
-  font-size: 1.2rem;
-  color: var(--primary-color); /* Make `####` headers purple in both themes */
-}
-
-html[data-theme="dark"] h1,
-html[data-theme="dark"] h2,
-html[data-theme="dark"] h3,
-html[data-theme="dark"] h4,
-html[data-theme="dark"] h5,
-html[data-theme="dark"] h6 {
-  color: var(--text-color); /* Ensure headers are white in dark mode */
-}
-
-html[data-theme="dark"] h4 {
-  color: var(--primary-color); /* Make `####` headers purple in dark mode */
-}
-
-/* Body and Page Container */
 body {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
-  background: var(--background-color);
-  background-attachment: fixed;
-  min-height: 100vh; /* Ensure the body always fills the viewport height */
-  min-width: 320px; /* Set a minimum width for small devices */
-  padding: 20px;
-  padding-top: 70px; /* Add padding to account for fixed nav height */
+    font-family: var(--font-primary);
+    background-color: var(--page-bg);
+    color: var(--text-color);
+    margin: 0;
+    padding-top: 60px; /* Account for fixed top-nav */
+    line-height: 1.6;
 }
 
-.page-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 0.5rem;
-  min-height: calc(100vh - 70px); /* Ensure the page container fills the viewport minus the nav height */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    color: var(--text-color);
 }
 
-/* Theme Toggle Button */
-.theme-toggle {
-  margin-left: auto;
-  margin-right: 0.5rem;
+h1 { font-size: 2rem; }
+h2 {
+    font-size: 1.75rem;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 1.5rem;
+}
+h3 { font-size: 1.25rem; }
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
-.theme-toggle button {
-  background: transparent;
-  border: none;
-  color: white;
-  font-size: 1.2rem;
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: var(--transition);
+a:hover {
+    color: var(--primary-color-hover);
+    text-decoration: underline;
 }
 
-.theme-toggle button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Top Navigation */
+/* Accessibility: Professional focus rings */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+/* === 4. SHARED CARD COMPONENT === */
+/* This single style rules all your "boxes" */
+.profile-section,
+.intro-content,
+.contact-card,
+.projects-section,
+.project-card,
+.page-content {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* === 5. TOP NAVIGATION BAR === */
 .top-nav {
-  background-color: var(--primary-color);
-  color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--nav-text-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 8px var(--shadow-color);
 }
 
 .nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 1rem;
-  position: relative;
-}
-
-.mobile-nav-toggle {
-  display: none;
-}
-
-.mobile-nav-toggle button {
-  background: transparent;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0.5rem;
-  transition: var(--transition);
-}
-
-.mobile-nav-toggle button:hover {
-  color: rgba(255, 255, 255, 0.8);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
 }
 
 .nav-links {
-  display: flex;
-  gap: 0.5rem;
+    display: flex;
+    gap: 1.5rem;
 }
 
-.nav-links .nav-link {
-  color: rgba(255, 255, 255, 0.85);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-weight: 500;
-  transition: all 0.2s ease;
-}
-
-.nav-links .nav-link:hover,
-.nav-links .nav-link.active {
-  background-color: var(--primary-light);
-  color: white;
-}
-
-/* Media queries for responsive nav */
-@media (max-width: 992px), (max-height: 600px) { /* Switch to mobile view if width <= 992px OR height <= 600px */
-  .mobile-nav-toggle {
-    display: block;
-    position: absolute;
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1001;
-  }
-  
-  .nav-container {
-    padding: 0.75rem 0;
-    justify-content: center;
-    flex-direction: column; /* Stack navigation links vertically */
-  }
-  
-  .nav-links {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: var(--primary-color);
-    flex-direction: column;
-    width: 100%;
-    padding: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-links.show-mobile-nav {
-    max-height: 300px;
+.nav-link {
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    color: var(--nav-text-color);
+    text-decoration: none;
     padding: 0.5rem 0;
-  }
-  
-  .nav-link {
-    width: 100%;
-    text-align: center;
-    padding: 0.8rem;
-    border-radius: 0;
-  }
-  
-  .nav-links .nav-link {
-    margin: 0;
-    padding: 0.8rem 1.5rem;
-    border-radius: 0;
-    display: block;
-  }
-  
-  .nav-links .nav-link:hover,
-  .nav-links .nav-link.active {
-    background-color: var(--primary-light);
-  }
+    position: relative;
 }
 
-/* Adjust page container to work with fixed nav */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--nav-text-hover);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: var(--nav-text-hover);
+    text-decoration: none;
+}
+
+/* Theme Toggle & Mobile Button */
+.theme-toggle button,
+.mobile-nav-toggle button {
+    background: none;
+    border: none;
+    color: var(--nav-text-color);
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.theme-toggle button:hover,
+.mobile-nav-toggle button:hover {
+    color: var(--nav-text-hover);
+}
+
+/* === 6. MAIN LAYOUT === */
 .page-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-top: 0.5rem;
-  min-height: calc(100vh - 70px); /* Ensure the page container fills the viewport minus the nav height */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
 }
 
-/* Remove the old main-nav */
-.main-nav {
-  display: none;
-}
-
-/* Media queries for responsive nav */
-@media (max-width: 992px), (max-height: 600px) { /* Switch to mobile view if width <= 992px OR height <= 600px */
-  .home-grid {
-    grid-template-columns: 1fr; /* Switch to single-column layout */
+.content-container {
     width: 100%;
-    min-height: 600px; /* Ensure the grid has a minimum height */
-  }
-  
-  .profile-section {
-    margin-bottom: 1.5rem;
-    min-height: 250px; /* Adjust minimum height for smaller screens */
-  }
-  
-  .contact-cards, .card-grid {
-    grid-template-columns: 1fr; /* Ensure single-column layout for cards */
-  }
 }
 
-/* Header & Profile */
-.profile-container {
-  background-color: var(--card-bg);
-  color: var(--text-color);
-  border-radius: var(--card-radius);
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
-  margin-bottom: 2rem;
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
-  width: 100%;
+/* === 7. HOME PAGE (index.html) === */
+.home-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: start;
 }
 
-.profile-header {
-  text-align: center;
-  margin-bottom: 1.5rem;
+/* Profile Section */
+.profile-section {
+    position: sticky;
+    top: 80px; /* 60px nav + 20px padding */
+    text-align: center;
+    padding: 2rem; /* More padding for a hero effect */
 }
 
 .avatar-container {
-  position: relative;
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 1.5rem;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 4px solid var(--primary-color);
-  box-shadow: var(--box-shadow);
-  display: flex; /* Use flexbox for centering */
-  align-items: center;
-  justify-content: center;
-  background-color: var(--card-bg); /* Add background to avoid transparency issues */
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1rem;
 }
 
 .avatar {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center; /* Ensure proper centering */
-  display: block; /* Remove any extra spacing */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile-name {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+    color: var(--primary-color);
 }
 
 .profile-tagline {
-  color: var(--text-light);
-  font-weight: 300;
-  font-size: 1.1rem;
-  margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: var(--text-color-muted);
+    margin-top: 0;
 }
 
 .social-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.8rem;
-  margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
 }
 
-/* Social Buttons - Brand Colors in Light Mode */
 .social-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  color: white;
-  font-size: 1.2rem;
-  text-decoration: none;
-  transition: var(--transition);
-  box-shadow: var(--box-shadow);
-}
-
-/* Brand-specific colors in light mode */
-html[data-theme="light"] {
-  .social-button.twitch {
-    background-color: #6441a5; /* Twitch purple */
-  }
-  
-  .social-button.twitter {
-    background-color: #1DA1F2; /* Twitter blue */
-  }
-  
-  .social-button.discord {
-    background-color: #5865F2; /* Discord blue */
-  }
-  
-  .social-button.kofi {
-    background-color: #FF5E5B; /* Ko-fi red */
-  }
-  
-  .social-button.youtube {
-    background-color: #FF0000; /* YouTube red */
-  }
-  
-  .social-button.soundcloud {
-    background-color: #FF7700; /* SoundCloud orange */
-  }
-  
-  .social-button.throne {
-    background-color: #6E4A9E; /* Throne purple */
-  }
-  
-  .social-button.tiktok {
-    background-color: #000000; /* TikTok black */
-  }
-}
-
-/* Dark mode buttons can remain as they are */
-html[data-theme="dark"] .social-button {
-  background-color: var(--light-gray);
-  color: var(--primary-color);
-}
-
-.social-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Profile Section */
-.profile-section {
-  background-color: var(--card-bg);
-  color: var(--text-color);
-  border-radius: var(--card-radius);
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start; /* Ensure content starts at the top */
-  height: fit-content;
-  min-height: 300px; /* Set a minimum height for the profile section */
-  width: 100%;
-  position: relative;
-  z-index: 1;
-}
-
-.avatar-container {
-  position: relative;
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 1.5rem;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 4px solid var(--primary-color);
-  box-shadow: var(--box-shadow);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--card-bg);
-}
-
-.avatar {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
-
-/* Fix for desktop aspect ratios */
-@media (min-width: 992px) {
-  .home-grid {
-    grid-template-columns: 300px minmax(0, 1fr);
-    align-items: start; /* Ensure grid items align at the top */
-    gap: 2rem;
-    width: 100%;
-  }
-
-  .profile-section {
-    position: sticky;
-    top: 90px; /* Account for top nav */
-    align-self: start; /* Prevent it from being pushed downward */
-    max-height: calc(100vh - 100px);
-    overflow-y: auto;
-  }
-
-  .avatar-container {
-    width: 140px; /* Slightly smaller for better scaling */
-    height: 140px;
-  }
-
-  .avatar {
-    width: 100%;
-    height: 100%;
-  }
-}
-
-/* Back Link */
-.back-link {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: var(--text-light);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-.back-link:hover {
-  color: var(--primary-color);
-}
-
-.page-title {
-  font-size: 2rem;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-/* Social Links */
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin: 0 auto;
-  max-width: 500px;
-}
-
-/* Content */
-.content-container {
-  margin-bottom: 2rem;
-  background-color: var(--card-bg);
-  color: var(--text-color);
-  border-radius: var(--card-radius);
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
-  overflow: hidden;
-  width: 100%;
-  clear: both; /* Ensure no floating elements affect this */
-  position: relative;
-  z-index: 1;
-}
-
-.content-container img {
-  max-width: 100%;
-  height: auto;
-}
-
-.content-container table {
-  display: block; /* Make tables responsive */
-  width: 100%;
-  overflow-x: auto; /* Allow tables to scroll horizontally on small screens */
-  -webkit-overflow-scrolling: touch;
-}
-
-.content-container h1,
-.content-container h2 {
-  clear: both; /* Clear any floats */
-  width: 100%; /* Full width headings */
-}
-
-.content-container p {
-  width: 100%;
-  overflow-wrap: break-word; /* Allow long words to break */
-  word-wrap: break-word;
-}
-
-.content-container table:first-of-type {
-  width: 100%;
-  table-layout: fixed; /* Fixed layout for better control */
-  margin: 1rem 0 2rem;
-}
-
-.content-container table:first-of-type td {
-  width: auto;
-  text-align: center;
-  padding: 5px;
-  font-size: 0.9rem; /* Slightly smaller text for better fit */
-}
-
-/* Additional styles for markdown content */
-.content-container h4 {
-  color: var(--primary-color) !important; /* Force h4 headers to be purple */
-  font-size: 1.1rem;
-  margin-top: 1.2rem;
-  margin-bottom: 0.8rem;
-}
-
-/* Make bold text with colons purple to match headers */
-.content-container strong {
-  color: var(--primary-color); /* Make bold text purple by default */
-}
-
-/* Style for lists with bold headers */
-.content-container li strong:first-child {
-  color: var(--primary-color); /* Ensure list items with bold text at the start are purple */
-}
-
-/* Ensure dark mode shows the bold text correctly */
-html[data-theme="dark"] .content-container strong {
-  color: var(--primary-color); /* Make bold text purple in dark mode too */
-}
-
-/* Specifically hide site navigation in GitHub Pages rendered content */
-.content-container h2:first-of-type + table,
-.content-container h2[id="site-navigation"] + table {
-  display: none !important;
-}
-
-/* Make all headers in dark mode properly visible */
-html[data-theme="dark"] .content-container h1,
-html[data-theme="dark"] .content-container h2,
-html[data-theme="dark"] .content-container h3,
-html[data-theme="dark"] .content-container h4,
-html[data-theme="dark"] .content-container h5,
-html[data-theme="dark"] .content-container h6 {
-  color: var(--text-color) !important; /* Force headers to be white in dark mode */
-}
-
-html[data-theme="dark"] .content-container h4 {
-  color: var(--primary-color) !important; /* Force h4 headers to be purple in dark mode */
-}
-
-/* Hide Jekyll specific tags that may appear in rendered content */
-.content-container .jekyll-liquid-tag {
-  display: none !important;
-}
-
-/* Home Page Specific Layout */
-.home-content {
-  width: 100%;
-}
-
-.home-grid {
-  display: grid;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  width: 100%;
-}
-
-/* Profile Section */
-.profile-section {
-  background-color: var(--card-bg);
-  color: var(--text-color);
-  border-radius: var(--card-radius);
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: fit-content;
-  min-height: 300px; /* Set a minimum height for the profile section */
-  width: 100%;
-  position: relative; /* Ensure proper positioning context */
-  z-index: 1;
-}
-
-/* Main Content Section */
-.main-section {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  height: fit-content;
-  width: 100%; /* Ensure it takes full width of its grid cell */
-}
-
-.intro-section, .contact-section {
-  background-color: var(--card-bg);
-  color: var(--text-color);
-  border-radius: var(--card-radius);
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
-  margin: 0;
-  width: 100%; /* Ensure full width */
-}
-
-/* Projects Section */
-.projects-section {
-  background-color: var(--card-bg);
-  border-radius: var(--card-radius);
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
-}
-
-.projects-section h2 {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
-  font-size: 1.8rem;
-  text-align: center;
-}
-
-.card-grid {
-  display: grid;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-/* Responsive Layout */
-@media (min-width: 992px) {
-  /* Desktop Layout */
-  .home-grid {
-    grid-template-columns: 300px minmax(0, 1fr); /* Fix for space issue - minmax prevents overflow */
-    align-items: start;
-    width: 100%;
-  }
-  
-  .profile-section {
-    position: sticky;
-    top: 90px; /* Account for top nav */
-    max-height: calc(100vh - 100px);
-    overflow-y: auto;
-  }
-  
-  .card-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  /* Projects section needs full width on desktop */
-  .projects-section {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  /* Small Mobile Adjustments */
-  .profile-section {
-    padding: 1.25rem;
-    margin: 0 auto 1.5rem;
-    max-width: 100%;
-  }
-
-  .avatar-container {
-    width: 110px; /* Slightly reduced size for stability */
-    height: 110px;
-    margin: 0 auto 1.2rem;
-    border-width: 3px;
-  }
-
-  .avatar {
-    width: 104px; /* Exact size to avoid any scaling issues */
-    height: 104px;
-  }
-
-  .intro-section, .contact-section, .projects-section {
-    padding: 1.5rem;
-  }
-  
-  .avatar-container {
-    width: 120px;
-    height: 120px;
-  }
-  
-  .profile-name {
-    font-size: 1.6rem;
-  }
-  
-  .profile-tagline {
-    font-size: 1rem;
-  }
-  
-  .social-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
-    font-size: 1.1rem;
-  }
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+.social-button:hover {
+    transform: scale(1.1);
+    color: #fff;
+    text-decoration: none;
+}
+.social-button .fab, .social-button .fas {
+    font-size: 1.2rem;
 }
 
-/* Home Page Sections */
-.intro-section, .contact-section, .projects-section {
-  margin-bottom: 2rem;
-  clear: both; /* Prevent floating elements */
+/* Brand Colors (Light Mode) */
+html[data-theme="light"] .social-button.twitch { background-color: #9146FF; }
+html[data-theme="light"] .social-button.twitter { background-color: #1DA1F2; }
+html[data-theme="light"] .social-button.discord { background-color: #5865F2; }
+html[data-theme="light"] .social-button.kofi { background-color: #F16061; }
+html[data-theme="light"] .social-button.youtube { background-color: #FF0000; }
+html[data-theme="light"] .social-button.soundcloud { background-color: #FF7700; }
+html[data-theme="light"] .social-button.throne { background-color: #6E4A9E; }
+html[data-theme="light"] .social-button.tiktok { background-color: #000000; }
+
+/* Unified Colors (Dark Mode) - Solves the "black box" problem */
+html[data-theme="dark"] .social-button {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    color: var(--primary-color);
+}
+html[data-theme="dark"] .social-button:hover {
+    background-color: var(--page-bg);
+    color: var(--primary-color-hover);
 }
 
-.intro-section {
-  padding: 1.5rem;
-  border-bottom: 1px solid var(--medium-gray);
+
+/* Main Section (Right) */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
-.contact-section {
-  padding: 1.5rem;
-  border-bottom: 1px solid var(--medium-gray);
+/* Intro Section */
+.intro-content p {
+    color: var(--text-color-muted);
+    margin-bottom: 1.5rem;
 }
 
-.projects-section {
-  padding: 1.5rem;
-  margin-top: 2rem; /* Add spacing between the grid and projects */
-  width: 100%;
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius-sm);
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
-/* Project Cards */
-.projects-section h2 {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
-  font-size: 1.8rem;
-  text-align: center;
+.cta-button:hover {
+    background-color: var(--primary-color-hover);
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-2px);
 }
 
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-  overflow: hidden; /* Prevent overflow */
-}
-
-.project-card {
-  background-color: var(--light-gray);
-  color: var(--text-color);
-  border-radius: var(--card-radius);
-  padding: 1.5rem;
-  box-shadow: var(--box-shadow);
-  transition: var(--transition);
-  opacity: 0;
-  transform: translateY(20px);
-  position: relative; /* Ensure proper stacking */
-  z-index: 1;
-}
-
-.project-card.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-}
-
-.project-card p {
-  color: var(--text-light);
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-}
-
-.card-icon {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.project-card h3 {
-  font-size: 1.2rem;
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
-}
-
-.project-card p {
-  font-size: 0.95rem;
-  color: var(--text-light);
-  margin-bottom: 1rem;
-}
-
-.card-link {
-  color: var(--secondary-color);
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-  transition: var(--transition);
-}
-
-.card-link:hover {
-  color: var(--primary-color);
-}
-
-.view-all-link {
-  display: block;
-  text-align: center;
-  color: var(--secondary-color);
-  text-decoration: none;
-  font-weight: 600;
-  transition: var(--transition);
-}
-
-.view-all-link:hover {
-  color: var(--primary-color);
-}
-
-/* Contact Cards */
-.contact-section h2 {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
-  font-size: 1.8rem;
-  text-align: center;
-}
-
+/* Quick Contact Section */
 .contact-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  overflow: hidden; /* Prevent overflow */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
 }
 
 .contact-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--light-gray);
-  color: var(--text-color);
-  border-radius: var(--card-radius);
-  padding: 1.5rem;
-  text-decoration: none;
-  box-shadow: var(--box-shadow);
-  transition: var(--transition);
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-.contact-card.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.contact-card i {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.contact-card.discord i {
-  color: #5865F2;
-}
-
-.contact-card.email i {
-  color: var(--accent-color);
-}
-
-contact-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-contact-card p {
-  color: var(--text-light);
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
-}
-
-.contact-card p {
-  font-size: 0.9rem;
-  color: var(--text-light);
-  text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .contact-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px var(--shadow-color);
+    color: var(--text-color);
+    text-decoration: none;
 }
 
-/* Inner Pages */
-main h1 {
-  color: var(--primary-color);
-  margin-bottom: 1.5rem;
-  font-size: 2rem;
-}
-
-main h2 {
-  color: var(--primary-color);
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-main p, main ul, main ol {
-  margin-bottom: 1rem;
-}
-
-main a {
-  color: var(--secondary-color);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-main a:hover {
-  color: var(--primary-color);
-}
-
-main ul, main ol {
-  padding-left: 1.5rem;
-}
-
-main img {
-  max-width: 100%;
-  height: auto;
-  border-radius: var(--card-radius);
-  margin: 1rem 0;
-}
-
-/* Details/Summary */
-details {
-  background-color: var(--light-gray);
-  border-radius: var(--card-radius);
-  padding: 1rem;
-  margin-bottom: 1rem;
-  transition: var(--transition);
-}
-
-details:hover {
-  background-color: var(--medium-gray);
-}
-
-summary {
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--primary-color);
-}
-
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-  background-color: var(--card-bg);
-  border-radius: var(--card-radius);
-  overflow: hidden;
-  box-shadow: var(--box-shadow);
-}
-
-th, td {
-  padding: 0.75rem;
-  text-align: left;
-  border-bottom: 1px solid var(--medium-gray);
-}
-
-th {
-  background-color: var(--light-gray);
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  color: var(--text-light);
-  font-size: 0.9rem;
-}
-
-footer a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-html[data-theme="dark"] .text-light,
-html[data-theme="dark"] .profile-tagline,
-html[data-theme="dark"] .project-card p,
-html[data-theme="dark"] .contact-card p,
-html[data-theme="dark"] footer,
-html[data-theme="dark"] .intro-content p {
-  color: var(--text-light); /* This will now use the brighter gray we defined */
-}
-
-/* Animations */
-.animate {
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-/* Responsive Adjustments */
-@media (prefers-reduced-motion: reduce) {
-  .animate {
-    transition: none !important;
-  }
-  
-  .project-card, .contact-card {
-    opacity: 1 !important;
-    transform: none !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .content-container {
-    padding: 1rem;
-  }
-  
-  .content-container table:first-of-type td {
-    padding: 3px;
-    font-size: 0.8rem;
-  }
-  
-  .intro-section, .projects-section, .contact-section {
-    padding: 0.5rem 0;
-  }
-  
-  .social-links {
-    flex-wrap: wrap;
-  }
-  
-  .main-nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .nav-link {
-    width: 100%;
-    text-align: center;
-  }
-
-  .theme-toggle {
-    position: absolute;
-    right: 3.5rem;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .profile-container {
-    padding: 1.5rem;
-  }
-
-  .avatar-container {
-    width: 100px;
-    height: 100px;
+.contact-card i {
+    font-size: 2rem;
+    color: var(--primary-color);
     margin-bottom: 1rem;
-  }
-
-  .profile-name {
-    font-size: 1.5rem;
-  }
-
-  .profile-tagline {
-    font-size: 1rem;
-    max-width: 100%;
-  }
-
-  .social-links {
-    gap: 0.75rem;
-  }
-
-  .social-button {
-    width: 40px;
-    height: 40px;
-    font-size: 1.2rem;
-  }
 }
+
+.contact-card h3 {
+    margin: 0 0
