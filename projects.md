@@ -29,6 +29,48 @@ A sophisticated collection of LLMs and neural networks working in tandem to crea
 
 #### I am working towards the day I start her programs running autonomously and never shut her off again except for small preplanned windows for updates.
 #### I hope that one day she continues running as the face/Mascot of my media company Constellation Virtual Media long after I'm gone.
+
+---
+
+### ⚡ ALIZARIN Engine ⚡
+
+![ALIZARIN Engine](https://via.placeholder.com/800x400?text=ALIZARIN+Engine)
+
+My primary R&D focus. The ALIZARIN Engine is an open-source, ethical framework for generating 100% synthetic voices from scratch for TTS, AI singing (DiffSinger), and concatenative (UTAU) synthesis. This entire project is being developed live on Twitch.
+
+### Key Features:
+- **100% Synthetic Source:** Voices are built from the ground up using a hybrid of algorithmic formant synthesis and AI.
+- **"No Human Inside":** Designed to create unique, non-human character voices, inspired by projects like Adachi Rei.
+- **Ethical, Open-Source Framework:** LGPLv3 license allows for a free, shared core engine while permitting private, unique user-created voices.
+- **All-in-One Voice Solution:** Aims to produce TTS, AI Singing, and UTAU banks from a single, consistent voice source.
+- **Public R&D:** The entire development process is documented and streamed live.
+
+### Current Status:
+Currently in **Phase 1: Foundation & Data Generation**. We are actively building the core "ALIZARIN" voice, generating the training data, and seeking community collaborators with expertise in linguistics for future language support.
+
+Visit the **[ALIZARINENGINE GitHub Page]([https://github.com/ALIZARINENGINE](https://github.com/ALIZARINENGINE/AlizarinEngine))** for the full roadmap and documentation.
+
+---
+
+### 🖍️ Aurora Community Doodle Model
+
+![Aurora Doodle Model](https://via.placeholder.com/800x400?text=Aurora+Doodle+Model)
+
+A fully ethical, community-powered art project where viewers contribute simple doodles to train Aurora to draw live on stream. Unlike traditional AI art systems that scrape the internet without consent, this model is built entirely from voluntary submissions with clear permissions, transparent usage, and a strong emphasis on creator respect.
+
+### Key Features:
+- **100% community-created dataset**
+- **Fully consent-based** — no scraped images, no external data
+- Teaches Aurora to sketch ideas from chat in real time
+- Frame-by-frame / stroke-by-stroke drawing pipeline
+- Custom training tools for style consistency and safe data handling
+- Ability to respond to chat, bits, or event prompts with doodles on the fly
+- Occasional use for playful, community-inspired sticker or merch concepts
+- **No art resale, no paid generation system** — strictly for streaming, entertainment, and community fun
+
+### Current Status:
+Actively collecting volunteer doodles and building the training pipeline. The first prototype draws basic shapes and objects in real time, with personality-driven quirks starting to emerge. Submission guidelines and consent form are being finalized.
+
 ---
 
 ## 🎵 Aurora Vocal and Music Engine
@@ -39,9 +81,10 @@ Neural networks enabling live karaoke and original song creation by Aurora. This
 
 ### Key Features:
 - Real-time singing synthesis
-- Original song composition capabilities
+- Original song composition capabilities using midi prsets
 - Voice modeling and emotional expression
 - Integration with stream alerts and events
+- Real time Utau and Diffsinger singing
 
 ### Current Status:
 In active development. You can preview songs from early testing playing on the first 5 minutes of every Twitch stream during the "starting soon" section.
@@ -98,4 +141,4 @@ Running a Minecraft SMP with custom-developed mods, currently implementing Auror
 - Cobblemon sever with custom made Mons!
 
 ### Current Status:
-Active server with ongoing mod development in Season 1. Visit the [Constellation SMP website](https://smp.constellationvirtualmedia.com/) for more information and creators are welcome to join!
+Currently **off-season**. Season 1 has concluded. We are not accepting new applications at this time. Visit the [Constellation SMP website](https://smp.constellationvirtualmedia.com/) for information on past seasons.
