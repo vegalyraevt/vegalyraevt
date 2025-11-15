@@ -28,8 +28,8 @@ Software developer and Mechatronics/CS student focused on creating innovative st
 <details>
 <summary><strong>⚡ ALIZARIN Engine ⚡</strong></summary>
 <br>
-My primary R&D focus. The ALIZARIN Engine is an open-source, ethical framework for generating 100% synthetic voices from scratch for TTS, AI singing (DiffSinger), and concatenative (UTAU) synthesis. This entire project is being developed live on Twitch.
-<br><br>
+My current primary R&D focus. The ALIZARIN Engine is an open-source, ethical framework for generating 100% synthetic voices from scratch for TTS, AI singing (DiffSinger), and concatenative (UTAU) synthesis. This entire project is being developed live on Twitch.
+
 Learn more at the **[ALIZARINENGINE Repository](https://github.com/ALIZARINENGINE/AlizarinEngine)**.
 </details>
 
@@ -37,6 +37,16 @@ Learn more at the **[ALIZARINENGINE Repository](https://github.com/ALIZARINENGIN
 <summary><strong>📡 AuroraChanAI Project</strong></summary>
 <br>
 A sophisticated collection of LLMs and neural networks working in tandem to create a fully autonomous virtual streamer. AuroraChan represents thousands of hours of R&D, with the goal of creating a lifelike streamer experience powered by custom-trained LLMs.
+</details>
+
+<details>
+<summary><strong>🖍️ Aurora Community Doodle Model</strong></summary>
+<br>
+A collaborative art project built around a fully ethical, fully consent-driven dataset made entirely by the community. Viewers submit simple doodles that teach Aurora how to sketch in real time on stream — taking ideas from chat, breaking them into steps, and drawing them stroke-by-stroke with her own goofy personality layered on top.
+
+Unlike most AI art systems, this project uses 0% web-scraped images and 100% volunteer submissions, with every contributor knowing exactly how their doodles are used. The work here includes the training pipeline, model architecture, dataset tooling, and the live integration that lets Aurora respond to prompts, donations, or chaos in chat with on-the-spot drawings.
+
+Full documentation and submission guidelines coming soon!
 </details>
 
 <details>
