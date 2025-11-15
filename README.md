@@ -30,7 +30,7 @@ Software developer and Mechatronics/CS student focused on creating innovative st
 <br>
 My primary R&D focus. The ALIZARIN Engine is an open-source, ethical framework for generating 100% synthetic voices from scratch for TTS, AI singing (DiffSinger), and concatenative (UTAU) synthesis. This entire project is being developed live on Twitch.
 <br><br>
-Learn more at the **[ALIZARINENGINE GitHub Organization](https://github.com/ALIZARINENGINE)**.
+Learn more at the **[ALIZARINENGINE Repository](https://github.com/ALIZARINENGINE/AlizarinEngine)**.
 </details>
 
 <details>
