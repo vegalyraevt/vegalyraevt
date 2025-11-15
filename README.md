@@ -19,11 +19,19 @@
 
 ## 👋 About Me
 
-Software developer with an IT background, focused on creating innovative streaming technologies and AI solutions. I regularly work on projects live on Twitch and share my most interesting developments here!
+Software developer and Mechatronics/CS student focused on creating innovative streaming technologies, robotics, and ethical AI solutions. I regularly work on R&D projects live on Twitch and share my most interesting developments here!
 
 [Read more about my journey →](about.md)
 
 ## 🔭 Featured Projects
+
+<details>
+<summary><strong>⚡ ALIZARIN Engine ⚡</strong></summary>
+<br>
+My primary R&D focus. The ALIZARIN Engine is an open-source, ethical framework for generating 100% synthetic voices from scratch for TTS, AI singing (DiffSinger), and concatenative (UTAU) synthesis. This entire project is being developed live on Twitch.
+<br><br>
+Learn more at the **[ALIZARINENGINE GitHub Organization](https://github.com/ALIZARINENGINE)**.
+</details>
 
 <details>
 <summary><strong>📡 AuroraChanAI Project</strong></summary>
@@ -62,6 +70,7 @@ Learn more about the <a href="https://smp.constellationvirtualmedia.com/">Conste
 
 - **Open to collaborating** on projects that benefit streamers or enhance AuroraChan's capabilities
 - **Seeking help with** LLM training guidance and volunteer data from streamers (particularly female VTubers with 10+ average concurrent viewers). Please read over this short form to [sign up here](https://docs.google.com/forms/d/1wk8xr39PAWbq1H_wXJwZhetltHBV6Uys6AlFa97b1tA).
+- **Seeking linguists & data curators** for the [ALIZARIN Engine](https://github.com/ALIZARINENGINE) to help with non-English language support and RVC data oversight.
 
 ## 📊 Learning Journey
 
