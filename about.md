@@ -6,7 +6,6 @@
 | [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
 |-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
 
-![Vega's Profile Banner](https://github.com/user-attachments/assets/736816e0-5903-479a-b5e7-93078b10ed1a)
 [![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
 
 ## 👋 Who I Am
