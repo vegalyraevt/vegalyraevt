@@ -14,8 +14,6 @@
 
 ### 📡 AuroraChanAI Project
 
-![AuroraChan Project](https://via.placeholder.com/800x400?text=AuroraChan+Project)
-
 A sophisticated collection of LLMs and neural networks working in tandem to create a fully autonomous virtual streamer. AuroraChan represents thousands of hours of R&D, with the goal of creating a lifelike streamer experience powered by custom-trained LLMs.
 
 ## Key Features:
@@ -34,8 +32,6 @@ A sophisticated collection of LLMs and neural networks working in tandem to crea
 
 ### ⚡ ALIZARIN Engine ⚡
 
-![ALIZARIN Engine](https://via.placeholder.com/800x400?text=ALIZARIN+Engine)
-
 My primary R&D focus. The ALIZARIN Engine is an open-source, ethical framework for generating 100% synthetic voices from scratch for TTS, AI singing (DiffSinger), and concatenative (UTAU) synthesis. This entire project is being developed live on Twitch.
 
 ### Key Features:
@@ -53,8 +49,6 @@ Visit the **[ALIZARINENGINE GitHub Page]([https://github.com/ALIZARINENGINE](htt
 ---
 
 ### 🖍️ Aurora Community Doodle Model
-
-![Aurora Doodle Model](https://via.placeholder.com/800x400?text=Aurora+Doodle+Model)
 
 A fully ethical, community-powered art project where viewers contribute simple doodles to train Aurora to draw live on stream. Unlike traditional AI art systems that scrape the internet without consent, this model is built entirely from voluntary submissions with clear permissions, transparent usage, and a strong emphasis on creator respect.
 
