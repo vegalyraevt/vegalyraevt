@@ -80,6 +80,8 @@ Neural networks enabling live karaoke and original song creation by Aurora. This
 - Integration with stream alerts and events
 - Real time Utau and Diffsinger singing
 
+<div style="position:relative; width:100%; height:0px; padding-bottom:56.250%"><iframe allow="fullscreen;autoplay" allowfullscreen height="100%" src="https://streamable.com/e/hejhbs?autoplay=1&muted=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
+
 ### Current Status:
 In active development. You can preview songs from early testing playing on the first 5 minutes of every Twitch stream during the "starting soon" section.
 
