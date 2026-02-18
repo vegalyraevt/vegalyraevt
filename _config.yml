@@ -6,7 +6,6 @@ permalink: /:title/
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -36,6 +35,13 @@ social_links:
   soundcloud: vegalyrae
   throne: vegalyrae
   tiktok: vegalyraevtuber
+
+# Default layout for all pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # SASS processing
 sass:
