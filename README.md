@@ -58,13 +58,13 @@ Full documentation and submission guidelines coming soon!
 <details>
 <summary><strong>🎵 Aurora Vocal and Music Engine</strong></summary>
 <br>
-Neural networks enabling live karaoke and original song creation by Aurora. This project includes a custom vocaloid implementation. Preview songs play during the first 5 minutes of each Twitch stream. Please note this is not AI generated music but instead a workspace tool I use to allow aurora to view and make requests about songs I make with a vocaloid program I work in.
+Neural networks enabling live karaoke and original song creation by a artist working with Aurora's voice. This project includes a custom vocaloid implementation. Preview songs play during the first 5 minutes of each Twitch stream. Please note this is not AI generated music but instead a workspace tool I use to allow aurora to view and make requests about songs I make with a utau based program I work in.
 </details>
 
 <details>
 <summary><strong>🎮 Indie Game Development</strong></summary>
 <br>
-A Godot-based top-down 2.5D horde shooter featuring deep lore and perk skill trees. Players take on the role of a malfunctioning AI in a dying server environment. The game will feature AuroraChan integration for stream collaborations.
+A Godot-based top-down 2.5D horde shooter featuring deep lore and perk skill trees. Players take on the role of a malfunctioning AI in a dying server environment. The game will feature AuroraChan integration for stream collaborations as well.
 </details>
 
 <details>
@@ -104,3 +104,13 @@ I'm continuously expanding my skill set across several domains. Track my progres
 [More contact options →](contact.md) | [Support my work →](support.md)
 
 > **Note:** Please complete the Discord onboarding after joining to avoid automatic removal.
+
+## Local Design Preview
+
+Use the VS Code Tasks menu (`Terminal -> Run Task`) for fast local iteration:
+
+- `Jekyll: Setup Local Preview` (one-time setup on this machine)
+- `Jekyll: Serve Local Site` (starts live preview server)
+- `Jekyll: Build Site` (production-style build check)
+
+Local URL after serving: `http://127.0.0.1:4000`

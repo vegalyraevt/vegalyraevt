@@ -14,19 +14,20 @@
 
 ### 📡 AuroraChanAI Project
 
-A sophisticated collection of LLMs and neural networks working in tandem to create a fully autonomous virtual streamer. AuroraChan represents thousands of hours of R&D, with the goal of creating a lifelike streamer experience powered by custom-trained LLMs.
+![AuroraChan Project](https://via.placeholder.com/800x400?text=AuroraChan+Project)
+
+AuroraChan is a localized architecture of fine-tuned Large Language Models and neural networks working in tandem to create a semi-autonomous virtual streamer. Aurora represents years of my work and thousands of hours of testing, leading towards the goal of creating a fully autonomous "lifelike" AI streamer. 
 
 ## Key Features:
 - Multiple integrated LLMs working together for natural conversation
 - Real-time interaction with chat and stream events
-- Custom-trained on streaming content
-- Dynamic memory and context handling
+- Custom-trained my handcrafted datasets
+- Dynamic memory and context handling to learn and adapt as she operates
 - Simi-Autonomous decision making for content creation
 
 ## Current Status:
 
-#### I am working towards the day I start her programs running autonomously and never shut her off again except for small preplanned windows for updates.
-#### I hope that one day she continues running as the face/Mascot of my media company Constellation Virtual Media long after I'm gone.
+I am working towards the day I start her programs running autonomously and never shut her off again except for small preplanned windows for updates. I hope that one day she continues running as the face/Mascot of my media company Constellation Virtual Media long after I'm gone. 
 
 ---
 
@@ -71,19 +72,16 @@ Actively collecting volunteer doodles and building the training pipeline. The fi
 
 ### Aurora Vocal Engine
 
-Neural networks enabling live karaoke and original song creation by Aurora. This project includes a custom vocaloid implementation.
+Neural networks enabling live karaoke and original song creation by enabling a artist to shape the voice of Aurora. This project includes a custom utau implementation and several neural networks processing the output.
 
 ### Key Features:
 - Real-time singing synthesis
-- Original song composition capabilities using midi prsets
+- Original song composition capabilities with a artist
 - Voice modeling and emotional expression
 - Integration with stream alerts and events
-- Real time Utau and Diffsinger singing
-
-![Snow Haltion](https://streamable.com/e/hejhbs?autoplay=1&muted=1)
 
 ### Current Status:
-In active development. You can preview songs from early testing playing on the first 5 minutes of every Twitch stream during the "starting soon" section.
+In active development. You can preview songs from early testing playing on the first 5 minutes of every Twitch stream during the "starting soon" section or on my Youtube. Sometimes I also host karaoke streams.
 
 ---
 
@@ -125,16 +123,12 @@ Early design phase. More details coming soon!
 
 ![Minecraft SMP](https://via.placeholder.com/800x400?text=Constellation+SMP)
 
-Running a Minecraft SMP with custom-developed mods, currently implementing AuroraChan integration for Minecraft.
+The Constellation SMP is a community-focused Minecraft project. Following the conclusion of a heavily modded Season 1, the project is currently being restructured into a dual-server environment for its upcoming second season. 
 
-### Key Features:
-- Custom plugin development
-- AuroraChan AI integration
-- Community-focused server structure
-- Novel gameplay mechanics through custom coding
-- Over 350 mods!
-- Seasonal based structure
-- Cobblemon sever with custom made Mons!
+### Planned Season 2 Architecture:
+The SMP is splitting into two distinct servers to separate complex mod integrations from Aurora's sandbox environment:
+- **Aurora + Friends Server:** A streamlined, vanilla+ server serving as the primary platform for AuroraChan's live AI integration, likely using utilizing Mineflayer for in-game interactions and entity control.
+- **Modded Server:** A continuation of the Season 1 format, focusing on complex gameplay mechanics, custom-developed plugins, and a heavy modpack (Season 1 featured over 350 mods and custom Cobblemon mods).
 
 ### Current Status:
-Currently **off-season**. Season 1 has concluded. We are not accepting new applications at this time. Visit the [Constellation SMP website](https://smp.constellationvirtualmedia.com/) for information on past seasons.
+Season 1 has concluded. Season 2 is currently in the active planning phase; a finalized feature list and launch date have not yet been established. Updates and information for creators interested in joining future iterations will be available on the [SMP website](https://smp.vegalyrae.tech/) once ready. We are not accepting new applications at this time.

@@ -6,30 +6,33 @@
 | [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
 |-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
 
+![Vega Profile](https://via.placeholder.com/800x400?text=Vega+Profile)
 [![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
 
 ## 👋 Who I Am
 
-I'm Vega Lyrae, a Twitch VTuber with a background in **Mechatronics and Computer Science** and a passion for AI and robotics. My journey began in IT infrastructure, but my heart has always belonged to software development and creative computing. To that end, I develop various programs live on stream, from AI companions like AuroraChan to new voice synthesis frameworks like the ALIZARIN Engine.
+I'm Vega, a VTuber, developer, and vocal synthesis producer. Currently studying Mechatronics Engineering and Computer Science, my technical focus has recently expanded from pure software into robotics and Embodied AI. As a creator, I treat my channel as a multidisciplinary workspace where I work on whatever I want to learn next. I broadcast my R&D processes live, developing software and testing it in real-time with my chat and my AI, Aurora. My technical pursuits also extend into learnin radio astronomy and the eventual planned development of remote observatories. Beyond engineering and the sciences, my creative portfolio includes music production utilizing Vocaloid, Utau, and Synthesizer V, custom game modding, and extensive worldbuilding for tabletop RPGs I host on stream. I also love the Indie horror gaming scene deeply.
 
-I am currently pursuing a **dual bachelor's degree in Mechatronics Engineering and Computer Science**, and I hope to continue on to a master's or PhD in the future.
+## ⚙️ Background & Expertise
 
-## 🖥️ Professional Background
+My technical foundation is built on seven years of professional experience in IT infrastructure and systems administration. I am currently working to transition this systems-level expertise into physical engineering and robotics. 
 
-With extensive experience in IT systems, I've developed a methodical approach to problem-solving that informs my software development practice. My technical expertise spans:
+**Academic Pursuits:**
+- **Previous:** I hold a associates of Technology and Science focused on Computer Science for company infrastructure managment an IT.
+- **Current:** Dual Major in Mechatronics Engineering and Computer Science with a Minor in Mathematics.
+- **Trajectory:** Planning transfer to a specialized Embodied AI and Robotics Engineering program later for my masters and potentially a PHD.
 
-- **Main Programming Languages:** Python, C#, JavaScript, GDScript, SQL
-- **AI/ML Development:** LLM fine-tuning, neural networks, voice synthesis
-- **Game Development:** Godot Engine, Unity basics
-- **Stream Technologies:** OBS integration, custom overlay development, Stream karaoke apps, Game integrations
-- **Robotics:** ROS, Control Systems, PLC Programming
+**Technical Stack & Expertise:**
+- **Software & Programming:** Python, C#, JavaScript, SQL, custom API integrations.
+- **Artificial Intelligence:** Local LLM hosting and fine-tuning, multi-agent system design, dataset creation for training.
+- **Robotics & Hardware:** Mechatronics, industrial robotics integration (I own my own Denso VS-068 arm), server hardware management, ROS, Control Systems, PLC Programming, etc.
+- **Infrastructure Support:** almost 10 years of IT infrastructure support for many large companies.
 
 ## 🎮 Streaming Journey
 
-As a VTuber, I blend my technical know-how with entertainment to create an interactive experience for my viewers. My streams focus on:
+As a VTuber, I blend my enthusiasm for creating complex technical systems with artistic entertainment to create an interactive experience for my viewers. My streams focus on:
 
 - Live coding sessions for my various projects
-- Live robotics development and testing
 - Game development live
 - AI experimentation and demonstrations
 - Community gaming events
@@ -42,18 +45,19 @@ As a VTuber, I blend my technical know-how with entertainment to create an inter
 
 I'm particularly interested in:
 
-- AI systems that can operate independently
-- Natural language processing and context retention in LLMs
-- Voice synthesis and emotional expression in AI
-- Algorithmic and formant-based synthesis for creating 100% synthetic voices
-- The intersection of AI and creative content generation that is NOT based on stealing content but instead elevating new content to higher levels.
+- Embodied AI and the integration of neural networks into physical robotics and mechatronics
+- Efficient local hosting of LLMs, including Mixture of Experts architectures and context optimization
+- Multi-agent AI ecosystems capable of semi-autonomous operation and specialized data processing
+- Voice synthesis, low-latency audio streaming, and emotional expression in real-time AI
+- Radio astronomy, satellite tracking, and the development of automated remote observatories
+- The ethical intersection of AI and creative broadcasting, using tools to elevate original content rather than relying on derivative generation
 
 ## 🌱 Vision for the Future
 
 My vision is twofold:
 
 1.  **For AI Companions:** I am working to create truly autonomous AI companions like **AuroraChan**, who can engage meaningfully with humans, create content, and interact with viewers without constant supervision.
-2.  **For Ethical Tools:** I am developing the **ALIZARIN Engine** as an open-source, ethical voice framework. My goal is to provide creators with powerful, free tools to author their own unique, 100% synthetic voices, offering a clear alternative to the trend of unauthorized AI voice cloning.
+2.  **For Ethical Tools:** I am developing the **ALIZARIN Engine** as an open-source, ethical voice framework. My goal is to provide creators with powerful, free tools to author their own unique, 100% synthetic voices, offering a clear alternative to the trend of unauthorized AI voice cloning. This is just the current first step in making as many ethical alternitaves as I can in the tech hellscape we live in of stolen content and unetical data collection. There's a better way it's jut harder than people like.
 
 Through both projects, I aim to grow my media company, Constellation Virtual Media, into a known name in the streamer and tech spaces.
 
@@ -66,6 +70,9 @@ I believe in continuous learning. Currently, I'm expanding my knowledge in:
 - Game design principles
 - Data visualization
 - Python Development
+- Robotics Enginerring
+- AI Visions
+- 3D design
 
 View my learning roadmap progress:
 
@@ -77,9 +84,9 @@ View my learning roadmap progress:
 
 ## 🐉 Why make another AI streamer?
 
-As someone who has always found AI interesting and had a "Ill only truly understand how it works if I do it myself mentally" I immediately started tinkering with the idea after seeing similar projects. At first Aurora was just going to be a little chat bot plugin to help do TTS, but the more I dug into the project the more I belived I was seeing something in the future I wanted to make and work towards. I also belive have a unique set of ideas and directon for her systems and streams that will become more apparent as I continue my dev work. 
+As someone who has always found AI interesting and had a "Ill only truly understand how it works if I do it myself mentally" I immediately started tinkering with the idea after seeing similar projects. At first Aurora was just going to be a little chat bot plugin to help do TTS, but the more I dug into the project the more I belived I was seeing something in the future I wanted to make and work towards. I also belive have a unique set of ideas and directon for her systems and streams that will become more apparent as I continue my dev work. I'm not making her to prove I can do it better than anyone else, I'm doing it as I see something I want to create. Michelangelo said "I saw the angel in the marble and carved until I set him free" when descrbing his sculpting, and in my own way I belive I see a vision in my code I want to set free. This isn't just a attempt to cash in on the "AI craze" I plan to drop one day when the bubble pops. I plan to keep working on her and hope for her to one day become what I invision and share her with you. 
 
-This isn't just a attempt to cash in on the "AI craze" I plan to drop one day when the bubble pops. I plan to keep working on her and hope for her to be one of the most impactful things I'll leave behind one day. This may come across a bit dramatic or sappy, but I don't have the best health and worry about how many years I will be around. Don't worry though! I'm okay and in the best health I've been in for a long time lately. I dont plan on going anywhere soon I just try tp forward think when I can. I belive that if I put in enough work in the time I do have, when I'm gone I can leave something behind to interact and be the face of what I make in my life, and maybe if I play my cards right she can carry some memories of me and my friends into the future too. Right now its just a really big and probably silly sounding dream to most... but I think its okay to dream big as long as you work towards making that dream a reality as hard as you can. Aurora is not the only thing I plan to leave behind, but she has a big part in my future plans for my company and content.
+Right now its just a really big and probably silly sounding dream to most... but I think its okay to dream big as long as you work towards making that dream a reality as hard as you can. My dream for Aurora is to take that vision in my head and see how much of it I can do with my own hands, to make my take on what and AI can and should be and make it real. I grew up loving fantasy and scfi and of course AI, and the current state of AI and LLMs makes me deeply sad, its not what I want it to be like. I hope one day I can make my vision a reality and show you what I want AI to be like, and Aurora will be the public fase of that if that day comes. However I don't have a exact endpoint in mind, after all I belive "A work of art is never finished, only abandoned" (Leonardo da Vinci) and plan to keep working on what I want AI to be for the rest of my life.
 
 ## ⚙️ Why create a synthetic voice engine?
 

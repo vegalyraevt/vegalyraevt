@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
     
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
     {% seo %}
     <style>
         /* Prevent flash of unstyled content */
@@ -76,11 +76,18 @@
                     <div class="home-grid">
                         <!-- Profile Section - Left Column on Desktop, Top on Mobile -->
                         <div class="profile-section">
+                            <p class="identity-eyebrow">Vega | VTuber Engineer</p>
                             <div class="avatar-container">
                                 <img src="https://github.com/vegalyraevt.png" alt="Vega Lyrae" class="avatar">
                             </div>
                             <h1 class="profile-name">{{ site.title }}</h1>
                             <p class="profile-tagline">{{ site.description }}</p>
+                            <div class="focus-chips" aria-label="Core focus areas">
+                                <span class="focus-chip">Mechatronics</span>
+                                <span class="focus-chip">Computer Science</span>
+                                <span class="focus-chip">Embodied AI</span>
+                                <span class="focus-chip">Radio Astronomy</span>
+                            </div>
                             
                             <div class="social-links">
                                 {% if site.social_links.twitch %}
@@ -130,8 +137,13 @@
                         <div class="main-section">
                             <section class="intro-section">
                                 <div class="intro-content">
-                                    <h2>👋 About Me</h2>
-                                    <p>Software developer and Mechatronics/CS student focused on creating innovative streaming technologies, robotics, and ethical AI solutions. I regularly work on R&D projects live on Twitch and share my most interesting developments here!</p>
+                                    <h2>Engineering AI Systems for Stream, Robotics, and Research</h2>
+                                    <p>I am Vega, a software developer and Mechatronics + CS student building practical systems across embodied AI, robotics workflows, and live streaming infrastructure. My channel operates as an R&D workspace where ideas are designed, tested, and refined in public.</p>
+                                    <div class="hero-stats" aria-label="Professional focus summary">
+                                        <div class="hero-stat"><span class="hero-stat-label">Primary Direction</span><span class="hero-stat-value">Embodied AI + Robotics</span></div>
+                                        <div class="hero-stat"><span class="hero-stat-label">Builder Stack</span><span class="hero-stat-value">Software, Hardware, Systems</span></div>
+                                        <div class="hero-stat"><span class="hero-stat-label">Creative Layer</span><span class="hero-stat-value">VTubing + Audio Tech</span></div>
+                                    </div>
                                     <a href="{{ '/about' | relative_url }}" class="cta-button">Read more about my journey →</a>
                                 </div>
                             </section>
@@ -157,7 +169,7 @@
                     
                     <!-- Projects Section - Below Both Columns -->
                     <section class="projects-section">
-                        <h2>🔭 Featured Projects</h2>
+                        <h2>Featured Project Portfolio</h2>
                         <div class="card-grid">
                             <div class="project-card">
                                 <div class="card-icon">📡</div>
@@ -201,7 +213,7 @@
     <script>
         // Wait for all content to load before initializing animations
         window.addEventListener('load', function() {
-            const cards = document.querySelectorAll('.project-card, .contact-card');
+            const cards = document.querySelectorAll('.project-card, .contact-card, .projects-entry-card');
             
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
@@ -319,15 +331,63 @@
 
                 // Find any headers with level 4 (#### in markdown) and ensure they have proper styling
                 document.querySelectorAll('.content-container h4').forEach(function(h4) {
-                    h4.style.color = getComputedStyle(document.documentElement).getPropertyValue('--primary-color');
+                    h4.style.color = getComputedStyle(document.documentElement).getPropertyValue('--accent-0');
+                });
+            }
+
+            // Convert long markdown project sections into structured cards on the projects page.
+            function buildProjectsCards() {
+                const path = window.location.pathname.replace(/\/+$/, '');
+                const onProjectsPage = path === '/projects';
+                if (!onProjectsPage) {
+                    return;
+                }
+
+                const pageContent = document.querySelector('.page-content');
+                if (!pageContent || pageContent.querySelector('.projects-page-grid')) {
+                    return;
+                }
+
+                const projectHeadings = Array.from(pageContent.querySelectorAll('h3'));
+                if (projectHeadings.length === 0) {
+                    return;
+                }
+
+                const projectsGrid = document.createElement('section');
+                projectsGrid.className = 'projects-page-grid';
+                const insertBeforeNode = projectHeadings[0];
+                pageContent.insertBefore(projectsGrid, insertBeforeNode);
+                pageContent.classList.add('projects-page');
+
+                projectHeadings.forEach(function(heading) {
+                    const card = document.createElement('article');
+                    card.className = 'projects-entry-card animate';
+
+                    const cardBody = document.createElement('div');
+                    cardBody.className = 'projects-entry-body';
+                    card.appendChild(cardBody);
+                    cardBody.appendChild(heading);
+
+                    let cursor = heading.nextElementSibling;
+                    while (cursor && cursor.tagName !== 'H3') {
+                        const next = cursor.nextElementSibling;
+                        cardBody.appendChild(cursor);
+                        cursor = next;
+                    }
+
+                    projectsGrid.appendChild(card);
                 });
             }
 
             // Run the function on page load
             hideNavigationSections();
+            buildProjectsCards();
 
             // Also run it after a short delay to catch any dynamically loaded content
-            setTimeout(hideNavigationSections, 500);
+            setTimeout(function() {
+                hideNavigationSections();
+                buildProjectsCards();
+            }, 500);
         });
     </script>
 </body>
