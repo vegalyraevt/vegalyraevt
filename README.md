@@ -104,13 +104,3 @@ I'm continuously expanding my skill set across several domains. Track my progres
 [More contact options →](contact.md) | [Support my work →](support.md)
 
 > **Note:** Please complete the Discord onboarding after joining to avoid automatic removal.
-
-## Local Design Preview
-
-Use the VS Code Tasks menu (`Terminal -> Run Task`) for fast local iteration:
-
-- `Jekyll: Setup Local Preview` (one-time setup on this machine)
-- `Jekyll: Serve Local Site` (starts live preview server)
-- `Jekyll: Build Site` (production-style build check)
-
-Local URL after serving: `http://127.0.0.1:4000`
