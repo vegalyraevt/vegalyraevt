@@ -63,8 +63,8 @@ permalink: /
     <p class="eyebrow">Meet the lab's biggest personality</p>
     <h2 id="home-aurora-title">AuroraChan.<br>A little science. A lot of sass.</h2>
     <p>A chaotic, sassy chimera dragon girl created in my laboratory. Aurora is a big part of the stream's identity, and my primary ongoing AI project.</p>
-    <p>She's already an operational AI VTuber with demonstrated live interactions. Her development explores persistent memory, adaptive behavior, autonomous agents, and interaction with games and other software.</p>
-    <p class="home-feature-note">New capabilities are experiments in progress. Connecting AI to physical robots is a future lab direction.</p>
+    <p>She's an operational AI VTuber who participates in livestreams, interacts conversationally, and uses tools and supporting systems. She's also an ongoing platform for experiments in AI behavior, persistent memory, and adaptive agents.</p>
+    <p class="home-progress">I'm continuing to expand what Aurora can do, from new software and game interactions to longer-term experiments involving robotics and physical environments.</p>
     <a class="text-link" href="{{ '/projects/#aurora' | relative_url }}">Explore the Aurora project <span aria-hidden="true">→</span></a>
   </div>
 </section>
@@ -89,19 +89,37 @@ permalink: /
     <article class="project-card">
       <div class="card-topline"><span class="project-index">PHYSICAL SYSTEMS</span><span class="status-pill">Lab assembly</span></div>
       <h3>Robotics &amp; Embodied AI Lab</h3>
-      <p>An industrial Denso robotic arm has been acquired, and the lab is being assembled. Next up: electronics, sensors, custom end effectors, and a lot of learning.</p>
-      <p class="card-note">The arm is not currently operational or AI-controlled. Connecting agents to physical systems is planned research.</p>
+      <p>I'm building an independent robotics and electronics workspace around an industrial Denso robotic arm. The next stage involves getting the hardware operational and expanding the setup with sensors, electronics, and custom end effectors.</p>
+      <p class="home-progress">Longer-term experiments will explore connecting autonomous AI agents with physical systems.</p>
       <a class="text-link" href="https://twitch.tv/{{ site.social_links.twitch }}">Follow the lab's progress on Twitch <span aria-hidden="true">↗</span></a>
     </article>
     <article class="project-card">
       <div class="card-topline"><span class="project-index">GAME MODDING</span><span class="status-pill">Ongoing experiments</span></div>
       <h3>What if I poked the game?</h3>
       <p>Modding experiments with Balatro, Minecraft, Voices of the Void, Animal Crossing, Cyberpunk, and whatever catches my attention next.</p>
-      <p class="card-note">Individual projects are at different stages. Some are further along, others are still me figuring things out.</p>
+      <p class="home-progress">Individual projects are at different stages of development. Animal Crossing is an experimental sandbox built on existing work.</p>
       <a class="text-link" href="https://discord.gg/{{ site.social_links.discord }}">Talk games and mods in Discord <span aria-hidden="true">↗</span></a>
     </article>
   </div>
   <div class="section-action"><a class="button button-ghost" href="{{ '/projects/' | relative_url }}">Explore all projects <span aria-hidden="true">→</span></a></div>
+</section>
+
+<section class="section-shell section-block home-research" aria-labelledby="home-research-title" data-reveal>
+  <div class="home-research-copy">
+    <p class="eyebrow">Beyond the streams</p>
+    <h2 id="home-research-title">Research, Engineering &amp; a Lot of Experimentation</h2>
+    <p>I'm studying computer science and mechatronics engineering while building on years of experience working with computers, networks, and technical systems.</p>
+    <p>A major goal of my work is developing capable, reliable, and controllable AI agents. I'm particularly interested in systems that can learn from interactions, use tools, and eventually operate in physical environments.</p>
+    <p>Much of my current work involves experimenting with AI behavior, persistent memory, model adaptation, and live interaction through Aurora. I'm also assembling the hardware and robotics lab needed to explore embodied AI more directly.</p>
+    <p>Some of these ideas are already working experiments. Others are longer-term research goals. Safety, observability, and controllability guide how I want to develop them.</p>
+    <a class="text-link" href="{{ '/portfolio/' | relative_url }}">Explore My Technical Background <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="home-research-areas" aria-label="Current practice and research interests">
+    <article><span class="home-number">01 / AGENTIC AI</span><h3>Behavior, memory, and tools</h3><p>Memory, tool use, behavioral experiments, and autonomous interaction.</p></article>
+    <article><span class="home-number">02 / LOCAL AI &amp; INFRASTRUCTURE</span><h3>The systems behind the experiments</h3><p>Model hosting, software integration, systems administration, and performance experimentation.</p></article>
+    <article><span class="home-number">03 / ROBOTICS &amp; EMBEDDED SYSTEMS</span><h3>Taking the lab into the physical world</h3><p>Electronics, sensing, mechatronics, and developing physical-world experiments.</p></article>
+    <article><span class="home-number">04 / RESEARCH DIRECTION</span><h3>Capable, observable, controllable</h3><p>Safe intelligent agents, with behavior that can be understood and guided.</p></article>
+  </div>
 </section>
 
 <section class="section-shell section-block home-streams" aria-labelledby="home-streams-title" data-reveal>
@@ -109,23 +127,40 @@ permalink: /
     <div><p class="eyebrow">Away from the workbench</p><h2 id="home-streams-title">Come for the experiments.<br>Stay for the questionable decisions.</h2></div>
     <p>Most of all, this is a place to hang out. Expect horror, games, stories, music, and the occasional detour into engineering.</p>
   </div>
+  <div class="home-persona">
+    <img src="{{ '/assets/images/web/vega-model.jpg' | relative_url }}" width="1440" height="810" loading="lazy" alt="Vega's purple-haired 3D VTuber persona posing with a virtual robotic arm">
+    <div><p class="eyebrow">Vega on stream</p><h3>Behind the Goggles</h3><p>When I'm not tinkering with AI or robotics, you'll usually find me exploring horror games, getting distracted by building projects, or running tabletop adventures. The scientist act is only occasionally a good excuse for the chaos.</p></div>
+  </div>
   <div class="home-stream-grid">
     <article class="home-content-card"><span class="home-number">01 / REGULAR STREAMS</span><h3>Horror and building games</h3><p>Regular entertainment streams, from horror games to building games. Sometimes the scariest thing is my decision-making.</p><a class="text-link" href="https://twitch.tv/{{ site.social_links.twitch }}">Watch Vega live <span aria-hidden="true">↗</span></a></article>
     <article class="home-content-card"><span class="home-number">02 / MONTHLY D&amp;D</span><h3>Shadow over Volstead</h3><p>An ongoing noir-themed D&amp;D campaign, currently monthly. A second group is being prepared.</p><a class="text-link" href="https://www.twitch.tv/collections/5SZ4s4DFrRe9DA">Watch the campaign VODs <span aria-hidden="true">↗</span></a></article>
     <article class="home-content-card"><span class="home-number">03 / OCCASIONAL READINGS</span><h3>Horror literature</h3><p>Readings, discussions, and special community badges. A recent <cite>King in Yellow</cite> reading raised $65 for <a href="https://www.826michigan.org/about/">826michigan</a>.</p><a class="text-link" href="https://www.twitch.tv/videos/2877789055">Watch the reading event VOD <span aria-hidden="true">↗</span></a></article>
     <article class="home-content-card"><span class="home-number">04 / INTERMITTENT DEVELOPMENT</span><h3>Let's see if this works</h3><p>AI, engineering, programming, and other project streams happen intermittently. Expect troubleshooting and experiments.</p><a class="text-link" href="https://discord.gg/{{ site.social_links.discord }}">Join the community <span aria-hidden="true">↗</span></a></article>
   </div>
-  <p class="home-section-note">No fixed weekly timetable yet. Check Twitch and Discord for stream updates.</p>
+  <p class="home-section-note">Catch upcoming streams and special events on <a href="https://twitch.tv/{{ site.social_links.twitch }}">Twitch</a> and <a href="https://discord.gg/{{ site.social_links.discord }}">Discord</a>.</p>
+</section>
+
+<section class="section-shell section-block home-music" aria-labelledby="home-music-title" data-reveal>
+  <div class="home-music-copy">
+    <p class="eyebrow">Music &amp; Vocal Synthesis</p>
+    <h2 id="home-music-title">I Make Music With Virtual Singers, Too.</h2>
+    <p>Outside the lab, I spend a lot of time making music. I produce original songs, covers, and music videos using virtual singers, including Synthesizer V, Vocaloid, and custom voicebanks I've developed.</p>
+    <p>I handle the creative production myself, from arranging and tuning vocals to mixing the finished tracks. I've also built some of my own tools to make the workflow easier.</p>
+    <p>Aurora's singing voice is part of that work. I also experiment with letting her participate conversationally in the creative workflow, while I handle the composition and production.</p>
+  </div>
+  <a class="home-mv-card" href="https://youtu.be/3Xoxgwa6pm4">
+    <div class="home-mv-thumbnail"><img src="{{ '/assets/images/web/aurora-looping-cover.jpg' | relative_url }}" width="1280" height="720" loading="lazy" alt="Official music video thumbnail showing Aurora singing into a microphone"><span class="home-mv-play" aria-hidden="true">▶</span></div>
+    <div class="home-mv-caption"><p class="home-number">FEATURED MUSIC VIDEO / ENGLISH COVER</p><h3>Looping in the Rooms | Aurora Cover MV</h3><p>An English cover featuring Aurora's synthesized singing voice, with music production and vocal tuning by Vega.</p><span class="button button-primary">Watch Music Video <span aria-hidden="true">↗</span></span></div>
+  </a>
 </section>
 
 <section class="section-shell section-block home-videos" id="home-videos" aria-labelledby="home-videos-title" data-reveal>
   <div class="section-heading"><p class="eyebrow">Three channels, three kinds of rabbit hole</p><h2 id="home-videos-title">Pick your next watch.</h2></div>
   <div class="home-channel-grid">
-    <a class="home-channel-card" href="https://www.youtube.com/@VegaLyrae"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaLyrae</span><h3>Music and Vocal Synth</h3><p>Original music, covers, and vocal synth work.</p><span class="text-link">Listen on YouTube <span aria-hidden="true">↗</span></span></a>
-    <a class="home-channel-card" href="https://www.youtube.com/@VegaAuroraClips"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaAuroraClips</span><h3>VTuber Clips, Highlights and VODs</h3><p>The entertaining bits from Vega and Aurora's streams.</p><span class="text-link">Watch clips and VODs <span aria-hidden="true">↗</span></span></a>
-    <a class="home-channel-card" href="https://www.youtube.com/@VegaLDev"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaLDev</span><h3>Technical Videos and Essays</h3><p>A home for the technical side of the experiments.</p><span class="text-link">Explore technical videos <span aria-hidden="true">↗</span></span></a>
+    <a class="home-channel-card" href="https://www.youtube.com/@VegaLyrae"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaLyrae</span><h3>Music and Vocal Synth</h3><p>VSynth covers, original compositions, and music videos.</p><span class="text-link">Listen on YouTube <span aria-hidden="true">↗</span></span></a>
+    <a class="home-channel-card" href="https://www.youtube.com/@VegaAuroraClips"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaAuroraClips</span><h3>VTuber Clips, Highlights and VODs</h3><p>VTuber highlights, edited content, VODs, and Shorts.</p><span class="text-link">Watch clips and VODs <span aria-hidden="true">↗</span></span></a>
+    <a class="home-channel-card" href="https://www.youtube.com/@VegaLDev"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaLDev</span><h3>Technical Videos and Essays</h3><p>Technical videos, scripted content, and essays.</p><span class="text-link">Explore technical videos <span aria-hidden="true">↗</span></span></a>
   </div>
-  <a class="home-cover-link" href="https://youtu.be/3Xoxgwa6pm4"><span><small>A music portfolio example</small><strong>Watch Aurora's cover music video</strong></span><span aria-hidden="true">↗</span></a>
 </section>
 
 <section class="section-shell home-cvm" aria-labelledby="home-cvm-title" data-reveal>
