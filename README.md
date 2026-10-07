@@ -1,106 +1,37 @@
----
-layout: default
-title: Vega Lyrae | Twitch Streamer & Computer Scientist
-permalink: /
----
+# Vega Lyrae
 
-# Vega Lyrae | Twitch Streamer & Computer Scientist
+<img src="assets/images/web/vega-profile.jpg" alt="Illustrated portrait of Vega Lyrae" width="160" align="right">
 
-![Banner](https://github.com/user-attachments/assets/736816e0-5903-479a-b5e7-93078b10ed1a)
+Mechatronics and computer science student, IT systems practitioner, and independent creator exploring robotics, embodied AI, synthetic voice, and interactive media.
 
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/VegaLyraeVT)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/UPQgsszwZA)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/vegalyrae)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@vegalyrae)
-[![SoundCloud](https://img.shields.io/badge/SoundCloud-FF7700?style=for-the-badge&logo=soundcloud&logoColor=white)](https://soundcloud.com/vegalyrae)
-[![Throne](https://img.shields.io/badge/Throne-6E4A9E?style=for-the-badge&logo=gift&logoColor=white)](https://throne.com/vegalyrae)
-[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@vegalyraevtuber)
-[![Reddit](https://img.shields.io/badge/AIVtuber_Reddit-6E4A9E?style=for-the-badge&logo=gift&logoColor=white)](https://www.reddit.com/r/ArtificialVTubers/s/LStb0HMwW8)
+I build in public through development streams, creative experiments, music, and community projects.
 
-## 📑 Site Navigation
+[Visit my portfolio and links hub](https://vegalyrae.tech/) · [Projects](https://vegalyrae.tech/projects/) · [About](https://vegalyrae.tech/about/)
 
-| [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
-|-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
+## Find me online
 
-## 👋 About Me
+[<img src="assets/icons/twitch.svg" width="20" height="20" alt=""> Twitch](https://twitch.tv/vegalyraebard) ·
+[<img src="assets/icons/youtube.svg" width="20" height="20" alt=""> YouTube](https://youtube.com/@VegaLyrae) ·
+[<img src="assets/icons/discord.svg" width="20" height="20" alt=""> Discord](https://discord.gg/UPQgsszwZA) ·
+[<img src="assets/icons/x.svg" width="20" height="20" alt=""> X](https://x.com/VegaLyraeVT) ·
+[<img src="assets/icons/tiktok.svg" width="20" height="20" alt=""> TikTok](https://tiktok.com/@vegalyraevtuber) ·
+[<img src="assets/icons/soundcloud.svg" width="20" height="20" alt=""> SoundCloud](https://soundcloud.com/vegalyrae) ·
+[<img src="assets/icons/github.svg" width="20" height="20" alt=""> GitHub](https://github.com/vegalyraevt) ·
+[<img src="assets/icons/kofi.svg" width="20" height="20" alt=""> Ko-fi](https://ko-fi.com/vegalyrae) ·
+[<img src="assets/icons/throne.svg" width="20" height="20" alt=""> Throne](https://throne.com/vegalyrae) ·
+[<img src="assets/icons/reddit.svg" width="20" height="20" alt=""> AI VTuber Reddit](https://www.reddit.com/r/ArtificialVTubers/s/LStb0HMwW8)
 
-Software developer and Mechatronics/CS student focused on creating innovative streaming technologies, robotics, and ethical AI solutions. I regularly work on R&D projects live on Twitch and share my most interesting developments here!
+## Selected work
 
-[Read more about my journey →](about.md)
+- **[AuroraChan AI](https://vegalyrae.tech/projects/#aurora)** — a locally operated architecture of language models and specialist systems for an interactive virtual performer.
+- **[ALIZARIN Engine](https://github.com/ALIZARINENGINE/AlizarinEngine)** — an open-source framework for distinct synthetic voices, with consent and creative provenance at the center of the work.
+- **[Community Doodle Model](https://vegalyrae.tech/projects/#doodle)** — a drawing system trained on opt-in community submissions for live interaction.
+- **[Music, games, and stream tools](https://vegalyrae.tech/projects/)** — creative systems that connect technical development with community participation.
 
-## 🔭 Featured Projects
+## Research and collaboration
 
-<details>
-<summary><strong>⚡ ALIZARIN Engine ⚡</strong></summary>
-<br>
-My current primary R&D focus. The ALIZARIN Engine is an open-source, ethical framework for generating 100% synthetic voices from scratch for TTS, AI singing (DiffSinger), and concatenative (UTAU) synthesis. This entire project is being developed live on Twitch.
+My interests include embodied intelligence, robotics, local AI systems, voice technology, and remote observation. I’m open to academic programs, research conversations, creative collaborations, and aligned brand partnerships.
 
-Learn more at the **[ALIZARINENGINE Repository](https://github.com/ALIZARINENGINE/AlizarinEngine)**.
-</details>
+**Public business email:** [contact@vegalyrae.tech](mailto:contact@vegalyrae.tech)
 
-<details>
-<summary><strong>📡 AuroraChanAI Project</strong></summary>
-<br>
-A sophisticated collection of LLMs and neural networks working in tandem to create a fully autonomous virtual streamer. AuroraChan represents thousands of hours of R&D, with the goal of creating a lifelike streamer experience powered by custom-trained LLMs.
-</details>
-
-<details>
-<summary><strong>🖍️ Aurora Community Doodle Model</strong></summary>
-<br>
-A collaborative art project built around a fully ethical, fully consent-driven dataset made entirely by the community. Viewers submit simple doodles that teach Aurora how to sketch in real time on stream — taking ideas from chat, breaking them into steps, and drawing them stroke-by-stroke with her own goofy personality layered on top.
-
-Unlike most AI art systems, this project uses 0% web-scraped images and 100% volunteer submissions, with every contributor knowing exactly how their doodles are used. The work here includes the training pipeline, model architecture, dataset tooling, and the live integration that lets Aurora respond to prompts, donations, or chaos in chat with on-the-spot drawings.
-
-Full documentation and submission guidelines coming soon!
-</details>
-
-<details>
-<summary><strong>🎵 Aurora Vocal and Music Engine</strong></summary>
-<br>
-Neural networks enabling live karaoke and original song creation by a artist working with Aurora's voice. This project includes a custom vocaloid implementation. Preview songs play during the first 5 minutes of each Twitch stream. Please note this is not AI generated music but instead a workspace tool I use to allow aurora to view and make requests about songs I make with a utau based program I work in.
-</details>
-
-<details>
-<summary><strong>🎮 Indie Game Development</strong></summary>
-<br>
-A Godot-based top-down 2.5D horde shooter featuring deep lore and perk skill trees. Players take on the role of a malfunctioning AI in a dying server environment. The game will feature AuroraChan integration for stream collaborations as well.
-</details>
-
-<details>
-<summary><strong>🎲 Stream Overlay VTuber Card Game</strong></summary>
-<br>
-Interactive card game system integrated with streaming platforms. More details coming soon!
-</details>
-
-<details>
-<summary><strong>⛏️ Minecraft SMP & Custom Mods</strong></summary>
-<br>
-Running a Minecraft SMP with custom-developed mods, currently implementing AuroraChan integration for Minecraft.
-Learn more about the <a href="https://smp.constellationvirtualmedia.com/">Constellation SMP here</a>.
-</details>
-
-[View all projects →](projects.md)
-
-## 🤝 Collaboration Opportunities
-
-- **Open to collaborating** on projects that benefit streamers or enhance AuroraChan's capabilities
-- **Seeking help with** LLM training guidance and volunteer data from streamers (particularly female VTubers with 10+ average concurrent viewers). Please read over this short form to [sign up here](https://docs.google.com/forms/d/1wk8xr39PAWbq1H_wXJwZhetltHBV6Uys6AlFa97b1tA).
-- **Seeking linguists & data curators** for the [ALIZARIN Engine](https://github.com/ALIZARINENGINE) to help with non-English language support and RVC data oversight.
-
-## 📊 Learning Journey
-
-I'm continuously expanding my skill set across several domains. Track my progress:
-
-[![roadmap.sh](https://roadmap.sh/card/tall/67e4a5d2616abc6b0b69db0a?variant=dark&roadmaps=data-analyst%2Cgame-developer%2Cpython%2Cbackend)](https://roadmap.sh)
-
-## 📫 Quick Contact
-
-| Purpose | Contact Method |
-|---------|----------------|
-| **Collaborations & Questions** | [Join Discord Community](https://discord.gg/UPQgsszwZA) |
-| **Business Inquiries** | constellationvirtualmedia@gmail.com |
-
-[More contact options →](contact.md) | [Support my work →](support.md)
-
-> **Note:** Please complete the Discord onboarding after joining to avoid automatic removal.
+[Experience and capabilities](https://vegalyrae.tech/portfolio/) · [Creative credits](https://vegalyrae.tech/stream-assets/) · [Support my work](https://vegalyrae.tech/support/)

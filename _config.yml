@@ -1,10 +1,9 @@
-title: Vega Lyrae | Twitch Streamer & Computer Scientist
-description: Software developer focused on AI, streaming technologies, and game development
+title: Vega Lyrae — Engineer, Researcher & Creator
+description: Mechatronics and computer science student building ethical AI, robotics, voice technology, and interactive systems.
 url: "https://vegalyrae.tech"
 baseurl: ""
 permalink: /:title/
 
-# Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -12,20 +11,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-# Navigation
-header_pages:
-  - projects.md
-  - about.md
-  - stream-assets.md
-  - support.md
-  - contact.md
-
-# GitHub Pages settings
 github_username: vegalyraevt
 show_downloads: false
 
-# Custom settings for Vega's site
-logo: https://github.com/user-attachments/assets/736816e0-5903-479a-b5e7-93078b10ed1a
 social_links:
   twitch: vegalyraebard
   twitter: VegaLyraeVT
@@ -36,13 +24,15 @@ social_links:
   throne: vegalyrae
   tiktok: vegalyraevtuber
 
-# Default layout for all pages
 defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: default
 
-# SASS processing
 sass:
   style: compressed
+
+exclude:
+  - README.md
+  - scripts

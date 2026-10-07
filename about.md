@@ -1,95 +1,59 @@
-# About Me
+---
+title: About Vega Lyrae
+description: The background, research interests, and principles behind Vega Lyrae's work in mechatronics, AI, and creative technology.
+permalink: /about/
+---
 
+<header class="page-hero section-shell" data-reveal>
+  <p class="eyebrow">About</p>
+  <h1>Curiosity is my operating system.</h1>
+  <p class="page-lede">I’m an engineer-in-training, systems practitioner, and creator working toward a future where intelligent technology is more tangible, transparent, and humane.</p>
+</header>
 
-## 📑 Site Navigation
+<section class="section-shell editorial-grid" data-reveal>
+  <aside class="editorial-aside">
+    <img class="about-portrait" src="{{ '/assets/images/web/vega-profile.jpg' | relative_url }}" alt="Illustrated portrait of Vega Lyrae">
+    <div class="aside-note"><span>Based in</span><strong>United States · Eastern Time</strong></div>
+    <div class="aside-note"><span>Currently pursuing</span><strong>Mechatronics + Computer Science</strong></div>
+  </aside>
+  <div class="prose">
+    <h2>My path</h2>
+    <p>I began in IT infrastructure and systems administration, learning how complicated technology behaves outside the lab: under load, across networks, and in the hands of real people. That foundation taught me to think in connected systems rather than isolated components.</p>
+    <p>Today, I’m pursuing dual studies in mechatronics engineering and computer science, with mathematics supporting both. I’m moving from operating digital infrastructure toward building systems that connect computation, perception, control, and physical action.</p>
+    <p>My livestream is part workshop and part open notebook. I use it to develop software, test ideas, produce music, explore game systems, and share the imperfect process behind ambitious projects. Aurora—my AI virtual performer—is both a long-running engineering challenge and a public interface for that research.</p>
 
-| [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
-|-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
+    <blockquote>Technology should expand human creativity, not erase the people who make it possible.</blockquote>
 
-![Vega Profile](https://via.placeholder.com/800x400?text=Vega+Profile)
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
+    <h2>Why I build</h2>
+    <p>I learn best by making systems from first principles and following them far enough to discover what I do not yet understand. That instinct drives projects ranging from local multi-agent AI to synthetic voice design, robotics, community-trained drawing tools, and remote observatory concepts.</p>
+    <p>The connecting thread is agency: how can machines support expression, collaboration, and exploration without treating human work as raw material? I do not think responsible practice makes ambitious technology less interesting. I think the constraints make the engineering better.</p>
+  </div>
+</section>
 
-## 👋 Who I Am
+<section class="section-shell section-block" data-reveal>
+  <div class="section-heading split-heading">
+    <div><p class="eyebrow">Research interests</p><h2>Questions I keep returning to.</h2></div>
+    <p>These are long-term directions rather than a closed list. Each one connects software, physical systems, and human experience.</p>
+  </div>
+  <div class="interest-grid">
+    <article><span>01</span><h3>Embodied intelligence</h3><p>Connecting learned systems with sensing, controls, robotics, and real-world constraints.</p></article>
+    <article><span>02</span><h3>Local AI systems</h3><p>Efficient model hosting, specialist agent architectures, memory, and context orchestration.</p></article>
+    <article><span>03</span><h3>Synthetic expression</h3><p>Voice, music, and character systems built with consent and clear creative provenance.</p></article>
+    <article><span>04</span><h3>Remote observation</h3><p>Radio astronomy, satellite tracking, and automated observatories as mechatronic systems.</p></article>
+  </div>
+</section>
 
-I'm Vega, a VTuber, developer, and vocal synthesis producer. Currently studying Mechatronics Engineering and Computer Science, my technical focus has recently expanded from pure software into robotics and Embodied AI. As a creator, I treat my channel as a multidisciplinary workspace where I work on whatever I want to learn next. I broadcast my R&D processes live, developing software and testing it in real-time with my chat and my AI, Aurora. My technical pursuits also extend into learnin radio astronomy and the eventual planned development of remote observatories. Beyond engineering and the sciences, my creative portfolio includes music production utilizing Vocaloid, Utau, and Synthesizer V, custom game modding, and extensive worldbuilding for tabletop RPGs I host on stream. I also love the Indie horror gaming scene deeply.
+<section class="section-shell section-block principles" data-reveal>
+  <div class="section-heading"><p class="eyebrow">Principles</p><h2>How I want the work to feel.</h2></div>
+  <div class="principle-list">
+    <div><strong>Build with, not from.</strong><p>Consent and provenance are design requirements, not post-launch disclaimers.</p></div>
+    <div><strong>Show the process.</strong><p>Public development makes uncertainty visible and invites better questions.</p></div>
+    <div><strong>Keep the system legible.</strong><p>Complexity is sometimes necessary; obscurity is not.</p></div>
+    <div><strong>Stay ambitious and specific.</strong><p>Big visions become credible through concrete prototypes and honest status updates.</p></div>
+  </div>
+</section>
 
-## ⚙️ Background & Expertise
-
-My technical foundation is built on seven years of professional experience in IT infrastructure and systems administration. I am currently working to transition this systems-level expertise into physical engineering and robotics. 
-
-**Academic Pursuits:**
-- **Previous:** I hold a associates of Technology and Science focused on Computer Science for company infrastructure managment an IT.
-- **Current:** Dual Major in Mechatronics Engineering and Computer Science with a Minor in Mathematics.
-- **Trajectory:** Planning transfer to a specialized Embodied AI and Robotics Engineering program later for my masters and potentially a PHD.
-
-**Technical Stack & Expertise:**
-- **Software & Programming:** Python, C#, JavaScript, SQL, custom API integrations.
-- **Artificial Intelligence:** Local LLM hosting and fine-tuning, multi-agent system design, dataset creation for training.
-- **Robotics & Hardware:** Mechatronics, industrial robotics integration (I own my own Denso VS-068 arm), server hardware management, ROS, Control Systems, PLC Programming, etc.
-- **Infrastructure Support:** almost 10 years of IT infrastructure support for many large companies.
-
-## 🎮 Streaming Journey
-
-As a VTuber, I blend my enthusiasm for creating complex technical systems with artistic entertainment to create an interactive experience for my viewers. My streams focus on:
-
-- Live coding sessions for my various projects
-- Game development live
-- AI experimentation and demonstrations
-- Community gaming events
-- Music Creation
-- Literature Deep dives
-- Community events
-- My passion for all things Horror and horror gaming!
-
-## 🔬 Research Interests
-
-I'm particularly interested in:
-
-- Embodied AI and the integration of neural networks into physical robotics and mechatronics
-- Efficient local hosting of LLMs, including Mixture of Experts architectures and context optimization
-- Multi-agent AI ecosystems capable of semi-autonomous operation and specialized data processing
-- Voice synthesis, low-latency audio streaming, and emotional expression in real-time AI
-- Radio astronomy, satellite tracking, and the development of automated remote observatories
-- The ethical intersection of AI and creative broadcasting, using tools to elevate original content rather than relying on derivative generation
-
-## 🌱 Vision for the Future
-
-My vision is twofold:
-
-1.  **For AI Companions:** I am working to create truly autonomous AI companions like **AuroraChan**, who can engage meaningfully with humans, create content, and interact with viewers without constant supervision.
-2.  **For Ethical Tools:** I am developing the **ALIZARIN Engine** as an open-source, ethical voice framework. My goal is to provide creators with powerful, free tools to author their own unique, 100% synthetic voices, offering a clear alternative to the trend of unauthorized AI voice cloning. This is just the current first step in making as many ethical alternitaves as I can in the tech hellscape we live in of stolen content and unetical data collection. There's a better way it's jut harder than people like.
-
-Through both projects, I aim to grow my media company, Constellation Virtual Media, into a known name in the streamer and tech spaces.
-
-## 📚 Education & Learning Path
-
-I believe in continuous learning. Currently, I'm expanding my knowledge in:
-
-- Advanced machine learning techniques
-- Audio processing for voice synthesis
-- Game design principles
-- Data visualization
-- Python Development
-- Robotics Enginerring
-- AI Visions
-- 3D design
-
-View my learning roadmap progress:
-
-[![roadmap.sh](https://roadmap.sh/card/tall/67e4a5d2616abc6b0b69db0a?variant=dark&roadmaps=data-analyst%2Cgame-developer%2Cpython%2Cbackend)](https://roadmap.sh)
-
-## 🎯 Personal Philosophy
-
-"Technology should enhance human creativity, not replace it. The best AI works alongside humans, adding to what you can do not doing it for you."
-
-## 🐉 Why make another AI streamer?
-
-As someone who has always found AI interesting and had a "Ill only truly understand how it works if I do it myself mentally" I immediately started tinkering with the idea after seeing similar projects. At first Aurora was just going to be a little chat bot plugin to help do TTS, but the more I dug into the project the more I belived I was seeing something in the future I wanted to make and work towards. I also belive have a unique set of ideas and directon for her systems and streams that will become more apparent as I continue my dev work. I'm not making her to prove I can do it better than anyone else, I'm doing it as I see something I want to create. Michelangelo said "I saw the angel in the marble and carved until I set him free" when descrbing his sculpting, and in my own way I belive I see a vision in my code I want to set free. This isn't just a attempt to cash in on the "AI craze" I plan to drop one day when the bubble pops. I plan to keep working on her and hope for her to one day become what I invision and share her with you. 
-
-Right now its just a really big and probably silly sounding dream to most... but I think its okay to dream big as long as you work towards making that dream a reality as hard as you can. My dream for Aurora is to take that vision in my head and see how much of it I can do with my own hands, to make my take on what and AI can and should be and make it real. I grew up loving fantasy and scfi and of course AI, and the current state of AI and LLMs makes me deeply sad, its not what I want it to be like. I hope one day I can make my vision a reality and show you what I want AI to be like, and Aurora will be the public fase of that if that day comes. However I don't have a exact endpoint in mind, after all I belive "A work of art is never finished, only abandoned" (Leonardo da Vinci) and plan to keep working on what I want AI to be for the rest of my life.
-
-## ⚙️ Why create a synthetic voice engine?
-
-The ALIZARIN Engine is my answer to a major ethical problem in the AI space. While I love working on generative AI, I see a clear and urgent need for tools that are not "based on stealing content."
-
-My philosophy for this engine is **"no human inside"** building on the framwork made by missile39 for Adachi Rei. It is designed to create new, stylized voices from the ground up using algorithms and synthesis, not by sampling or cloning a human. This, most importantly, fufils my desire to work withing the niche retro synth voice utau space I have been fascinated with since finding out about them.  This also provides a free, open-source, and high-quality path for anyone (hobbyist or commercial) to have a unique synthetic retro voice. I hope this also give poeple intrested in having their own voices that can't sing a way to enter the space *without* feeliong the need to "steal" or repurpose an existing human voice. It's my attempt to build a creative alternative that respects voice actors and fosters originality and unique voies.
+<section class="inline-cta section-shell" data-reveal>
+  <div><p class="eyebrow">Continue exploring</p><h2>See the systems behind the story.</h2></div>
+  <div class="button-row"><a class="button button-primary" href="{{ '/projects/' | relative_url }}">View projects</a><a class="button button-ghost" href="{{ '/portfolio/' | relative_url }}">Experience &amp; skills</a></div>
+</section>

@@ -1,134 +1,96 @@
-# Projects
-
-
-## 📑 Site Navigation
-
-| [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
-|-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
-
-
-
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
-
-## 🔭 My Current Projects
-
-### 📡 AuroraChanAI Project
-
-![AuroraChan Project](https://via.placeholder.com/800x400?text=AuroraChan+Project)
-
-AuroraChan is a localized architecture of fine-tuned Large Language Models and neural networks working in tandem to create a semi-autonomous virtual streamer. Aurora represents years of my work and thousands of hours of testing, leading towards the goal of creating a fully autonomous "lifelike" AI streamer. 
-
-## Key Features:
-- Multiple integrated LLMs working together for natural conversation
-- Real-time interaction with chat and stream events
-- Custom-trained my handcrafted datasets
-- Dynamic memory and context handling to learn and adapt as she operates
-- Simi-Autonomous decision making for content creation
-
-## Current Status:
-
-I am working towards the day I start her programs running autonomously and never shut her off again except for small preplanned windows for updates. I hope that one day she continues running as the face/Mascot of my media company Constellation Virtual Media long after I'm gone. 
-
+---
+title: Projects — Vega Lyrae
+description: Selected work in embodied AI, ethical voice synthesis, interactive systems, and creative technology.
+permalink: /projects/
 ---
 
-### ⚡ ALIZARIN Engine ⚡
+<header class="page-hero section-shell" data-reveal>
+  <p class="eyebrow">Project archive</p>
+  <h1>Research through making.</h1>
+  <p class="page-lede">These projects are working laboratories: places to test technical ideas, ethical commitments, and new forms of interaction. Status labels describe where the work is today—not where I hope it will be tomorrow.</p>
+</header>
 
-My primary R&D focus. The ALIZARIN Engine is an open-source, ethical framework for generating 100% synthetic voices from scratch for TTS, AI singing (DiffSinger), and concatenative (UTAU) synthesis. This entire project is being developed live on Twitch.
+<nav class="project-jump section-shell" aria-label="Jump to a project" data-reveal>
+  <span>Jump to</span>
+  <a href="#aurora">Aurora</a><a href="#alizarin">ALIZARIN</a><a href="#doodle">Doodle Model</a><a href="#voice">Vocal Engine</a><a href="#game">Game Dev</a><a href="#smp">Minecraft SMP</a>
+</nav>
 
-### Key Features:
-- **100% Synthetic Source:** Voices are built from the ground up using a hybrid of algorithmic formant synthesis and AI.
-- **"No Human Inside":** Designed to create unique, non-human character voices, inspired by projects like Adachi Rei.
-- **Ethical, Open-Source Framework:** LGPLv3 license allows for a free, shared core engine while permitting private, unique user-created voices.
-- **All-in-One Voice Solution:** Aims to produce TTS, AI Singing, and UTAU banks from a single, consistent voice source.
-- **Public R&D:** The entire development process is documented and streamed live.
+<section class="project-case section-shell" id="aurora" data-reveal>
+  <div class="case-number">01</div>
+  <div class="case-main">
+    <div class="case-meta"><span class="status-pill status-active">Active R&amp;D</span><span>AI systems · Streaming · Interaction</span></div>
+    <h2>AuroraChan AI</h2>
+    <p class="case-lede">A locally operated ecosystem of specialist models and services working together to create a persistent, semi-autonomous virtual performer.</p>
+    <div class="case-visual case-visual-aurora"><img src="{{ '/assets/images/web/aurora-model.jpg' | relative_url }}" width="1440" height="810" loading="lazy" alt="AuroraChan's 3D avatar in a cyan-lit virtual environment"><img class="case-logo" src="{{ '/assets/images/AuroraLogo.png' | relative_url }}" alt="AuroraChan AI VTuber"></div>
+    <div class="case-columns">
+      <div><h3>The challenge</h3><p>A convincing interactive character requires more than a chatbot. Conversation, memory, expression, event handling, safety, timing, and creative decision-making must behave as one coherent system during a live broadcast.</p></div>
+      <div><h3>What I’m building</h3><ul><li>Multiple coordinated language-model roles</li><li>Real-time chat and stream event integration</li><li>Custom datasets and controlled fine-tuning workflows</li><li>Dynamic memory and context management</li><li>Interfaces for voice, music, games, and future robotics</li></ul></div>
+    </div>
+    <div class="case-footer"><p><strong>Current focus</strong><br>Increasing reliability and autonomy while keeping operation local, observable, and interruptible.</p><ul class="tag-list"><li>Python</li><li>Local LLMs</li><li>Multi-agent systems</li><li>APIs</li></ul></div>
+  </div>
+</section>
 
-### Current Status:
-Currently in **Phase 1: Foundation & Data Generation**. We are actively building the core "ALIZARIN" voice, generating the training data, and seeking community collaborators with expertise in linguistics for future language support.
+<section class="project-case section-shell" id="alizarin" data-reveal>
+  <div class="case-number">02</div>
+  <div class="case-main">
+    <div class="case-meta"><span class="status-pill status-open">Open source</span><span>Audio · Responsible AI · Synthesis</span></div>
+    <h2>ALIZARIN Engine</h2>
+    <p class="case-lede">An ethical framework for designing unique synthetic voices from first principles, without cloning or training on an existing human voice.</p>
+    <div class="case-visual case-visual-alizarin"><img src="{{ '/assets/images/web/alizarin-feature.jpg' | relative_url }}" alt="ALIZARIN voice engine test artwork"></div>
+    <div class="case-columns">
+      <div><h3>The premise</h3><p>Powerful voice tools should not require an uncredited human performer hidden inside the dataset. ALIZARIN explores a “no human inside” approach inspired by fully synthetic characters such as Adachi Rei.</p></div>
+      <div><h3>Design goals</h3><ul><li>Algorithmic and synthetic source generation</li><li>One consistent source for speech and singing workflows</li><li>Support for TTS, DiffSinger, and UTAU-style synthesis</li><li>A shared engine with room for distinct creator-owned voices</li><li>Transparent public development and documentation</li></ul></div>
+    </div>
+    <div class="case-footer"><p><strong>Current phase</strong><br>Foundation and data generation: building the core synthetic voice and its initial training pipeline.</p><div class="button-row"><a class="button button-small button-ghost" href="https://github.com/ALIZARINENGINE/AlizarinEngine">View repository ↗</a></div></div>
+  </div>
+</section>
 
-Visit the **[ALIZARINENGINE GitHub Page]([https://github.com/ALIZARINENGINE](https://github.com/ALIZARINENGINE/AlizarinEngine))** for the full roadmap and documentation.
+<section class="project-case section-shell" id="doodle" data-reveal>
+  <div class="case-number">03</div>
+  <div class="case-main">
+    <div class="case-meta"><span class="status-pill">Prototype</span><span>Machine learning · Community data</span></div>
+    <h2>Aurora Community Doodle Model</h2>
+    <p class="case-lede">A small drawing model trained entirely on community-made, opt-in doodles so Aurora can sketch ideas during a live stream.</p>
+    <div class="case-columns">
+      <div><h3>Why this approach</h3><p>The project tests whether a playful generative system can be useful without scraping artwork or obscuring consent. Every contributor knows what the data is for and chooses to participate.</p></div>
+      <div><h3>System scope</h3><ul><li>100% volunteer-created dataset</li><li>Clear submission permissions and data handling</li><li>Stroke-by-stroke real-time drawing pipeline</li><li>Prompt integration for chat and stream events</li><li>Entertainment and community use—not paid generation</li></ul></div>
+    </div>
+    <div class="case-footer"><p><strong>Current phase</strong><br>Developing submission guidance, dataset tooling, and early shape-and-object prototypes.</p><ul class="tag-list"><li>ML</li><li>Data pipelines</li><li>Consent design</li></ul></div>
+  </div>
+</section>
 
----
+<section class="project-collection section-shell section-block" data-reveal>
+  <div class="section-heading"><p class="eyebrow">More experiments</p><h2>Creative systems in development.</h2></div>
+  <div class="project-grid">
+    <article class="project-card" id="voice">
+      <div class="card-topline"><span class="project-index">04</span><span class="status-pill status-active">In development</span></div>
+      <p class="card-kicker">Audio · Music systems</p><h3>Aurora Vocal Engine</h3>
+      <p>A set of UTAU-based and neural audio workflows that let a human producer shape Aurora’s singing voice for original music, karaoke, and live events.</p>
+      <p class="card-note"><strong>Important:</strong> This is a creator-directed production tool, not automated song generation.</p>
+      <ul class="tag-list"><li>UTAU</li><li>Voice synthesis</li><li>Audio processing</li></ul>
+    </article>
+    <article class="project-card" id="game">
+      <div class="card-topline"><span class="project-index">05</span><span class="status-pill">Early development</span></div>
+      <p class="card-kicker">Godot · Game systems</p><h3>Indie Game Development</h3>
+      <p>A 2.5D top-down horde game about a malfunctioning AI navigating a dying server environment, with progression systems and future stream integration.</p>
+      <ul class="tag-list"><li>Godot</li><li>Game design</li><li>Interactive narrative</li></ul>
+    </article>
+    <article class="project-card">
+      <div class="card-topline"><span class="project-index">06</span><span class="status-pill">Design phase</span></div>
+      <p class="card-kicker">Streaming · Audience interaction</p><h3>VTuber Card Overlay</h3>
+      <p>A stream-integrated collectible card system designed around optional viewer participation, channel-point pulls, and event-driven abilities.</p>
+      <ul class="tag-list"><li>Twitch APIs</li><li>Overlays</li><li>Game systems</li></ul>
+    </article>
+    <article class="project-card" id="smp">
+      <div class="card-topline"><span class="project-index">07</span><span class="status-pill">Planning</span></div>
+      <p class="card-kicker">Minecraft · Agent integration</p><h3>Constellation SMP</h3>
+      <p>A community Minecraft environment being reworked into separate modded and vanilla-plus spaces, including a sandbox for future Aurora integration.</p>
+      <ul class="tag-list"><li>Mineflayer</li><li>Modding</li><li>Community systems</li></ul>
+    </article>
+  </div>
+</section>
 
-### 🖍️ Aurora Community Doodle Model
-
-A fully ethical, community-powered art project where viewers contribute simple doodles to train Aurora to draw live on stream. Unlike traditional AI art systems that scrape the internet without consent, this model is built entirely from voluntary submissions with clear permissions, transparent usage, and a strong emphasis on creator respect.
-
-### Key Features:
-- **100% community-created dataset**
-- **Fully consent-based** — no scraped images, no external data
-- Teaches Aurora to sketch ideas from chat in real time
-- Frame-by-frame / stroke-by-stroke drawing pipeline
-- Custom training tools for style consistency and safe data handling
-- Ability to respond to chat, bits, or event prompts with doodles on the fly
-- Occasional use for playful, community-inspired sticker or merch concepts
-- **No art resale, no paid generation system** — strictly for streaming, entertainment, and community fun
-
-### Current Status:
-Actively collecting volunteer doodles and building the training pipeline. The first prototype draws basic shapes and objects in real time, with personality-driven quirks starting to emerge. Submission guidelines and consent form are being finalized.
-
----
-
-## 🎵 Aurora Vocal and Music Engine
-
-### Aurora Vocal Engine
-
-Neural networks enabling live karaoke and original song creation by enabling a artist to shape the voice of Aurora. This project includes a custom utau implementation and several neural networks processing the output.
-
-### Key Features:
-- Real-time singing synthesis
-- Original song composition capabilities with a artist
-- Voice modeling and emotional expression
-- Integration with stream alerts and events
-
-### Current Status:
-In active development. You can preview songs from early testing playing on the first 5 minutes of every Twitch stream during the "starting soon" section or on my Youtube. Sometimes I also host karaoke streams.
-
----
-
-## 🎮 Indie Game Development
-
-![Indie Game](https://via.placeholder.com/800x400?text=Indie+Game)
-
-A Godot-based top-down 2.5D horde shooter featuring deep lore and perk skill trees. Players take on the role of a malfunctioning AI in a dying server environment seeking answers about the strang world they find themselves in.
-
-### Key Features:
-- Dynamic horde mechanics
-- Deep skill trees and progression systems based on a in game resource system
-- Storyline focused on AI consciousness
-- AuroraChan integration for stream events and challenges
-
-### Current Status:
-In development with a small team of friends. Concept art and core gameplay mechanics are being worked on. Very early still and almost developed entirely on my Twitch Dev streams. This was originally a project for the 2024 Vedal987 GameJam but was not completed in time or submitted.
-
----
-
-## 🎲 Stream Overlay VTuber Card Game
-
-![Card Game](https://via.placeholder.com/800x400?text=Stream+Card+Game)
-
-An interactive card game system integrated with streaming platforms, allowing viewers to participate in gameplay and buy and pull cards directly on their favorite streamers streams with channel points!
-
-### Key Features:
-- Direct Twitch chat integration
-- Dynamic card abilities based on stream events
-- VTuber-themed cards and mechanics
-- Optinal viewer participation and progression systems
-
-### Current Status:
-Early design phase. More details coming soon!
-
----
-
-## ⛏️ Minecraft SMP & Custom Mods
-
-![Minecraft SMP](https://via.placeholder.com/800x400?text=Constellation+SMP)
-
-The Constellation SMP is a community-focused Minecraft project. Following the conclusion of a heavily modded Season 1, the project is currently being restructured into a dual-server environment for its upcoming second season. 
-
-### Planned Season 2 Architecture:
-The SMP is splitting into two distinct servers to separate complex mod integrations from Aurora's sandbox environment:
-- **Aurora + Friends Server:** A streamlined, vanilla+ server serving as the primary platform for AuroraChan's live AI integration, likely using utilizing Mineflayer for in-game interactions and entity control.
-- **Modded Server:** A continuation of the Season 1 format, focusing on complex gameplay mechanics, custom-developed plugins, and a heavy modpack (Season 1 featured over 350 mods and custom Cobblemon mods).
-
-### Current Status:
-Season 1 has concluded. Season 2 is currently in the active planning phase; a finalized feature list and launch date have not yet been established. Updates and information for creators interested in joining future iterations will be available on the [SMP website](https://smp.vegalyrae.tech/) once ready. We are not accepting new applications at this time.
+<section class="cta-panel section-shell" data-reveal>
+  <div><p class="eyebrow">Interested in the process?</p><h2>I develop many of these systems live and document the work as it evolves.</h2></div>
+  <div class="button-row"><a class="button button-light" href="https://twitch.tv/{{ site.social_links.twitch }}">Watch on Twitch ↗</a><a class="button button-outline-light" href="{{ '/contact/' | relative_url }}">Collaborate</a></div>
+</section>

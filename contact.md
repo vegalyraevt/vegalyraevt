@@ -1,84 +1,45 @@
-# Contact Me
-
-
-## 📑 Site Navigation
-
-| [Home](README.md) | [Projects](projects.md) | [About Me](about.md) | [Stream Assets](stream-assets.md) | [Support](support.md) | [Contact](contact.md) |
-|-------------------|-------------------------|----------------------|----------------------------------|------------------------|------------------------|
-
-
-
-![Contact Banner](https://via.placeholder.com/800x400?text=Contact+Me)
-
-## 📬 Contact Options
-
-I welcome connections, questions, and collaboration opportunities! Please choose the most appropriate method to reach me based on your needs:
-
-### 🤝 Community & General Questions
-
-The best way to reach me for general questions, community involvement, and casual conversation is through my Discord community:
-
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/UPQgsszwZA)
-
-**[Join the Discord Server →](https://discord.gg/UPQgsszwZA)**
-
-> **Note:** Please complete the short onboarding process after joining to avoid automatic removal.
-
-### 💼 Business Inquiries & Partnerships
-
-For business proposals, partnership opportunities, sponsorships, and professional inquiries:
-
-**Email:** constellationvirtualmedia@gmail.com
-
-Please include in your email:
-- Your name and organization
-- The nature of your inquiry
-- Any relevant deadlines
-- How you discovered my work
-
-**Response Time:** Usually within 2-3 business days
-
-### 🎨 Commission Requests
-
-For commission requests and custom work:
-
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/vegalyrae)
-
-**[Commission Form on Ko-fi →](https://ko-fi.com/vegalyrae)**
-
-Please provide detailed information about your project requirements, timeline, and budget via Discord ot Twitter before purchasing.
-
-### 📱 Social Media
-
-For public conversations and announcements:
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/VegaLyraeVT)
-[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/vegalyraebard)
-
-### 🤖 For AuroraChan Project
-
-If you're interested in contributing to the AuroraChan AI project, especially:
-- VTubers willing to provide training data
-- AI/ML specialists with LLM training expertise
-- Voice synthesis experts
-- Female Voice actors/singers intrested in creating a voicebank for TTS and Vocaloid.
-
-Please email: constellationvirtualmedia@gmail.com or reach out directly on Twitter or Discord.
-If you wouldnlike to volunteer to help train Aurora on how to stream please see [this form](https://docs.google.com/forms/d/1wk8xr39PAWbq1H_wXJwZhetltHBV6Uys6AlFa97b1tA)!
-
-## 📋 Press Kit
-
-Officail press kits/Asset kits for Vega, Aurora, and Constellation SMP coming soon!
-For media inquiries, interviews, or press features, please download my [press kit (PDF)]() or contact me via email with "Press Inquiry" in the subject line.
-
-## ⏰ Office Hours
-
-I typically respond to inquiries during these hours (Eastern Time):
-- Monday-Friday: 11am - 9pm
-- Weekends: Limited availability
-
-Stream schedule is available on my [Twitch channel](https://twitch.tv/vegalyraebard).
-
+---
+title: Contact Vega Lyrae
+description: Contact Vega Lyrae about academic programs, research, technical collaboration, business inquiries, or community projects.
+permalink: /contact/
 ---
 
-*I look forward to connecting with you! Please allow 2-3 business days for a response to professional inquiries.*
+<header class="page-hero section-shell" data-reveal>
+  <p class="eyebrow">Contact</p>
+  <h1>Good work starts with a clear conversation.</h1>
+  <p class="page-lede">I welcome messages about academic opportunities, research, technical collaboration, brand partnerships, creative projects, and responsible AI.</p>
+</header>
+
+<section class="section-shell contact-layout" data-reveal>
+  <div class="contact-primary">
+    <p class="card-kicker">Best for professional inquiries</p>
+    <h2>Email</h2>
+    <a class="email-link" href="mailto:contact@vegalyrae.tech">contact@vegalyrae.tech <span>↗</span></a>
+    <p>Include your organization, the context for your message, and any important timing. I typically reply to professional inquiries within a few business days.</p>
+  </div>
+  <div class="contact-options">
+    <a href="https://discord.gg/{{ site.social_links.discord }}"><span><small>Community &amp; questions</small><strong>Discord</strong></span><b>↗</b></a>
+    <a href="https://github.com/{{ site.github_username }}"><span><small>Code &amp; open-source work</small><strong>GitHub</strong></span><b>↗</b></a>
+    <a href="https://twitch.tv/{{ site.social_links.twitch }}"><span><small>Live development</small><strong>Twitch</strong></span><b>↗</b></a>
+    <a href="https://x.com/{{ site.social_links.twitter }}"><span><small>Updates &amp; public conversation</small><strong>X / Twitter</strong></span><b>↗</b></a>
+  </div>
+</section>
+
+<section class="section-shell partnership-panel" data-reveal>
+  <div><p class="card-kicker">Brands &amp; media</p><h2>Partnerships should make sense to the audience.</h2></div>
+  <div><p>I’m interested in thoughtful partnerships involving technology, robotics and maker hardware, gaming, audio, creator tools, education, or research. Please include the campaign goal, deliverables, usage rights, timeline, and budget in your first message.</p><a class="text-link" href="mailto:contact@vegalyrae.tech?subject=Brand%20Partnership%20Inquiry">Discuss a partnership <span>↗</span></a></div>
+</section>
+
+<section class="section-shell section-block" data-reveal>
+  <div class="section-heading"><p class="eyebrow">A useful first message</p><h2>Help me understand the opportunity.</h2></div>
+  <div class="message-grid">
+    <article><span>01</span><h3>Who are you?</h3><p>Your name, organization, program, or community.</p></article>
+    <article><span>02</span><h3>What are you proposing?</h3><p>The goal, audience, and where you think I could contribute.</p></article>
+    <article><span>03</span><h3>What matters most?</h3><p>Relevant deadlines, constraints, budget, or expected commitment.</p></article>
+  </div>
+</section>
+
+<section class="notice-panel section-shell" data-reveal>
+  <div><p class="eyebrow">Contributing to Aurora or ALIZARIN?</p><h2>Technical specialists and responsible collaborators are welcome.</h2></div>
+  <p>I’m especially interested in hearing from AI/ML practitioners, linguists, voice-synthesis specialists, roboticists, and creators who care about transparent, consent-based data practices.</p>
+</section>
