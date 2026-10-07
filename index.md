@@ -1,18 +1,20 @@
 ---
 layout: default
-title: Vega Lyrae — Engineer, Researcher & Creator
-description: Mechatronics and computer science student building ethical AI, robotics, voice technology, and interactive systems.
+title: Vega Lyrae | VTuber, Music & Experimental Tech
+description: A scientist-themed VTuber playing horror games, making music, running D&D, and building AI, robotics, and questionable inventions. Meet Vega and AuroraChan.
 permalink: /
 ---
 
+<div class="homepage-refresh">
+
 <section class="hero section-shell">
   <div class="hero-copy" data-reveal>
-    <p class="eyebrow"><span class="status-dot"></span> Building at the intersection of systems and imagination</p>
-    <div class="quick-links" id="quick-links">
+    <p class="eyebrow"><span class="status-dot"></span> Welcome to the lab. Things get weird here.</p>
+    <nav class="quick-links" id="quick-links" aria-label="Social and creator links">
       <p class="quick-links-title">Find me online</p>
-      <div class="quick-link-grid" aria-label="Social and creator links">
+      <div class="quick-link-grid">
         <a class="quick-link quick-link-twitch" href="https://twitch.tv/{{ site.social_links.twitch }}"><img src="{{ '/assets/icons/twitch.svg' | relative_url }}" alt=""><span>Twitch</span></a>
-        <a class="quick-link quick-link-youtube" href="https://youtube.com/@{{ site.social_links.youtube }}"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" alt=""><span>YouTube</span></a>
+        <a class="quick-link quick-link-youtube" href="https://www.youtube.com/@VegaLyrae"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" alt=""><span>YouTube<span class="sr-only">: Music and Vocal Synth</span></span></a>
         <a class="quick-link quick-link-discord" href="https://discord.gg/{{ site.social_links.discord }}"><img src="{{ '/assets/icons/discord.svg' | relative_url }}" alt=""><span>Discord</span></a>
         <a class="quick-link quick-link-x" href="https://x.com/{{ site.social_links.twitter }}"><img src="{{ '/assets/icons/x.svg' | relative_url }}" alt=""><span>X</span></a>
         <a class="quick-link quick-link-tiktok" href="https://tiktok.com/@{{ site.social_links.tiktok }}"><img src="{{ '/assets/icons/tiktok.svg' | relative_url }}" alt=""><span>TikTok</span></a>
@@ -22,148 +24,127 @@ permalink: /
         <a class="quick-link quick-link-throne" href="https://throne.com/{{ site.social_links.throne }}"><img src="{{ '/assets/icons/throne.svg' | relative_url }}" alt=""><span>Throne</span></a>
         <a class="quick-link quick-link-reddit" href="https://www.reddit.com/r/ArtificialVTubers/s/LStb0HMwW8"><img src="{{ '/assets/icons/reddit.svg' | relative_url }}" alt=""><span>Reddit</span></a>
       </div>
-    </div>
-    <h1>I build intelligent systems that can <em>move, speak, and create.</em></h1>
-    <p class="hero-lede">I’m Vega Lyrae—a mechatronics and computer science student, longtime IT systems practitioner, and independent creator exploring embodied AI, robotics, ethical voice synthesis, and interactive media.</p>
+      <a class="home-small-link" href="#home-videos">Music, clips or technical videos? Find your YouTube channel <span aria-hidden="true">↓</span></a>
+    </nav>
+    <h1>A VTuber with <em>too many experiments.</em></h1>
+    <p class="hero-lede">I'm Vega Lyrae, a scientist-themed VTuber who builds AI agents, tinkers with robotics, makes music, and spends an unreasonable amount of time playing horror games.</p>
+    <p class="home-hero-note">Somewhere between livestreams, the lab, and a growing collection of questionable inventions, I'm working on everything from autonomous AI to interactive games and original music.</p>
     <div class="button-row">
-      <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
-      <a class="button button-ghost" href="https://twitch.tv/{{ site.social_links.twitch }}">Watch live <span aria-hidden="true">↗</span></a>
+      <a class="button button-primary" href="https://twitch.tv/{{ site.social_links.twitch }}">Watch Live <span aria-hidden="true">↗</span></a>
+      <a class="button button-ghost" href="{{ '/projects/' | relative_url }}">Explore My Projects <span aria-hidden="true">↗</span></a>
     </div>
+    <a class="home-business-link" href="#home-contact">Business and collaboration inquiries <span aria-hidden="true">↓</span></a>
   </div>
   <div class="hero-visual" data-reveal>
     <div class="portrait-frame">
       <div class="portrait-orbit" aria-hidden="true"></div>
       <img class="portrait-image" src="{{ '/assets/images/web/vega-profile.jpg' | relative_url }}" alt="Illustrated portrait of Vega Lyrae">
       <img class="portrait-wordmark" src="{{ '/assets/images/web/vega-wordmark.png' | relative_url }}" alt="Vega Lyrae">
-      <span class="portrait-label portrait-label-top">MECHATRONICS</span>
-      <span class="portrait-label portrait-label-bottom">CREATIVE AI</span>
+      <span class="portrait-label portrait-label-top">EXPERIMENTS &amp; ENTERTAINMENT</span>
+      <span class="portrait-label portrait-label-bottom">PROBABLY HAUNTED</span>
     </div>
   </div>
 </section>
 
-<section class="signal-strip" aria-label="Profile summary" data-reveal>
-  <div><span class="signal-label">Studying</span><strong>Mechatronics + Computer Science</strong></div>
-  <div><span class="signal-label">Foundation</span><strong>IT Infrastructure + Systems</strong></div>
-  <div><span class="signal-label">Research direction</span><strong>Embodied + Ethical AI</strong></div>
-  <div><span class="signal-label">Practice</span><strong>Building in Public</strong></div>
+<section class="home-interests section-shell" aria-label="What you'll find here" data-reveal>
+  <article><span class="home-number">01 / THE LAB</span><h2>AI, Robotics &amp; Tech</h2><p>Local AI, agent research, software, electronics, robotics, and experimental systems.</p></article>
+  <article><span class="home-number">02 / THE CHAOS</span><h2>Gaming, Horror &amp; D&amp;D</h2><p>Horror games, building games, mods, tabletop roleplaying, and horror literature.</p></article>
+  <article><span class="home-number">03 / THE SOUND</span><h2>Music &amp; Voice Synthesis</h2><p>Originals, covers, Synthesizer V, Vocaloid, custom voicebanks, audio production, and music tools.</p></article>
+  <article><span class="home-number">04 / THE STREAM</span><h2>VTubing &amp; Creative Media</h2><p>3D VTubing, live entertainment, interactive content, original characters, and community projects.</p></article>
 </section>
 
-<section class="section-shell section-block" data-reveal>
+<section class="section-shell section-block home-aurora" id="home-aurora" aria-labelledby="home-aurora-title" data-reveal>
+  <div class="home-aurora-visual">
+    <img src="{{ '/assets/images/web/aurora-model.jpg' | relative_url }}" width="1440" height="810" loading="lazy" alt="AuroraChan, a white-haired chimera dragon girl, posing in a cyan-lit virtual scene">
+    <span class="cast-label">Operational AI VTuber / Active development</span>
+    <img class="home-aurora-logo" src="{{ '/assets/images/AuroraLogo.png' | relative_url }}" width="800" height="800" loading="lazy" alt="AuroraChan AI VTuber">
+  </div>
+  <div class="home-feature-copy">
+    <p class="eyebrow">Meet the lab's biggest personality</p>
+    <h2 id="home-aurora-title">AuroraChan.<br>A little science. A lot of sass.</h2>
+    <p>A chaotic, sassy chimera dragon girl created in my laboratory. Aurora is a big part of the stream's identity, and my primary ongoing AI project.</p>
+    <p>She's already an operational AI VTuber with demonstrated live interactions. Her development explores persistent memory, adaptive behavior, autonomous agents, and interaction with games and other software.</p>
+    <p class="home-feature-note">New capabilities are experiments in progress. Connecting AI to physical robots is a future lab direction.</p>
+    <a class="text-link" href="{{ '/projects/#aurora' | relative_url }}">Explore the Aurora project <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<section class="section-shell section-block home-work" aria-labelledby="home-work-title" data-reveal>
   <div class="section-heading split-heading">
-    <div>
-      <p class="eyebrow">Selected work</p>
-      <h2>Ideas made tangible.</h2>
-    </div>
-    <p>Independent research projects that combine systems engineering, responsible data practices, and creative technology.</p>
+    <div><p class="eyebrow">Currently on the workbench</p><h2 id="home-work-title">Voices, robots, and game-shaped rabbit holes.</h2></div>
+    <p>Alongside Aurora, these are the projects and experiments taking up space in the lab.</p>
   </div>
-
-  <div class="project-grid featured-grid">
+  <div class="home-work-grid">
     <article class="project-card project-card-featured">
-      <div class="card-topline"><span class="project-index">01</span><span class="status-pill status-active">Active R&amp;D</span></div>
-      <div class="project-logo-frame"><img src="{{ '/assets/images/AuroraLogo.png' | relative_url }}" alt="AuroraChan AI VTuber logo"></div>
-      <p class="card-kicker">Multi-agent systems · Live interaction</p>
-      <h3>AuroraChan AI</h3>
-      <p>A locally operated architecture of language models and specialist systems designed to power a persistent, semi-autonomous virtual performer.</p>
-      <ul class="tag-list"><li>Python</li><li>Local LLMs</li><li>Event systems</li></ul>
-      <a class="text-link" href="{{ '/projects/#aurora' | relative_url }}">View project <span>↗</span></a>
-    </article>
-
-    <article class="project-card">
-      <div class="card-topline"><span class="project-index">02</span><span class="status-pill status-open">Open source</span></div>
-      <div class="project-glyph project-glyph-alt" aria-hidden="true">AL</div>
-      <p class="card-kicker">Voice synthesis · Responsible AI</p>
+      <div class="card-topline"><span class="project-index">VOICE SYNTHESIS</span><span class="status-pill status-active">Beta available</span></div>
       <h3>ALIZARIN Engine</h3>
-      <p>An ethical framework for creating distinct synthetic voices from the ground up—without cloning or training on an existing human voice.</p>
-      <ul class="tag-list"><li>Audio</li><li>TTS</li><li>UTAU</li></ul>
-      <a class="text-link" href="{{ '/projects/#alizarin' | relative_url }}">View project <span>↗</span></a>
+      <p>My original synthetic voice project, developed under Constellation Virtual Media. An experimental voicebank is available to beta testers upon inquiry.</p>
+      <p class="card-note">The broader open-source framework is still in development.</p>
+      <div class="home-card-links">
+        <a class="text-link" href="mailto:contact@vegalyrae.tech?subject=ALIZARIN%20beta%20inquiry">Ask about the voicebank beta <span aria-hidden="true">↗</span></a>
+        <a class="home-small-link" href="https://github.com/ALIZARINENGINE/AlizarinEngine">ALIZARIN Engine repository <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="home-card-footnote">Or message <strong>vegalyrae</strong> on Discord.</p>
     </article>
-
     <article class="project-card">
-      <div class="card-topline"><span class="project-index">03</span><span class="status-pill">Prototype</span></div>
-      <div class="project-glyph project-glyph-cyan" aria-hidden="true">✦</div>
-      <p class="card-kicker">Consent-first data · Generative systems</p>
-      <h3>Community Doodle Model</h3>
-      <p>A real-time drawing system trained entirely on opt-in community submissions, with transparent consent and no scraped artwork.</p>
-      <ul class="tag-list"><li>ML</li><li>Data tooling</li><li>Streaming</li></ul>
-      <a class="text-link" href="{{ '/projects/#doodle' | relative_url }}">View project <span>↗</span></a>
+      <div class="card-topline"><span class="project-index">PHYSICAL SYSTEMS</span><span class="status-pill">Lab assembly</span></div>
+      <h3>Robotics &amp; Embodied AI Lab</h3>
+      <p>An industrial Denso robotic arm has been acquired, and the lab is being assembled. Next up: electronics, sensors, custom end effectors, and a lot of learning.</p>
+      <p class="card-note">The arm is not currently operational or AI-controlled. Connecting agents to physical systems is planned research.</p>
+      <a class="text-link" href="https://twitch.tv/{{ site.social_links.twitch }}">Follow the lab's progress on Twitch <span aria-hidden="true">↗</span></a>
+    </article>
+    <article class="project-card">
+      <div class="card-topline"><span class="project-index">GAME MODDING</span><span class="status-pill">Ongoing experiments</span></div>
+      <h3>What if I poked the game?</h3>
+      <p>Modding experiments with Balatro, Minecraft, Voices of the Void, Animal Crossing, Cyberpunk, and whatever catches my attention next.</p>
+      <p class="card-note">Individual projects are at different stages. Some are further along, others are still me figuring things out.</p>
+      <a class="text-link" href="https://discord.gg/{{ site.social_links.discord }}">Talk games and mods in Discord <span aria-hidden="true">↗</span></a>
     </article>
   </div>
-  <div class="section-action"><a class="button button-ghost" href="{{ '/projects/' | relative_url }}">See every project</a></div>
+  <div class="section-action"><a class="button button-ghost" href="{{ '/projects/' | relative_url }}">Explore all projects <span aria-hidden="true">→</span></a></div>
 </section>
 
-<section class="section-shell section-block approach-section" data-reveal>
-  <div class="section-heading">
-    <p class="eyebrow">What I bring</p>
-    <h2>One practice, multiple disciplines.</h2>
-  </div>
-  <div class="approach-grid">
-    <article>
-      <span class="approach-number">01</span>
-      <h3>Systems thinking</h3>
-      <p>Experience in infrastructure and operations shapes how I design for reliability, integration, and long-running systems.</p>
-    </article>
-    <article>
-      <span class="approach-number">02</span>
-      <h3>Physical computing</h3>
-      <p>My mechatronics studies connect software to control systems, industrial robotics, electronics, and the physical world.</p>
-    </article>
-    <article>
-      <span class="approach-number">03</span>
-      <h3>Responsible experimentation</h3>
-      <p>I care about consent, provenance, and human creative agency—especially in data, voice, and generative tools.</p>
-    </article>
-    <article>
-      <span class="approach-number">04</span>
-      <h3>Public communication</h3>
-      <p>Livestreaming development turns research into something observable, testable, and open to community feedback.</p>
-    </article>
-  </div>
-</section>
-
-<section class="section-shell section-block direction-section" data-reveal>
-  <div class="direction-copy">
-    <p class="eyebrow">Current direction</p>
-    <h2>From digital agents to embodied systems.</h2>
-    <p>I’m expanding a software and infrastructure background into robotics and embodied AI: systems that perceive, decide, communicate, and act in the real world. Alongside that technical path, I continue exploring radio astronomy, synthetic voice, and interactive storytelling.</p>
-    <a class="text-link" href="{{ '/about/' | relative_url }}">Read the full story <span>→</span></a>
-  </div>
-  <div class="direction-map" aria-label="Areas of focus">
-    <div class="map-node map-node-core">Systems<br>Engineering</div>
-    <div class="map-node map-node-one">Robotics</div>
-    <div class="map-node map-node-two">Embodied AI</div>
-    <div class="map-node map-node-three">Creative Tech</div>
-    <svg viewBox="0 0 500 340" aria-hidden="true"><path d="M250 170 C170 120 140 80 90 58"></path><path d="M250 170 C330 105 372 90 420 62"></path><path d="M250 170 C320 235 350 260 410 286"></path></svg>
-  </div>
-</section>
-
-<section class="section-shell section-block cast-section" id="cast" data-reveal>
+<section class="section-shell section-block home-streams" aria-labelledby="home-streams-title" data-reveal>
   <div class="section-heading split-heading">
-    <div><p class="eyebrow">The on-stream universe</p><h2>Meet the virtual cast.</h2></div>
-    <p>The characters on stream are more than a visual layer. They are a public-facing space for performance, technical experiments, community storytelling, and the tools I build behind the scenes.</p>
+    <div><p class="eyebrow">Away from the workbench</p><h2 id="home-streams-title">Come for the experiments.<br>Stay for the questionable decisions.</h2></div>
+    <p>Most of all, this is a place to hang out. Expect horror, games, stories, music, and the occasional detour into engineering.</p>
   </div>
-  <div class="cast-grid">
-    <a class="cast-card cast-card-vega" href="https://twitch.tv/{{ site.social_links.twitch }}">
-      <img src="{{ '/assets/images/web/vega-model.jpg' | relative_url }}" width="1440" height="810" loading="lazy" alt="Vega Lyrae's purple-haired 3D VTuber model posed beside a robotic arm">
-      <span class="cast-label">Creator avatar</span>
-      <span class="cast-copy"><small>Engineering, music &amp; variety</small><strong>Vega Lyrae</strong><span>Watch live ↗</span></span>
-    </a>
-    <a class="cast-card cast-card-aurora" href="{{ '/projects/#aurora' | relative_url }}">
-      <img src="{{ '/assets/images/web/aurora-model.jpg' | relative_url }}" width="1440" height="810" loading="lazy" alt="AuroraChan's white-haired 3D avatar in a cyan-lit digital scene">
-      <span class="cast-label">AI VTuber research</span>
-      <span class="cast-copy"><small>Interactive character system</small><strong>AuroraChan AI</strong><span>Explore the project →</span></span>
-    </a>
+  <div class="home-stream-grid">
+    <article class="home-content-card"><span class="home-number">01 / REGULAR STREAMS</span><h3>Horror and building games</h3><p>Regular entertainment streams, from horror games to building games. Sometimes the scariest thing is my decision-making.</p><a class="text-link" href="https://twitch.tv/{{ site.social_links.twitch }}">Watch Vega live <span aria-hidden="true">↗</span></a></article>
+    <article class="home-content-card"><span class="home-number">02 / MONTHLY D&amp;D</span><h3>Shadow over Volstead</h3><p>An ongoing noir-themed D&amp;D campaign, currently monthly. A second group is being prepared.</p><a class="text-link" href="https://www.twitch.tv/collections/5SZ4s4DFrRe9DA">Watch the campaign VODs <span aria-hidden="true">↗</span></a></article>
+    <article class="home-content-card"><span class="home-number">03 / OCCASIONAL READINGS</span><h3>Horror literature</h3><p>Readings, discussions, and special community badges. A recent <cite>King in Yellow</cite> reading raised $65 for <a href="https://www.826michigan.org/about/">826michigan</a>.</p><a class="text-link" href="https://www.twitch.tv/videos/2877789055">Watch the reading event VOD <span aria-hidden="true">↗</span></a></article>
+    <article class="home-content-card"><span class="home-number">04 / INTERMITTENT DEVELOPMENT</span><h3>Let's see if this works</h3><p>AI, engineering, programming, and other project streams happen intermittently. Expect troubleshooting and experiments.</p><a class="text-link" href="https://discord.gg/{{ site.social_links.discord }}">Join the community <span aria-hidden="true">↗</span></a></article>
+  </div>
+  <p class="home-section-note">No fixed weekly timetable yet. Check Twitch and Discord for stream updates.</p>
+</section>
+
+<section class="section-shell section-block home-videos" id="home-videos" aria-labelledby="home-videos-title" data-reveal>
+  <div class="section-heading"><p class="eyebrow">Three channels, three kinds of rabbit hole</p><h2 id="home-videos-title">Pick your next watch.</h2></div>
+  <div class="home-channel-grid">
+    <a class="home-channel-card" href="https://www.youtube.com/@VegaLyrae"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaLyrae</span><h3>Music and Vocal Synth</h3><p>Original music, covers, and vocal synth work.</p><span class="text-link">Listen on YouTube <span aria-hidden="true">↗</span></span></a>
+    <a class="home-channel-card" href="https://www.youtube.com/@VegaAuroraClips"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaAuroraClips</span><h3>VTuber Clips, Highlights and VODs</h3><p>The entertaining bits from Vega and Aurora's streams.</p><span class="text-link">Watch clips and VODs <span aria-hidden="true">↗</span></span></a>
+    <a class="home-channel-card" href="https://www.youtube.com/@VegaLDev"><img src="{{ '/assets/icons/youtube.svg' | relative_url }}" width="28" height="28" alt=""><span class="home-number">@VegaLDev</span><h3>Technical Videos and Essays</h3><p>A home for the technical side of the experiments.</p><span class="text-link">Explore technical videos <span aria-hidden="true">↗</span></span></a>
+  </div>
+  <a class="home-cover-link" href="https://youtu.be/3Xoxgwa6pm4"><span><small>A music portfolio example</small><strong>Watch Aurora's cover music video</strong></span><span aria-hidden="true">↗</span></a>
+</section>
+
+<section class="section-shell home-cvm" aria-labelledby="home-cvm-title" data-reveal>
+  <img class="constellation-logo" src="{{ '/assets/images/Constelation (800 x 500 px) (800 x 500 px).png' | relative_url }}" width="800" height="500" loading="lazy" alt="Constellation Virtual Media logo">
+  <div><p class="eyebrow">The umbrella for all this</p><h2 id="home-cvm-title">Constellation Virtual Media</h2><p>CVM brings my creative and technical projects together: AI research, software, robotics, music, virtual entertainment, livestreams, and independent media. Same Vega, many experiments.</p></div>
+</section>
+
+<section class="section-shell section-block home-contact" id="home-contact" aria-labelledby="home-contact-title" data-reveal>
+  <div class="section-heading split-heading">
+    <div><p class="eyebrow">Business and collaboration</p><h2 id="home-contact-title">Got something we should try?</h2></div>
+    <p>I'm happy to hear from researchers, developers, makers, and brands whose work fits what we do here.</p>
+  </div>
+  <ul class="home-collaborations" aria-label="Collaboration interests">
+    <li>AI research and engineering</li><li>Robotics, electronics and maker hardware</li><li>Hardware and equipment sponsorships</li><li>Indie horror and other game developers</li><li>Early access and playtesting</li><li>Music and audio technology</li><li>Creator tools and interactive entertainment</li>
+  </ul>
+  <div class="home-contact-actions">
+    <a class="button button-primary" href="mailto:contact@vegalyrae.tech">contact@vegalyrae.tech <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="{{ '/contact/' | relative_url }}">More contact information <span aria-hidden="true">→</span></a>
   </div>
 </section>
 
-<section class="cta-panel section-shell" data-reveal>
-  <div>
-    <p class="eyebrow">Let’s build something meaningful</p>
-    <h2>Open to academic programs, research conversations, and thoughtful collaborations.</h2>
-  </div>
-  <a class="button button-light" href="mailto:contact@vegalyrae.tech">Get in touch <span>↗</span></a>
-</section>
-
-<section class="brand-panel section-shell" data-reveal>
-  <div><img class="constellation-logo" src="{{ '/assets/images/Constelation (800 x 500 px) (800 x 500 px).png' | relative_url }}" alt="Constellation Virtual Media"><p class="eyebrow">For brands &amp; partners</p><h2>Technical depth meets an audience that likes seeing how things are made.</h2></div>
-  <div><p>I’m open to aligned partnerships across technology, maker hardware, gaming, audio, creator tools, education, and independent research. I prioritize honest demonstrations and integrations that fit the work naturally.</p><a class="text-link" href="mailto:contact@vegalyrae.tech">contact@vegalyrae.tech <span>↗</span></a></div>
-</section>
+</div>
