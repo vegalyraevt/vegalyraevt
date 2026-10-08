@@ -20,6 +20,7 @@ permalink: /projects/
   <div class="case-main">
     <div class="case-meta"><span class="status-pill status-active">Active R&amp;D</span><span>AI systems · Streaming · Interaction</span></div>
     <h2>AuroraChan AI</h2>
+    <p><a class="text-link" href="{{ '/aurora/' | relative_url }}">Meet Aurora: character, music and engineering <span aria-hidden="true">→</span></a></p>
     <p class="case-lede">A locally operated ecosystem of specialist models and services working together to create a persistent, semi-autonomous virtual performer.</p>
     <div class="case-visual case-visual-aurora"><img src="{{ '/assets/images/web/aurora-model.jpg' | relative_url }}" width="1440" height="810" loading="lazy" alt="AuroraChan's 3D avatar in a cyan-lit virtual environment"><img class="case-logo" src="{{ '/assets/images/AuroraLogo.png' | relative_url }}" alt="AuroraChan AI VTuber"></div>
     <div class="case-columns">

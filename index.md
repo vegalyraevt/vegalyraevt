@@ -65,7 +65,7 @@ permalink: /
     <p>A chaotic, sassy chimera dragon girl created in my laboratory. Aurora is a big part of the stream's identity, and my primary ongoing AI project.</p>
     <p>She's an operational AI VTuber who participates in livestreams, interacts conversationally, and uses tools and supporting systems. She's also an ongoing platform for experiments in AI behavior, persistent memory, and adaptive agents.</p>
     <p class="home-progress">I'm continuing to expand what Aurora can do, from new software and game interactions to longer-term experiments involving robotics and physical environments.</p>
-    <a class="text-link" href="{{ '/projects/#aurora' | relative_url }}">Explore the Aurora project <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/aurora/' | relative_url }}">Explore the Aurora project <span aria-hidden="true">→</span></a>
   </div>
 </section>
 
