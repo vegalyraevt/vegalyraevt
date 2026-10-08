@@ -139,6 +139,7 @@ permalink: /
     <article class="home-content-card"><span class="home-number">04 / INTERMITTENT DEVELOPMENT</span><h3>Let's see if this works</h3><p>AI, engineering, programming, and other project streams happen intermittently. Expect troubleshooting and experiments.</p><a class="text-link" href="https://discord.gg/{{ site.social_links.discord }}">Join the community <span aria-hidden="true">↗</span></a></article>
   </div>
   <p class="home-section-note">Catch upcoming streams and special events on <a href="https://twitch.tv/{{ site.social_links.twitch }}">Twitch</a> and <a href="https://discord.gg/{{ site.social_links.discord }}">Discord</a>.</p>
+  <div class="section-action"><a class="button button-ghost" href="{{ '/streaming/' | relative_url }}">Explore Streams and Stories <span aria-hidden="true">→</span></a></div>
 </section>
 
 <section class="section-shell section-block home-music" aria-labelledby="home-music-title" data-reveal>

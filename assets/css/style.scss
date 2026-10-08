@@ -393,6 +393,88 @@
   .alizarin-page #alizarin-beta-submit { width: 100%; }
 }
 
+/* Task 05: streaming, tabletop stories and community entertainment. */
+.streaming-page { padding-bottom: 1rem; }
+.streaming-page *, .streaming-page *::before, .streaming-page *::after { min-width: 0; }
+.streaming-page [id] { scroll-margin-top: 7rem; }
+.streaming-page h1 { font-size: clamp(2.2rem, 4.5vw, 3.65rem); line-height: 1.09; }
+.streaming-page h2 { font-size: clamp(1.85rem, 3.6vw, 3rem); line-height: 1.13; }
+.streaming-page h3 { font-size: clamp(1.2rem, 2vw, 1.55rem); line-height: 1.2; }
+.streaming-page h1, .streaming-page h2, .streaming-page h3, .streaming-page a { overflow-wrap: anywhere; }
+.streaming-page em { color: var(--purple); font-style: normal; }
+.streaming-page p { line-height: 1.75; }
+.streaming-page .section-block { padding-block: clamp(2.75rem, 6vw, 4.5rem); }
+.streaming-page .streaming-copy > p:not(.eyebrow) { margin-top: 1rem; max-width: 68ch; }
+.streaming-page .streaming-copy > .eyebrow { margin-bottom: 1rem; }
+.streaming-page .button-row { margin-top: 1.5rem; }
+.streaming-page .button { white-space: normal; text-align: center; max-width: 100%; }
+.streaming-page .button-primary { color: var(--inverse); }
+.streaming-page .streaming-punchline { color: var(--text); font-weight: 600; }
+.streaming-page .streaming-note { font-size: .92rem; }
+.streaming-page .streaming-label { display: block; color: var(--purple); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; line-height: 1.6; }
+.streaming-page .streaming-hero { display: grid; grid-template-columns: 1.1fr .9fr; align-items: center; gap: clamp(1.5rem, 4vw, 3rem); padding-block: clamp(2.5rem, 5vw, 4rem); }
+.streaming-page .streaming-portrait { margin: 0; border: 1px solid var(--line-strong); border-radius: var(--radius-lg) var(--radius-lg) 0 0; overflow: hidden; background: var(--surface); }
+.streaming-page .streaming-portrait > img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; background: #080711; }
+.streaming-page .streaming-portrait figcaption { padding: 1.35rem; border-top: 1px solid var(--line-strong); background: linear-gradient(130deg, var(--glow), transparent); }
+.streaming-page .streaming-portrait figcaption > span { display: block; color: var(--purple); font-size: .75rem; margin-bottom: .6rem; }
+.streaming-page .streaming-portrait figcaption strong { display: block; font-family: var(--font-display); font-size: clamp(1.1rem, 2vw, 1.45rem); color: var(--text); line-height: 1.35; }
+.streaming-page .streaming-jump { display: flex; flex-wrap: wrap; gap: .35rem 1.5rem; padding-block: .85rem; border-block: 1px solid var(--line); }
+.streaming-page .streaming-jump a { display: inline-flex; align-items: center; min-height: 44px; font-size: .87rem; font-weight: 600; color: var(--text-soft); text-underline-offset: .35em; }
+.streaming-page .streaming-jump a:hover { color: var(--purple); }
+.streaming-page .streaming-games > .streaming-copy { max-width: 880px; }
+.streaming-page .streaming-game-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-block: 1.75rem; }
+.streaming-page .streaming-game-pair article { padding: 1.5rem; border-left: 3px solid var(--purple); background: linear-gradient(110deg, var(--glow), transparent); }
+.streaming-page .streaming-game-pair article:last-child { border-color: var(--cyan); }
+.streaming-page .streaming-game-pair article:last-child .streaming-label { color: var(--cyan); }
+.streaming-page .streaming-game-pair h3 { margin-block: .65rem; }
+.streaming-page .streaming-volstead { display: grid; grid-template-columns: 1.35fr .85fr; gap: clamp(1.5rem, 4vw, 3rem); padding: clamp(1.25rem, 4vw, 3rem); background: radial-gradient(ellipse at top left, var(--glow), transparent 70%), var(--surface); border: 1px solid var(--line-strong); border-top: 3px solid var(--purple); border-radius: 4px 4px var(--radius-lg) var(--radius-lg); }
+.streaming-page .streaming-campaign-note { border-left: 1px dashed var(--line-strong); padding-left: clamp(1.5rem, 3vw, 2.5rem); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+.streaming-page .streaming-campaign-note h3 { margin-bottom: .75rem; }
+.streaming-page .streaming-campaign-note .button { margin-top: 1.25rem; }
+.streaming-page .streaming-die { position: relative; width: 116px; height: 116px; margin-block: 1rem; color: var(--purple); }
+.streaming-page .streaming-die svg { width: 100%; height: 100%; stroke: currentColor; stroke-width: 1.5; }
+.streaming-page .streaming-die span { position: absolute; inset: 43% 0 auto; text-align: center; font-family: var(--font-display); font-size: .85rem; font-weight: 700; }
+.streaming-page .streaming-literature { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(1.5rem, 5vw, 4rem); align-items: center; }
+.streaming-page .streaming-reading { padding: 1.5rem 0 1.5rem 1.5rem; border-left: 2px solid var(--pink); }
+.streaming-page .streaming-reading .streaming-label { color: var(--pink); }
+.streaming-page .streaming-reading h3 { margin-block: .8rem; }
+.streaming-page .streaming-reading p strong { color: var(--text); }
+.streaming-page .streaming-reading-links { display: grid; justify-items: start; gap: .8rem; margin-top: 1.25rem; }
+.streaming-page .streaming-lab { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: clamp(1rem, 3vw, 2.5rem); padding-block: 2.25rem; border-block: 1px solid var(--line); }
+.streaming-page .streaming-lab-mark { width: 96px; height: 96px; display: grid; place-items: center; border: 1px solid var(--line-strong); border-radius: 50%; color: var(--cyan); font-family: var(--font-display); font-size: 3.5rem; background: var(--surface); }
+.streaming-page .streaming-inline-links { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; margin-top: 1.5rem; }
+.streaming-page .streaming-community { display: grid; grid-template-columns: 1.25fr .75fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.streaming-page .streaming-aurora { padding: 1.75rem; border: 1px solid var(--line-strong); border-radius: var(--radius-md); background: var(--surface); }
+.streaming-page .streaming-aurora h3 { margin-block: 1rem; }
+.streaming-page .streaming-aurora p:not(.eyebrow) + p { margin-top: 1rem; }
+.streaming-page .streaming-aurora .text-link { margin-top: 1.25rem; }
+.streaming-page .streaming-watch { border-top: 1px solid var(--line); }
+.streaming-page .streaming-watch .section-heading > p:last-child { margin-top: 1rem; }
+.streaming-page .streaming-platforms { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; list-style: none; padding: 0; margin: 1.75rem 0 0; }
+.streaming-page .streaming-platforms a { display: grid; grid-template-columns: 28px minmax(0, 1fr) 1rem; align-items: center; gap: 1rem; height: 100%; padding: 1.2rem; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius-sm); text-decoration: none; }
+.streaming-page .streaming-platforms a:hover { border-color: var(--purple); }
+.streaming-page .streaming-platforms strong { display: block; color: var(--text); font-size: 1rem; line-height: 1.4; }
+.streaming-page .streaming-platforms small { display: block; color: var(--text-soft); font-size: .82rem; margin-top: .3rem; line-height: 1.5; }
+.streaming-page .streaming-platforms a > span:last-child { color: var(--purple); }
+.streaming-page .streaming-final { padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid var(--line-strong); border-radius: var(--radius-lg); background: linear-gradient(140deg, var(--glow), transparent 75%), var(--surface); }
+.streaming-page .streaming-final h2 { max-width: 850px; margin-block: 1rem; }
+.streaming-page .streaming-final > p:not(.eyebrow) { max-width: 760px; }
+.streaming-page .streaming-final > .text-link { margin-top: 1.5rem; font-size: .9rem; }
+@media (max-width: 850px) {
+  .streaming-page .streaming-hero, .streaming-page .streaming-volstead, .streaming-page .streaming-literature, .streaming-page .streaming-community { grid-template-columns: 1fr; }
+  .streaming-page .streaming-portrait { max-width: 650px; width: 100%; }
+  .streaming-page .streaming-campaign-note { border-left: 0; border-top: 1px dashed var(--line-strong); padding: 1.5rem 0 0; }
+  .streaming-page .streaming-die { width: 96px; height: 96px; }
+}
+@media (max-width: 560px) {
+  .streaming-page .streaming-game-pair, .streaming-page .streaming-platforms, .streaming-page .streaming-lab { grid-template-columns: 1fr; }
+  .streaming-page .streaming-jump { gap: .25rem 1rem; }
+  .streaming-page .streaming-lab-mark { width: 60px; height: 60px; font-size: 2.4rem; }
+  .streaming-page .button-row .button { width: 100%; }
+  .streaming-page .streaming-platforms a { gap: .75rem; padding: 1rem; }
+  .streaming-page .streaming-aurora { padding: 1.25rem; }
+}
+
 :root {
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
   --font-body: "DM Sans", "Segoe UI", sans-serif;
