@@ -1,67 +1,84 @@
 ---
-title: Experience & Capabilities — Vega Lyrae
-description: Vega Lyrae's technical foundation, education, capabilities, and working approach.
+layout: default
+title: Technical Portfolio & Experience | Vega Lyrae
+description: Explore Vega Lyrae's technical portfolio, including software engineering, AI agents, systems infrastructure, synthetic voice research, and ongoing robotics development.
 permalink: /portfolio/
 ---
 
-<header class="page-hero section-shell" data-reveal>
-  <p class="eyebrow">Experience &amp; capabilities</p>
-  <h1>A systems foundation, expanding into intelligent machines.</h1>
-  <p class="page-lede">My work combines practical infrastructure experience, multidisciplinary engineering study, and independent R&amp;D across AI, robotics, audio, and interactive media.</p>
+<div class="portfolio-refresh">
+
+<header class="section-shell portfolio-hero">
+  <div class="portfolio-copy"><p class="eyebrow">Engineering &amp; technical experience</p><h1>Software, Systems, and the Things I'm <em>Teaching to Think.</em></h1><p>My background started in IT infrastructure and systems administration. Since then, I've moved deeper into software engineering, AI systems, automation, and experimental robotics.</p><p>I like projects that require several different technologies to work together, especially when those systems have to respond to people or changing environments in real time.</p><p>My current work combines practical systems experience with independent AI development and ongoing engineering studies.</p><div class="button-row"><a class="button button-primary" href="#portfolio-case-studies">Explore Technical Projects <span aria-hidden="true">↓</span></a><a class="button button-ghost" href="https://github.com/vegalyraevt">View GitHub <span aria-hidden="true">↗</span></a></div><a class="text-link portfolio-hero-contact" href="{{ '/contact/' | relative_url }}">Discuss Collaboration <span aria-hidden="true">→</span></a></div>
+  <aside class="portfolio-context" aria-label="Experience and current direction"><span class="portfolio-label">The connecting thread</span><h2>Making the parts work together.</h2><dl><div><dt>Professional foundation</dt><dd>IT infrastructure &amp; systems administration</dd></div><div><dt>Independent development</dt><dd>Software, local AI &amp; interactive systems</dd></div><div><dt>Current study</dt><dd>Mechatronics engineering &amp; computer science</dd></div></dl></aside>
 </header>
 
-<section class="section-shell timeline" data-reveal>
-  <article class="timeline-item">
-    <div class="timeline-marker"><span>Now</span></div>
-    <div class="timeline-content">
-      <p class="card-kicker">Academic direction</p>
-      <h2>Mechatronics Engineering + Computer Science</h2>
-      <p>Pursuing a dual-major path with a mathematics minor, focused on the bridge between software, control, electronics, robotics, and intelligent systems. My longer-term direction is graduate study in robotics and embodied AI.</p>
-      <ul class="tag-list"><li>Robotics</li><li>Control systems</li><li>PLC programming</li><li>ROS</li><li>Mathematics</li></ul>
-    </div>
-  </article>
-  <article class="timeline-item">
-    <div class="timeline-marker"><span>Base</span></div>
-    <div class="timeline-content">
-      <p class="card-kicker">Professional foundation</p>
-      <h2>IT Infrastructure &amp; Systems Administration</h2>
-      <p>Years of hands-on infrastructure support built fluency in troubleshooting, hardware, networks, system reliability, documentation, and communicating through high-pressure technical problems.</p>
-      <ul class="tag-list"><li>Systems administration</li><li>Server hardware</li><li>Support operations</li><li>Integration</li></ul>
-    </div>
-  </article>
-  <article class="timeline-item">
-    <div class="timeline-marker"><span>Degree</span></div>
-    <div class="timeline-content">
-      <p class="card-kicker">Prior education</p>
-      <h2>Associate degree in Technology &amp; Science</h2>
-      <p>Coursework centered on computer science, company infrastructure management, and information technology—the starting point for a broader engineering practice.</p>
-    </div>
-  </article>
-</section>
+<nav class="section-shell portfolio-jump" aria-label="Explore the technical portfolio"><a href="#portfolio-practice">Areas of Practice</a><a href="#portfolio-case-studies">Case Studies</a><a href="#portfolio-experience">Systems Experience</a><a href="#portfolio-education">Education</a><a href="#portfolio-evidence">Public Evidence</a></nav>
 
-<section class="section-shell section-block" data-reveal>
-  <div class="section-heading split-heading"><div><p class="eyebrow">Technical toolkit</p><h2>Comfortable across the stack.</h2></div><p>I choose tools around the system being built, then document the decisions and constraints clearly.</p></div>
-  <div class="capability-grid">
-    <article><div class="capability-icon">{ }</div><h3>Software</h3><p>Python, C#, JavaScript, SQL, APIs, event-driven integrations, automation, and backend systems.</p></article>
-    <article><div class="capability-icon">AI</div><h3>Machine learning</h3><p>Local LLM hosting, fine-tuning workflows, multi-agent design, dataset creation, and model integration.</p></article>
-    <article><div class="capability-icon">∿</div><h3>Robotics &amp; controls</h3><p>Mechatronics, ROS, PLC concepts, control systems, electronics, and industrial robot integration.</p></article>
-    <article><div class="capability-icon">◉</div><h3>Infrastructure</h3><p>Server hardware, systems administration, deployment, diagnostics, networking, and operational support.</p></article>
-    <article><div class="capability-icon">♫</div><h3>Audio technology</h3><p>Voice synthesis workflows, UTAU, Vocaloid, Synthesizer V, audio processing, mixing, and production.</p></article>
-    <article><div class="capability-icon">◇</div><h3>Interactive media</h3><p>Godot, stream integrations, game systems, creative tooling, and live audience interaction.</p></article>
+<section class="section-shell section-block portfolio-practice" id="portfolio-practice" aria-labelledby="portfolio-practice-title">
+  <div class="section-heading"><p class="eyebrow">Areas of practice</p><h2 id="portfolio-practice-title">Different Technologies. Connected Problems.</h2></div>
+  <div class="portfolio-practice-grid">
+    <article><span class="portfolio-label">01 / Software &amp; backend engineering</span><h3>Tools, Services &amp; Integrations</h3><p>Python, C#, JavaScript, and SQL form part of my software toolkit. I build tools and backend applications that connect APIs, automation, real-time events, and user interactions.</p></article>
+    <article><span class="portfolio-label">02 / AI &amp; agent systems</span><h3>The Architecture Around the Model</h3><p>Local language models and LLM application integration are part of my practical work. Agent orchestration, memory, context, tool use, latency, and external events are ongoing development concerns, alongside experiments in model customization and training workflows.</p></article>
+    <article><span class="portfolio-label">03 / Infrastructure &amp; systems</span><h3>A Practical Operational Foundation</h3><p>Infrastructure support and systems administration taught me to work across server hardware, networks, dependencies, troubleshooting, documentation, and system integration, with reliability and real users in mind.</p></article>
+    <article><span class="portfolio-label">04 / Robotics &amp; mechatronics</span><h3>From Software to Physical Systems</h3><p>I'm studying electronics, sensing, control, and robotics while assembling a lab. The industrial arm has been acquired but is not commissioned. End effectors and embodied AI are development interests, not completed industrial integrations.</p></article>
+    <article><span class="portfolio-label">05 / Audio &amp; creative technology</span><h3>Voices, Audio &amp; Performance Tools</h3><p>Vocal synthesis, audio processing, custom voicebanks, and DAW workflow tools connect my software work to music production and live performance. I handle the composition, vocal tuning, mixing, and production of my releases.</p><div class="portfolio-inline-links"><a class="text-link" href="{{ '/alizarin/' | relative_url }}">Synthetic Voice Research <span aria-hidden="true">→</span></a><a class="text-link" href="https://www.youtube.com/@VegaLyrae">Public Music Releases <span aria-hidden="true">↗</span></a></div></article>
   </div>
 </section>
 
-<section class="section-shell section-block evidence-panel" data-reveal>
-  <div><p class="eyebrow">Independent practice</p><h2>Research becomes real through sustained projects.</h2></div>
-  <div class="evidence-list">
-    <a href="{{ '/projects/#aurora' | relative_url }}"><span>Multi-agent AI architecture</span><strong>AuroraChan →</strong></a>
-    <a href="{{ '/projects/#alizarin' | relative_url }}"><span>Open-source synthetic voice</span><strong>ALIZARIN Engine →</strong></a>
-    <a href="{{ '/projects/#doodle' | relative_url }}"><span>Consent-based training data</span><strong>Doodle Model →</strong></a>
-    <a href="{{ '/projects/#game' | relative_url }}"><span>Interactive systems</span><strong>Game Development →</strong></a>
-  </div>
+<section class="section-shell section-block portfolio-cases" id="portfolio-case-studies" aria-labelledby="portfolio-cases-title">
+  <div class="section-heading"><p class="eyebrow">Engineering evidence</p><h2 id="portfolio-cases-title">Four Problems I've Been Working On.</h2><p>These examples show the problem, the technical work, and the current result. Public source and project descriptions are linked separately; not every project has public code.</p></div>
+  <article class="portfolio-case" aria-labelledby="portfolio-aurora-title">
+    <header class="portfolio-case-heading"><div><p class="portfolio-label">01 / Interactive AI systems</p><h3 id="portfolio-aurora-title">AuroraChan AI</h3></div><p class="portfolio-status">Operational / Ongoing development</p></header>
+    <dl class="portfolio-case-details">
+      <div><dt>Problem</dt><dd>How can a locally operated AI system respond to real-time stream events and communicate through a virtual performer?</dd></div>
+      <div><dt>What I built</dt><dd>An interactive AI VTuber combining LLM integration, event handling, agent behavior, software tools, supported game interactions, and virtual performer output. The model's behavior is one component; the surrounding application coordinates the interaction.</dd></div>
+      <div><dt>Technical challenges</dt><dd>Managing context, response timing, external events, and tool interactions while keeping behavior observable and controllable. Memory and behavioral adaptation remain areas of experimentation.</dd></div>
+      <div><dt>Current result</dt><dd>Aurora participates in conversations, supported game interactions, and live entertainment. The operational performer continues to evolve; improved memory, reliability, and additional integrations remain active development.</dd></div>
+    </dl>
+    <div class="portfolio-case-evidence"><span class="portfolio-label">Evidence</span><a class="text-link" href="{{ '/aurora/' | relative_url }}">Meet Aurora <span aria-hidden="true">→</span></a><a class="text-link" href="{{ '/aurora/#aurora-engineering' | relative_url }}">Technical Overview <span aria-hidden="true">→</span></a><a class="text-link" href="{{ '/projects/#aurora' | relative_url }}">Project Status <span aria-hidden="true">→</span></a></div>
+  </article>
+  <article class="portfolio-case" aria-labelledby="portfolio-linkbot-title">
+    <header class="portfolio-case-heading"><div><p class="portfolio-label">02 / Python, Discord &amp; moderation utilities</p><h3 id="portfolio-linkbot-title">Discord LinkBot</h3></div><p class="portfolio-status">Public-source software</p></header>
+    <dl class="portfolio-case-details">
+      <div><dt>Problem</dt><dd>Discord links often need additional handling for safety checks, useful previews, and platform-specific formatting.</dd></div>
+      <div><dt>What I built</dt><dd>A modular Python bot with link handling, suspicious-link checks, optional external security scanning, richer previews, and per-server configuration.</dd></div>
+      <div><dt>Technical challenges</dt><dd>Coordinating external services, permissions, configuration, rate limits, and message handling. Security checks provide additional signals, not a guarantee that every malicious URL will be detected.</dd></div>
+      <div><dt>Current result</dt><dd>A publicly available Discord utility combining link handling and enrichment features. Its documentation and source are available for inspection.</dd></div>
+    </dl>
+    <div class="portfolio-case-evidence"><span class="portfolio-label">Evidence</span><a class="text-link" href="https://github.com/vegalyraevt/Discord_LinkBot">View Source &amp; Documentation <span aria-hidden="true">↗</span></a></div>
+  </article>
+  <article class="portfolio-case" aria-labelledby="portfolio-alizarin-title">
+    <header class="portfolio-case-heading"><div><p class="portfolio-label">03 / Synthetic voice research &amp; open source</p><h3 id="portfolio-alizarin-title">ALIZARIN Engine</h3></div><p class="portfolio-status">Experimental voicebank beta / Framework in development</p></header>
+    <dl class="portfolio-case-details">
+      <div><dt>Problem</dt><dd>How can a distinctive synthetic voice be developed from computationally generated sound instead of recordings of an existing performer?</dd></div>
+      <div><dt>What I'm building</dt><dd>A synthetic voice research project exploring algorithmic sound generation, formant-inspired synthesis, machine learning experiments, and voicebank development for speech and singing applications.</dd></div>
+      <div><dt>Technical challenges</dt><dd>Turning synthetic source sound into a useful vocal identity, then developing tools and a reusable framework around it. Broader speech, singing, and compatibility goals are still research and development work.</dd></div>
+      <div><dt>Current result</dt><dd>An experimental primary voicebank is available by inquiry. The wider open-source framework remains in development, not a finished synthesis package.</dd></div>
+    </dl>
+    <div class="portfolio-case-evidence"><span class="portfolio-label">Evidence</span><a class="text-link" href="{{ '/alizarin/' | relative_url }}">Project Overview <span aria-hidden="true">→</span></a><a class="text-link" href="https://github.com/ALIZARINENGINE/AlizarinEngine">Public Repository <span aria-hidden="true">↗</span></a></div>
+  </article>
+  <article class="portfolio-case" aria-labelledby="portfolio-games-title">
+    <header class="portfolio-case-heading"><div><p class="portfolio-label">04 / AI, gameplay systems &amp; integration</p><h3 id="portfolio-games-title">Game Integrations</h3></div><p class="portfolio-status">Mixed / Functional integrations and ongoing experiments</p></header>
+    <dl class="portfolio-case-details">
+      <div><dt>Problem</dt><dd>How can an external AI agent interpret a game's state and perform supported actions in an interactive environment?</dd></div>
+      <div><dt>What I built</dt><dd>Integration experiments connecting Aurora with game information and supported actions. The work involves game-state interfaces, external events, and action routing; available interfaces and implementation differ between games.</dd></div>
+      <div><dt>Technical challenges</dt><dd>Working within each game's available API or mod interfaces, representing useful state, and coordinating response timing. An integration that works in one environment doesn't imply support for every game.</dd></div>
+      <div><dt>Current result</dt><dd><ul class="portfolio-game-status"><li><strong>Balatro:</strong> functional Aurora interaction</li><li><strong>Schedule I:</strong> functional Aurora interaction</li><li><strong>Minecraft:</strong> testing</li><li><strong>Voices of the Void:</strong> partial integration</li></ul><p>Functional AI interaction is distinct from a publicly downloadable game mod.</p></dd></div>
+    </dl>
+    <div class="portfolio-case-evidence"><span class="portfolio-label">Evidence</span><a class="text-link" href="{{ '/projects/#modding' | relative_url }}">Game Integration &amp; Modding Status <span aria-hidden="true">→</span></a><a class="text-link" href="{{ '/aurora/#aurora-games' | relative_url }}">Aurora's Supported Interactions <span aria-hidden="true">→</span></a></div>
+  </article>
 </section>
 
-<section class="inline-cta section-shell" data-reveal>
-  <div><p class="eyebrow">Programs &amp; collaboration</p><h2>Interested in where this background could contribute?</h2></div>
-  <a class="button button-primary" href="{{ '/contact/' | relative_url }}">Contact me</a>
-</section>
+<section class="section-shell portfolio-experience" id="portfolio-experience" aria-labelledby="portfolio-experience-title"><div class="portfolio-copy"><p class="eyebrow">Professional systems background</p><h2 id="portfolio-experience-title">A Foundation in Systems That Have to Work.</h2><p>Practical IT infrastructure and systems administration experience taught me to diagnose problems across hardware, software, networks, and their dependencies, rather than assuming the fault belongs to one component.</p><p>Supporting real systems and users also means making technical problems understandable, documenting what matters, and considering maintenance and reliability alongside the immediate fix.</p></div><ul class="portfolio-experience-list"><li>Hardware and software troubleshooting</li><li>Networks, connectivity, and dependencies</li><li>System integration and maintenance</li><li>Technical communication and documentation</li><li>Operational support and reliability</li></ul></section>
+
+<section class="section-shell section-block portfolio-education" id="portfolio-education" aria-labelledby="portfolio-education-title"><div class="section-heading"><p class="eyebrow">Education &amp; engineering direction</p><h2 id="portfolio-education-title">Formal Study Meets Independent Research.</h2></div><ol class="portfolio-study-path"><li><span class="portfolio-label">Earlier study</span><h3>A Software Foundation</h3><p>Earlier college-level study in programming and general education provided a foundation for continued work in software and engineering.</p></li><li><span class="portfolio-label">Currently pursuing</span><h3>Mechatronics &amp; Computer Science</h3><p>Ongoing studies connect software with electronics, control, and physical systems, with mathematics as an additional area of interest.</p></li><li><span class="portfolio-label">Longer-term direction</span><h3>Robotics &amp; Embodied Intelligence</h3><p>Learning how intelligent systems can interact with physical environments safely and observably. This is a research direction, not a completed robotic integration or an existing graduate research appointment.</p></li></ol></section>
+
+<section class="section-shell section-block portfolio-tools" aria-labelledby="portfolio-tools-title"><div class="section-heading"><p class="eyebrow">Tools &amp; technologies</p><h2 id="portfolio-tools-title">A Toolkit With Context.</h2><p>These groupings distinguish established use from development experiments and areas I'm still learning.</p></div><dl class="portfolio-tool-groups"><div><dt>Used in projects or professional work</dt><dd>Python, C#, JavaScript, SQL, API and event integrations, server hardware, systems administration, networking, and diagnostics. Audio work includes UTAU, Vocaloid, Synthesizer V, vocal tuning, and production workflows.</dd></div><div><dt>Current development &amp; experimentation</dt><dd>Local LLM applications, agent orchestration, memory and context management, tool calling, game interfaces, synthetic voice tools, and DAW automation. Model customization, dataset preparation, and fine-tuning workflows are experimental work, not claimed benchmarked training results.</dd></div><div><dt>Academic &amp; longer-term interests</dt><dd>Mechatronics, sensing, control, electronics, end effectors, and embodied AI. ROS and PLC concepts belong here as learning areas, not demonstrated professional robotics expertise. Industrial-arm commissioning remains ahead.</dd></div></dl></section>
+
+<section class="section-shell section-block portfolio-approach" aria-labelledby="portfolio-approach-title"><div class="portfolio-copy"><p class="eyebrow">Engineering approach</p><h2 id="portfolio-approach-title">How I Approach Difficult Systems.</h2><p>I tend to build systems in layers, starting with the behavior I need, then figuring out which components have to cooperate to make it work. Testing, debugging, and documenting those connections is as much a part of the project as writing the code.</p></div><ol class="portfolio-methods"><li><h3>Define the Interfaces</h3><p>Break the problem into smaller components and make the inputs, outputs, and dependencies explicit.</p></li><li><h3>Test the Connections</h3><p>Iterate on behavior, inspect failures, and choose tools that fit the task. Integrate existing technologies where they help.</p></li><li><h3>Keep It Understandable</h3><p>Design for observation and maintainability, and document limitations and current status instead of hiding uncertainty.</p></li></ol></section>
+
+<section class="section-shell portfolio-evidence" id="portfolio-evidence" aria-labelledby="portfolio-evidence-title"><div class="section-heading"><p class="eyebrow">Follow the evidence</p><h2 id="portfolio-evidence-title">Public Work, Source &amp; Further Reading.</h2></div><ul class="portfolio-source-links"><li><a href="https://github.com/vegalyraevt"><strong>GitHub Profile</strong><span>Public repositories <span aria-hidden="true">↗</span></span></a></li><li><a href="https://github.com/vegalyraevt/Discord_LinkBot"><strong>Discord LinkBot</strong><span>Source &amp; documentation <span aria-hidden="true">↗</span></span></a></li><li><a href="https://github.com/ALIZARINENGINE/AlizarinEngine"><strong>ALIZARIN Engine</strong><span>Framework development <span aria-hidden="true">↗</span></span></a></li><li><a href="{{ '/aurora/' | relative_url }}"><strong>Aurora Project</strong><span>Public capabilities &amp; status <span aria-hidden="true">→</span></span></a></li><li><a href="{{ '/projects/' | relative_url }}"><strong>Projects Archive</strong><span>Broader work &amp; experiments <span aria-hidden="true">→</span></span></a></li><li><a href="https://www.youtube.com/@VegaLDev"><strong>Technical Videos</strong><span>Videos &amp; essays <span aria-hidden="true">↗</span></span></a></li></ul></section>
+
+<section class="section-shell portfolio-final" aria-labelledby="portfolio-final-title"><p class="eyebrow">Opportunities &amp; collaboration</p><h2 id="portfolio-final-title">Interested in Building Something Together?</h2><p>I'm interested in opportunities involving software engineering, AI systems, infrastructure, robotics, and the technology behind interactive media.</p><p>If my work overlaps with what your team is building, I'd be interested in hearing about it.</p><div class="button-row"><a class="button button-primary" href="{{ '/contact/' | relative_url }}">Discuss an Opportunity <span aria-hidden="true">→</span></a><a class="button button-ghost" href="{{ '/projects/' | relative_url }}">Explore Projects <span aria-hidden="true">→</span></a></div><a class="text-link" href="https://github.com/vegalyraevt">View GitHub <span aria-hidden="true">↗</span></a></section>
+
+</div>

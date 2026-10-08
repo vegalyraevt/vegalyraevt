@@ -552,6 +552,96 @@
   .about-refresh .about-portrait-frame { max-width: 280px; }
 }
 
+/* Task 07: technical portfolio, case studies and professional evidence. */
+.portfolio-refresh { padding-bottom: 1rem; }
+.portfolio-refresh *, .portfolio-refresh *::before, .portfolio-refresh *::after { min-width: 0; }
+.portfolio-refresh [id] { scroll-margin-top: 7rem; }
+.portfolio-refresh h1 { font-size: clamp(2.2rem, 4.5vw, 3.75rem); line-height: 1.1; }
+.portfolio-refresh h2 { font-size: clamp(1.85rem, 3.4vw, 2.8rem); line-height: 1.15; }
+.portfolio-refresh h3 { font-size: clamp(1.2rem, 2vw, 1.55rem); line-height: 1.25; }
+.portfolio-refresh h1, .portfolio-refresh h2, .portfolio-refresh h3, .portfolio-refresh a { overflow-wrap: anywhere; }
+.portfolio-refresh em { color: var(--purple); font-style: normal; }
+.portfolio-refresh p, .portfolio-refresh dd { line-height: 1.75; }
+.portfolio-refresh .section-block { padding-block: clamp(2.75rem, 6vw, 4.5rem); }
+.portfolio-refresh .section-heading > p:last-child:not(.eyebrow) { max-width: 850px; margin-top: 1rem; }
+.portfolio-refresh .portfolio-copy > .eyebrow { margin-bottom: 1rem; }
+.portfolio-refresh .portfolio-copy > p:not(.eyebrow) { max-width: 68ch; margin-top: 1rem; }
+.portfolio-refresh .button-row { margin-top: 1.5rem; }
+.portfolio-refresh .button { max-width: 100%; white-space: normal; text-align: center; }
+.portfolio-refresh .button-primary { color: var(--inverse); }
+.portfolio-refresh .portfolio-label { display: block; color: var(--purple); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; line-height: 1.6; }
+.portfolio-refresh .portfolio-inline-links { display: flex; flex-wrap: wrap; gap: .85rem 1.5rem; margin-top: 1.25rem; }
+.portfolio-refresh .portfolio-hero { display: grid; grid-template-columns: 1.3fr .7fr; gap: clamp(1.5rem, 5vw, 4rem); align-items: center; padding-block: clamp(2.5rem, 5vw, 4rem); }
+.portfolio-refresh .portfolio-hero-contact { margin-top: 1.25rem; }
+.portfolio-refresh .portfolio-context { padding: 1.5rem; background: var(--surface); border: 1px solid var(--line-strong); border-top: 3px solid var(--purple); border-radius: var(--radius-md); }
+.portfolio-refresh .portfolio-context h2 { font-size: clamp(1.35rem, 2.2vw, 1.85rem); margin-block: .85rem 1.25rem; }
+.portfolio-refresh .portfolio-context dl { margin: 0; }
+.portfolio-refresh .portfolio-context dl > div + div { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.portfolio-refresh .portfolio-context dt { color: var(--text); font-size: .82rem; font-weight: 700; }
+.portfolio-refresh .portfolio-context dd { margin: .25rem 0 0; color: var(--text-soft); font-size: .92rem; }
+.portfolio-refresh .portfolio-jump { display: flex; flex-wrap: wrap; gap: .35rem 1.5rem; padding-block: .75rem; border-block: 1px solid var(--line); }
+.portfolio-refresh .portfolio-jump a { display: inline-flex; align-items: center; min-height: 44px; font-size: .86rem; font-weight: 600; color: var(--text-soft); text-underline-offset: .35em; }
+.portfolio-refresh .portfolio-jump a:hover { color: var(--purple); }
+.portfolio-refresh .portfolio-practice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem 3rem; margin-top: 1.75rem; }
+.portfolio-refresh .portfolio-practice-grid article { padding-top: 1.1rem; border-top: 1px solid var(--line-strong); }
+.portfolio-refresh .portfolio-practice-grid article:last-child { grid-column: 1 / -1; max-width: 860px; }
+.portfolio-refresh .portfolio-practice-grid h3 { margin-block: .65rem; }
+.portfolio-refresh .portfolio-cases { border-top: 1px solid var(--line); }
+.portfolio-refresh .portfolio-case { margin-top: 2rem; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid var(--line-strong); border-radius: var(--radius-md); background: var(--surface); }
+.portfolio-refresh .portfolio-case-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .65fr); gap: 1rem 2rem; align-items: start; padding-bottom: 1.25rem; border-bottom: 1px solid var(--line); }
+.portfolio-refresh .portfolio-case-heading h3 { font-size: clamp(1.4rem, 2.5vw, 2rem); margin-top: .5rem; }
+.portfolio-refresh .portfolio-status { justify-self: end; max-width: 32ch; padding: .45rem .75rem; border: 1px solid var(--line-strong); border-radius: var(--radius-sm); color: var(--text-soft); font-size: .8rem; line-height: 1.55; }
+.portfolio-refresh .portfolio-case-details { margin: 1.4rem 0; }
+.portfolio-refresh .portfolio-case-details > div { display: grid; grid-template-columns: 155px minmax(0, 1fr); gap: .5rem 1.5rem; }
+.portfolio-refresh .portfolio-case-details > div + div { margin-top: 1.2rem; }
+.portfolio-refresh .portfolio-case-details dt { font-size: .88rem; font-weight: 700; color: var(--text); }
+.portfolio-refresh .portfolio-case-details dd { margin: 0; color: var(--text-soft); }
+.portfolio-refresh .portfolio-game-status { margin: 0; padding-left: 1.1rem; }
+.portfolio-refresh .portfolio-game-status strong { color: var(--text); }
+.portfolio-refresh .portfolio-game-status + p { margin-top: .75rem; }
+.portfolio-refresh .portfolio-case-evidence { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; align-items: center; padding-top: 1rem; border-top: 1px solid var(--line); font-size: .9rem; }
+.portfolio-refresh .portfolio-experience { display: grid; grid-template-columns: 1.25fr .75fr; gap: clamp(1.5rem, 5vw, 4rem); padding: clamp(1.25rem, 4vw, 2.75rem); border-block: 1px solid var(--line-strong); background: var(--surface); }
+.portfolio-refresh .portfolio-experience-list { margin: 0; padding-left: 1.1rem; color: var(--text-soft); align-self: center; }
+.portfolio-refresh .portfolio-experience-list li + li { margin-top: .65rem; }
+.portfolio-refresh .portfolio-study-path { list-style: none; margin: 1.75rem 0 0; padding: 0 0 0 1.5rem; border-left: 2px solid var(--line-strong); }
+.portfolio-refresh .portfolio-study-path li { max-width: 860px; }
+.portfolio-refresh .portfolio-study-path li + li { margin-top: 1.75rem; }
+.portfolio-refresh .portfolio-study-path h3 { margin-block: .6rem; }
+.portfolio-refresh .portfolio-tools { border-top: 1px solid var(--line); }
+.portfolio-refresh .portfolio-tool-groups { margin: 1.75rem 0 0; }
+.portfolio-refresh .portfolio-tool-groups > div { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: .65rem 2.5rem; padding-block: 1.25rem; border-bottom: 1px solid var(--line); }
+.portfolio-refresh .portfolio-tool-groups dt { color: var(--text); font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; }
+.portfolio-refresh .portfolio-tool-groups dd { margin: 0; color: var(--text-soft); }
+.portfolio-refresh .portfolio-approach { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 5vw, 4rem); border-top: 1px solid var(--line); }
+.portfolio-refresh .portfolio-methods { margin: 0; padding-left: 1.5rem; color: var(--purple); }
+.portfolio-refresh .portfolio-methods li { padding-left: .35rem; }
+.portfolio-refresh .portfolio-methods li + li { margin-top: 1.5rem; }
+.portfolio-refresh .portfolio-methods h3 { font-size: 1.2rem; margin-bottom: .5rem; }
+.portfolio-refresh .portfolio-evidence { padding-block: clamp(2rem, 5vw, 3.5rem); border-block: 1px solid var(--line); }
+.portfolio-refresh .portfolio-source-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem 2rem; list-style: none; margin: 1.5rem 0 0; padding: 0; }
+.portfolio-refresh .portfolio-source-links a { display: flex; flex-direction: column; justify-content: center; min-height: 80px; height: 100%; gap: .3rem; padding-block: .85rem; border-bottom: 1px solid var(--line); text-decoration: none; }
+.portfolio-refresh .portfolio-source-links a:hover strong { color: var(--purple); }
+.portfolio-refresh .portfolio-source-links strong { color: var(--text); font-size: 1rem; }
+.portfolio-refresh .portfolio-source-links a > span { color: var(--text-soft); font-size: .87rem; }
+.portfolio-refresh .portfolio-final { padding-block: clamp(2.75rem, 6vw, 4.5rem); }
+.portfolio-refresh .portfolio-final h2 { max-width: 850px; margin-top: 1rem; }
+.portfolio-refresh .portfolio-final > p:not(.eyebrow) { max-width: 850px; margin-top: 1rem; }
+.portfolio-refresh .portfolio-final > .text-link { margin-top: 1.25rem; }
+@media (max-width: 850px) {
+  .portfolio-refresh .portfolio-hero, .portfolio-refresh .portfolio-experience, .portfolio-refresh .portfolio-approach { grid-template-columns: 1fr; }
+  .portfolio-refresh .portfolio-context { max-width: 650px; }
+  .portfolio-refresh .portfolio-case-heading { grid-template-columns: 1fr; }
+  .portfolio-refresh .portfolio-status { justify-self: start; max-width: 100%; }
+  .portfolio-refresh .portfolio-case-details > div { grid-template-columns: 125px minmax(0, 1fr); gap: .5rem 1rem; }
+  .portfolio-refresh .portfolio-tool-groups > div { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .portfolio-refresh .portfolio-practice-grid, .portfolio-refresh .portfolio-source-links, .portfolio-refresh .portfolio-case-details > div { grid-template-columns: 1fr; }
+  .portfolio-refresh .portfolio-jump { gap: .25rem 1rem; }
+  .portfolio-refresh .button-row .button { width: 100%; }
+  .portfolio-refresh .portfolio-case-evidence > .portfolio-label { width: 100%; }
+}
+
 :root {
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
   --font-body: "DM Sans", "Segoe UI", sans-serif;
