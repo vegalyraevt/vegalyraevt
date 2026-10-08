@@ -998,7 +998,7 @@ a:focus-visible, button:focus-visible {
   gap: .15rem;
 }
 
-.primary-nav a {
+.primary-nav a, .nav-disclosure > summary {
   position: relative;
   padding: .55rem .7rem;
   color: var(--text-muted);
@@ -1021,9 +1021,20 @@ a:focus-visible, button:focus-visible {
   transition: transform .25s var(--ease);
 }
 
-.primary-nav a:hover, .primary-nav a[aria-current="page"] { color: var(--text); }
+.primary-nav a:hover, .primary-nav a[aria-current="page"], .nav-disclosure > summary:hover, .nav-disclosure.is-current > summary { color: var(--text); }
 .primary-nav a[aria-current="page"]::after { transform: scaleX(1); }
 .primary-nav .nav-secondary { display: none; }
+.nav-disclosure { position: relative; }
+.nav-disclosure > summary { display: flex; align-items: center; gap: .5rem; cursor: pointer; list-style: none; border-radius: 4px; }
+.nav-disclosure > summary::-webkit-details-marker { display: none; }
+.nav-disclosure > summary::after { content: ""; width: 6px; height: 6px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: translateY(-2px) rotate(45deg); }
+.nav-disclosure[open] > summary::after { transform: translateY(2px) rotate(225deg); }
+.nav-disclosure.is-current > summary { text-decoration: underline; text-decoration-color: var(--purple); text-underline-offset: .5rem; }
+.nav-disclosure > summary:focus-visible { outline: 2px solid var(--purple); outline-offset: 4px; }
+.nav-dropdown { position: absolute; top: calc(100% + .5rem); left: 0; min-width: 13rem; padding: .5rem; display: grid; gap: .2rem; border: 1px solid var(--line-strong); border-radius: 12px; background: var(--bg-raised); box-shadow: 0 18px 35px -20px rgba(0,0,0,.6); }
+.nav-dropdown a { display: block; border-radius: 6px; }
+.nav-dropdown a::after { display: none; }
+.nav-dropdown a:hover, .nav-dropdown a[aria-current="page"] { background: var(--surface-2); }
 
 .theme-toggle, .menu-toggle {
   display: grid;
@@ -1514,7 +1525,8 @@ html[data-theme="dark"] .constellation-logo { padding: .65rem; border-radius: 12
 .footer-grid { display: flex; justify-content: space-between; gap: 2rem; align-items: flex-start; }
 .footer-links { max-width: 480px; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .6rem 1.2rem; }
 .footer-links a { color: var(--text-muted); font-size: .8rem; font-weight: 600; text-decoration: none; }
-.footer-links a:hover { color: var(--text); }
+.footer-links a:hover, .footer-links a[aria-current="page"] { color: var(--text); }
+.footer-links a[aria-current="page"] { text-decoration: underline; text-underline-offset: .3rem; }
 .footer-meta { margin-top: 3rem; padding-top: 1rem; display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--line); color: var(--text-muted); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }
 
 /* Motion */
@@ -1556,9 +1568,14 @@ html[data-theme="dark"] .constellation-logo { padding: .65rem; border-radius: 12
   .menu-toggle[aria-expanded="true"] > span:nth-child(3) { transform: translateY(-5px) rotate(-45deg); }
   .primary-nav { position: absolute; top: 76px; left: 0; right: 0; margin: 0; padding: .8rem 1rem 1.2rem; display: none; align-items: stretch; flex-direction: column; border-bottom: 1px solid var(--line); background: var(--bg-raised); box-shadow: 0 18px 35px -25px rgba(0,0,0,.8); }
   .primary-nav.is-open { display: flex; }
+  .has-js .primary-nav { max-height: calc(100dvh - 76px); overflow-y: auto; }
+  .nav-disclosure { width: 100%; }
+  .nav-disclosure > summary { padding: .75rem .5rem; font-size: .95rem; }
+  .nav-dropdown { position: static; min-width: 0; margin: .25rem .5rem .5rem; box-shadow: none; }
   html:not(.has-js) .nav-shell { flex-wrap: wrap; padding-block: .75rem; }
   html:not(.has-js) .primary-nav { position: static; display: flex; flex-basis: 100%; order: 3; border-bottom: 0; box-shadow: none; }
   html:not(.has-js) .menu-toggle { display: none; }
+  html:not(.has-js) .site-header { position: static; }
   .primary-nav a { padding: .75rem .5rem; font-size: .95rem; }
   .primary-nav a::after { display: none; }
   .primary-nav .nav-secondary { display: block; }

@@ -40,10 +40,17 @@
           <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
           <a href="{{ '/projects/' | relative_url }}" {% if page.url == '/projects/' %}aria-current="page"{% endif %}>Projects</a>
           <a href="{{ '/portfolio/' | relative_url }}" {% if page.url == '/portfolio/' %}aria-current="page"{% endif %}>Experience</a>
+          <details class="nav-disclosure{% if page.url == '/streaming/' or page.url == '/music/' %} is-current{% endif %}">
+            <summary>Watch &amp; Listen</summary>
+            <div class="nav-dropdown">
+              <a href="{{ '/streaming/' | relative_url }}" {% if page.url == '/streaming/' %}aria-current="page"{% endif %}>Streaming</a>
+              <a href="{{ '/music/' | relative_url }}" {% if page.url == '/music/' %}aria-current="page"{% endif %}>Music</a>
+              <a href="https://www.twitch.tv/{{ site.social_links.twitch }}">Watch Live</a>
+              <a href="https://www.youtube.com/@VegaAuroraClips">Videos &amp; Clips</a>
+            </div>
+          </details>
           <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
-          <a href="{{ '/#quick-links' | relative_url }}">Live &amp; social</a>
           <a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a>
-          <a class="nav-secondary" href="{{ '/stream-assets/' | relative_url }}" {% if page.url == '/stream-assets/' %}aria-current="page"{% endif %}>Credits</a>
         </nav>
 
         <button class="theme-toggle" type="button" aria-label="Switch color theme">
@@ -65,14 +72,17 @@
             <span class="brand-copy"><strong>Vega Lyrae</strong><small>Building thoughtful systems in public.</small></span>
           </a>
         </div>
-        <div class="footer-links" aria-label="Social links">
+        <nav class="footer-links" aria-label="Explore and social links">
+          <a href="{{ '/aurora/' | relative_url }}" {% if page.url == '/aurora/' %}aria-current="page"{% endif %}>Aurora</a>
+          <a href="{{ '/alizarin/' | relative_url }}" {% if page.url == '/alizarin/' %}aria-current="page"{% endif %}>ALIZARIN</a>
+          <a href="{{ '/support/' | relative_url }}" {% if page.url == '/support/' %}aria-current="page"{% endif %}>Support</a>
+          <a href="{{ '/stream-assets/' | relative_url }}" {% if page.url == '/stream-assets/' %}aria-current="page"{% endif %}>Credits</a>
           <a href="https://github.com/{{ site.github_username }}">GitHub</a>
           <a href="https://twitch.tv/{{ site.social_links.twitch }}">Twitch</a>
           <a href="https://youtube.com/@{{ site.social_links.youtube }}">YouTube</a>
           <a href="https://x.com/{{ site.social_links.twitter }}">X / Twitter</a>
-          <a href="{{ '/support/' | relative_url }}">Support</a>
           <a href="mailto:contact@vegalyrae.tech">Business email</a>
-        </div>
+        </nav>
       </div>
       <div class="footer-meta">
         <span>© {{ site.time | date: '%Y' }} Vega Lyrae</span>
@@ -86,6 +96,8 @@
         var themeButton = document.querySelector('.theme-toggle');
         var menuButton = document.querySelector('.menu-toggle');
         var nav = document.querySelector('.primary-nav');
+        var watchMenu = nav.querySelector('.nav-disclosure');
+        var watchToggle = watchMenu.querySelector('summary');
 
         themeButton.addEventListener('click', function () {
           var next = root.dataset.theme === 'dark' ? 'light' : 'dark';
@@ -97,21 +109,36 @@
           var open = menuButton.getAttribute('aria-expanded') === 'true';
           menuButton.setAttribute('aria-expanded', String(!open));
           nav.classList.toggle('is-open', !open);
+          if (open) watchMenu.open = false;
         });
 
         nav.addEventListener('click', function (event) {
           if (event.target.closest('a')) {
+            watchMenu.open = false;
             menuButton.setAttribute('aria-expanded', 'false');
             nav.classList.remove('is-open');
           }
         });
 
         document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && watchMenu.open) {
+            event.preventDefault();
+            watchMenu.open = false;
+            watchToggle.focus();
+            return;
+          }
           if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
             menuButton.setAttribute('aria-expanded', 'false');
             nav.classList.remove('is-open');
             menuButton.focus();
           }
+        });
+
+        document.addEventListener('click', function (event) {
+          if (!watchMenu.contains(event.target)) watchMenu.open = false;
+        });
+        watchMenu.addEventListener('focusout', function (event) {
+          if (event.relatedTarget && !watchMenu.contains(event.relatedTarget)) watchMenu.open = false;
         });
 
         if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {

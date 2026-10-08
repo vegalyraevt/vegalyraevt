@@ -8,7 +8,7 @@ The final commit is the commit containing this report; its SHA is supplied in th
 
 Ready for owner review, NOT authorized for production. Required integration fixes and genuine browser QA are complete. No merge, production push, deployment, DNS change, publishing-setting change, or automatic merge was performed.
 
-Before launch, the owner must explicitly approve release and resolve the navigation choice below. Formspree dashboard confirmation remains outstanding. The production form smoke test must occur only after a separately authorized deployment.
+The owner approved navigation implementation, not deployment. This navigation revision is returned for final review before requesting production authorization. Formspree dashboard confirmation remains outstanding. The production form smoke test must occur only after a separately authorized deployment.
 
 ## Repository state and exact changes
 
@@ -16,6 +16,8 @@ Task 09 was 14 commits ahead and zero behind origin/main; the sequential Tasks 0
 
 Remote main/rollback reference: e76878dda4e4cbc7ba7d37481777e3d46cc00992.
 Local main is separately at 4c40143c41bfa6f03b79604e4aa4a9a69c6aeac2. Both were left unchanged; their discrepancy was reported, not reconciled.
+
+Navigation revision parent: 9bd0a785292d7ca1b20470807ca36805038c86b2. origin/main was freshly fetched and remains the release comparison target. The divergent local main is NOT a merge target. No reconciliation or merge was attempted.
 
 Required source changes:
 
@@ -43,11 +45,17 @@ Review-only files, excluded from the site:
 
 Unrelated, untracked owner artwork/screenshots and older artifacts were preserved and not committed. ALIZARIN Engine repository remained clean and unmodified.
 
-## Navigation proposal and approval status
+## Approved navigation revision
 
-Proposed compact header: Home, Projects, Experience, Watch & Listen, About, Contact. Watch & Listen would group Streaming, Music and live/social destinations. Footer would provide direct Aurora, ALIZARIN, Support and Credits links. Accessible grouping requires keyboard, Escape, expanded-state and no-JavaScript treatment.
+Implemented desktop order: Home, Projects, Experience, Watch & Listen, About, Contact.
 
-Owner approval was requested but has not been received. This substantial restructuring was NOT implemented. Current header remains Home, Projects, Experience, About, Live & social, Contact, with Credits in the mobile menu. Music/Streaming are discoverable through homepage/About links; Aurora/ALIZARIN through homepage/Projects. Current primary page indicators are retained. Choosing to keep the present navigation is also a valid owner decision.
+Watch & Listen replaces Live & social and contains Streaming (/streaming/), Music (/music/), Watch Live (existing Twitch profile), and Videos & Clips (existing VegaAuroraClips channel). Other social destinations and all homepage links/legacy anchors remain unchanged. Footer now directly links Aurora, ALIZARIN, Support and Credits, retaining existing socials/business email.
+
+The group is native details/summary with ordinary navigation links, not an ARIA application-style menu. Native expanded/collapsed semantics remain usable without JavaScript. No library or dependency was added. With JavaScript, Escape first closes the disclosure and returns focus to its summary; a second Escape closes mobile navigation and restores toggle focus. Outside clicks and Tab leaving the group dismiss the disclosure. On short mobile screens the open menu scrolls; without JavaScript the header is non-sticky so expanded links cannot permanently obscure main content.
+
+Streaming/Music receive their own aria-current child links plus a visibly marked group summary. Other primary page indicators are retained; the four direct footer pages receive aria-current indicators.
+
+Navigation-only revision files: _layouts/default.html, assets/css/style.scss, scripts/release-browser-qa.cjs, this report, qa/task10/navigation-results.json, and four new navigation screenshots listed below. The original accepted Task 10 matrix and screenshots remain preserved as historical evidence.
 
 ## Route and regression audit
 
@@ -67,13 +75,26 @@ All 11 routes generated and were actually rendered in Edge:
 
 Generated internal href/src targets, duplicate IDs, ARIA references, image alt attributes, mailto destinations and metadata passed the static audit. All seven origin/main page routes and their explicit legacy IDs remain. The requested Projects/Aurora/ALIZARIN/About/Contact anchors resolve. No redirects or established URL structures were removed.
 
-Production Jekyll build passed, using github-pages Jekyll 3.10 in the existing Docker environment (image jekyll/jekyll:4.2.2), with JEKYLL_ENV=production; isolated output completed in 4.864 seconds. Preview/build outputs were separated after an earlier shared-output race. JavaScript syntax check passed. Existing ALIZARIN regression suite: 15 passed, zero failed.
+Production Jekyll build passed, using github-pages Jekyll 3.10 in the existing Docker environment (image jekyll/jekyll:4.2.2), with JEKYLL_ENV=production. Original output completed in 4.864 seconds; final navigation snapshot completed in 6.869 seconds. Preview/build outputs were separated after an earlier shared-output race. JavaScript syntax check passed. Existing ALIZARIN regression suite rerun: 15 passed, zero failed.
 
 ## Genuine browser QA and evidence
 
 Independent Playwright launched installed Microsoft Edge 154.0.4258.62 successfully. This is the working alternative to earlier computer-use runtime failures. No manual GUI session, Safari/Firefox test, or Lighthouse audit is claimed.
 
 Final responsive matrix: 11 routes x widths 1440, 768, 390, 320 x dark/light = 88 distinct rendered cases. Full matrix and interaction evidence: [browser results](qa/task10/browser-results.json).
+
+The owner accepted that original matrix. The navigation revision has a separate complete 88-case rerun against the final snapshot: [navigation regression results](qa/task10/navigation-results.json). Every case also tests the OPEN disclosure for axe violations and viewport containment, header order/destinations, primary/group/footer active states, nested Escape focus restoration, outside dismissal and actual internal Music-link activation. The 22 no-JavaScript cases expand the native disclosure and verify all four links; reduced-motion checks cover all 11 routes. Dedicated 320x480 JavaScript-enabled/disabled checks ensure expanded navigation can reach its last link and page content.
+
+New relevant screenshots, captured at actual viewport sizes:
+
+- [Desktop disclosure and keyboard focus, dark](qa/task10/navigation-desktop-dark.png)
+- [320px mobile disclosure and keyboard focus, light](qa/task10/navigation-mobile-light.png)
+- [320px native disclosure without JavaScript](qa/task10/navigation-no-javascript.png)
+- [320px footer with direct project/support/credits links, dark](qa/task10/navigation-footer-dark.png)
+
+An early navigation probe failed because axe was lost after a test reload. The harness was corrected and the probe rerun successfully; that failed probe is not used as final evidence. The final browser sweep uses independent viewport contexts for speed, not screenshot resizing.
+
+The final 88 layout/open-menu cases, 22 no-JavaScript cases and 11 reduced-motion cases passed. Its supplementary 320x480 assertion initially ran before smooth focus scrolling settled, causing that run's nonzero exit despite the completed matrix passing. The test now waits for scrolling to settle; a targeted rerun on the identical final build passed the short-screen, keyboard, denied-storage and mocked-form checks. navigation-results.json clearly separates the full sweep from this successful supplementary rerun. No site state or visibility was forced to make it pass.
 
 Final cases passed HTTP/page rendering, loaded images, reveal visibility, geometry overflow, document-width overflow, JavaScript page errors and automated WCAG A/AA-tag checks. Theme switching/persistence, skip link focus and applicable mobile-menu open/Escape-close were exercised for every case. No third-party request failures were recorded in the sweep.
 
@@ -135,20 +156,22 @@ These require creator decisions and appropriate licensing review BEFORE public b
 
 ## Privacy, security, SEO and performance
 
+Navigation revision pre-commit scan rerun: zero credential candidates across 70 reachable commits and current tracked changes. Final static regression: all 11 routes and every retained legacy anchor pass; four em dashes still occur only in excluded README.md. No ALIZARIN handler, creative copy or project rights were changed by navigation implementation.
+
 Token-pattern scan: zero candidate private credentials in tracked working text and 69 reachable commits at audit time. Public Formspree endpoint and CAPTCHA site key are intentional public configuration. The scan does not prove absence of every possible secret, inspect screenshots/OCR, or audit external services. Source/privacy review found no new private identity, location, education records, collaborator announcements or internal character plans in the Task 10 public diff.
 
 No analytics, tracking additions, new public forms or unnecessary third-party scripts were introduced. Existing Google Fonts remain; reCAPTCHA is the only external script and loads only on ALIZARIN. QA npm tools and screenshots are excluded from publication. The secret previously shown in chat is not treated as proof of safe credential handling; no secret was requested, copied into this report or committed. Owner controls rotation/configuration decisions.
 
 All 11 pages have one H1, titles, descriptions, production canonicals, sitemap entries and Jekyll social title output. Domain remains https://vegalyrae.tech. No production robots/DNS changes were made. Social preview images are not currently emitted; a non-blocking future improvement, not a claimed pass. Four em dashes remain only in excluded README.md; none found in rendered content/configuration.
 
-Measured CSS: 106,416 bytes uncompressed, 16,562 bytes gzip. No tracked image exceeded 500 KB. The two homepage hero images now have measured dimensions. Ten social SVGs lack HTML dimension attributes but have fixed 20px CSS boxes. Images rendered without broken paths/aspect-ratio distortion in the sweep. Existing fonts use display=swap/preconnect. No Lighthouse score, field Web Vitals, quantified layout-shift result or cold-network performance guarantee is claimed. Unused legacy head include references a missing favicon, but the active layout does not render it; left untouched.
+Measured CSS: original 106,416 bytes uncompressed / 16,562 bytes gzip; final navigation revision 108,014 bytes / 16,859 bytes gzip. No tracked production image exceeded 500 KB. The two homepage hero images now have measured dimensions. Ten social SVGs lack HTML dimension attributes but have fixed 20px CSS boxes. Images rendered without broken paths/aspect-ratio distortion in the sweep. Existing fonts use display=swap/preconnect. No Lighthouse score, field Web Vitals, quantified layout-shift result or cold-network performance guarantee is claimed. Unused legacy head include references a missing favicon, but the active layout does not render it; left untouched.
 
 ## Remaining issues and release sequence
 
 Approval gates:
 
 - Explicit owner authorization to publish, merge or deploy.
-- Owner decision on proposed navigation versus keeping the current structure.
+- Final owner review of the implemented, approved navigation revision.
 - Owner Formspree dashboard confirmation.
 
 Required after separately approved deployment:

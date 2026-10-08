@@ -13,7 +13,7 @@ const phase = process.argv[2] || 'audit';
 const output = path.resolve('artifacts/task10-' + phase + '-' + Date.now());
 const origin = process.env.QA_ORIGIN || (process.env.QA_SITE_DIR ? 'http://localhost:4173' : 'http://localhost:4000');
 fs.mkdirSync(output, { recursive: true });
-const result = { phase, origin, browser: '', output, layouts: [], interaction: [], noJavaScript: [], reducedMotion: [], form: [] };
+const result = { phase, origin, browser: '', output, layouts: [], interaction: [], navigation: [], noJavaScript: [], reducedMotion: [], form: [] };
 let browser, server;
 if (process.env.QA_SITE_DIR) {
   const site = path.resolve(process.env.QA_SITE_DIR);
@@ -117,11 +117,20 @@ async function sharedKeyboardChecks(browser) {
   await page.locator('.menu-toggle').focus();
   await page.keyboard.press('Space');
   assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'), 'true');
-  for (const link of await page.locator('#primary-nav a').all()) {
+  for (const link of await page.locator('#primary-nav > a, #primary-nav summary').all()) {
     await page.keyboard.press('Tab');
     assert.equal(await link.evaluate(el => el === document.activeElement), true);
     assert.notEqual(await link.evaluate(el => getComputedStyle(el).outlineStyle), 'none');
+    if (await link.evaluate(el => el.tagName === 'SUMMARY')) {
+      await page.keyboard.press('Space');
+      for (const child of await page.locator('.nav-dropdown a').all()) {
+        await page.keyboard.press('Tab');
+        assert.equal(await child.evaluate(el => el === document.activeElement), true);
+        assert.notEqual(await child.evaluate(el => getComputedStyle(el).outlineStyle), 'none');
+      }
+    }
   }
+  assert.equal(await page.locator('.nav-disclosure').evaluate(el => el.open), false, 'Tab leaving the group closes it');
   await page.keyboard.press('Escape');
   assert.equal(await page.locator('.menu-toggle').evaluate(el => el === document.activeElement), true);
   assert.equal(await page.locator('#primary-nav').isVisible(), false);
@@ -134,7 +143,7 @@ async function sharedKeyboardChecks(browser) {
     assert.equal(await card.evaluate(el => el === document.activeElement), true);
     assert.notEqual(await card.evaluate(el => getComputedStyle(el).outlineStyle), 'none');
   }
-  result.sharedKeyboard = { status: 'passed', tests: 'Space opens menu; Tab reaches every primary link with visible outline; Escape returns focus; both complete music-video cards are keyboard focusable.' };
+  result.sharedKeyboard = { status: 'passed', tests: 'Space opens mobile menu and native disclosure; Tab reaches every primary/group link with visible outline; leaving group closes it; Escape returns focus; both complete music-video cards are keyboard focusable.' };
   await context.close();
   const blocked = await browser.newContext({ viewport: { width: 390, height: 844 } });
   await blocked.addInitScript(() => {
@@ -151,12 +160,88 @@ async function sharedKeyboardChecks(browser) {
   assert.deepEqual(errors, []);
   result.blockedStorage = { status: 'passed', tests: 'Theme and mobile menu remain functional with Storage access denied.' };
   await blocked.close();
+  for (const javaScriptEnabled of [true,false]) {
+    const small = await browser.newContext({viewport:{width:320,height:480},javaScriptEnabled});
+    const narrow = await small.newPage();
+    await narrow.goto(origin+'/');
+    if (javaScriptEnabled) await narrow.locator('.menu-toggle').click();
+    await narrow.locator('.nav-disclosure > summary').click();
+    await narrow.locator('.nav-dropdown a').last().focus();
+    await narrow.keyboard.press('Tab');
+    await narrow.keyboard.press('Tab');
+    const contact = narrow.locator('#primary-nav > a').last();
+    assert.equal(await contact.evaluate(el=>el===document.activeElement),true);
+    await narrow.waitForTimeout(600);
+    const box = await contact.boundingBox();
+    assert.ok(box.y >= 0 && box.y + box.height <= 480, 'expanded menu can scroll to its last link; JS='+javaScriptEnabled+'; geometry='+JSON.stringify(box));
+    if (!javaScriptEnabled) {
+      assert.equal(await narrow.locator('.site-header').evaluate(el=>getComputedStyle(el).position),'static');
+      await narrow.locator('main h1').scrollIntoViewIfNeeded();
+      const heading=await narrow.locator('main h1').boundingBox();
+      assert.ok(heading.y >= 0 && heading.y < 480, 'expanded no-JS header does not cover page content');
+    }
+    await small.close();
+  }
+  result.shortMobileNavigation={status:'passed',tests:'320x480 expanded menu reaches Contact using Tab; no-JS header scrolls out of the way and main content remains reachable.'};
+}
+async function navigationChecks(page, route, width, theme) {
+  const mobile = await page.locator('.menu-toggle').isVisible();
+  const disclosure = page.locator('.nav-disclosure'), toggle = disclosure.locator('summary');
+  const expectedCurrent = { '/':'/', '/projects/':'/projects/', '/portfolio/':'/portfolio/', '/streaming/':'/streaming/', '/music/':'/music/', '/about/':'/about/', '/contact/':'/contact/' };
+  assert.deepEqual(await page.locator('#primary-nav [aria-current="page"]').evaluateAll(nodes => nodes.map(el => el.getAttribute('href'))), expectedCurrent[route] ? [expectedCurrent[route]] : []);
+  assert.equal(await disclosure.evaluate(el => el.classList.contains('is-current')), route === '/music/' || route === '/streaming/');
+  assert.deepEqual(await page.locator('#primary-nav > a, #primary-nav summary').allTextContents(), ['Home','Projects','Experience','Watch & Listen','About','Contact']);
+  assert.deepEqual(await page.locator('.nav-dropdown a').evaluateAll(nodes => nodes.map(el => [el.textContent.trim(),el.getAttribute('href')])), [
+    ['Streaming','/streaming/'],['Music','/music/'],['Watch Live','https://www.twitch.tv/vegalyraebard'],['Videos & Clips','https://www.youtube.com/@VegaAuroraClips']
+  ]);
+  for (const [name,href] of [['Aurora','/aurora/'],['ALIZARIN','/alizarin/'],['Support','/support/'],['Credits','/stream-assets/']]) {
+    assert.equal(await page.locator('.footer-links a').filter({hasText:new RegExp('^'+name+'$')}).getAttribute('href'), href);
+  }
+  assert.deepEqual(await page.locator('.footer-links [aria-current="page"]').evaluateAll(nodes=>nodes.map(el=>el.getAttribute('href'))), ['/aurora/','/alizarin/','/support/','/stream-assets/'].includes(route)?[route]:[]);
+  if (mobile) await page.locator('.menu-toggle').click();
+  await toggle.focus();
+  await page.keyboard.press('Space');
+  assert.equal(await disclosure.evaluate(el => el.open), true);
+  const menuGeometry = await page.locator('.nav-dropdown').evaluate(el => {
+    const r=el.getBoundingClientRect(); return {left:r.left,right:r.right,width:innerWidth};
+  });
+  assert.ok(menuGeometry.left >= 0 && menuGeometry.right <= menuGeometry.width, 'dropdown stays inside viewport');
+  await page.evaluate(axe.source);
+  const scan = await page.evaluate(async () => {
+    const a = await axe.run('#primary-nav',{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}});
+    return {violations:a.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)})),incomplete:a.incomplete.map(v=>v.id)};
+  });
+  assert.equal(scan.violations.length, 0, JSON.stringify(scan.violations));
+  if (route === '/' && ((width === 1440 && theme === 'dark') || (width === 320 && theme === 'light'))) {
+    await page.waitForTimeout(800);
+    await page.screenshot({path:path.join(output,'navigation-open-'+width+'-'+theme+'.png')});
+  }
+  await page.keyboard.press('Escape');
+  assert.equal(await disclosure.evaluate(el => el.open), false);
+  assert.equal(await toggle.evaluate(el => el === document.activeElement), true);
+  if (mobile) {
+    assert.equal(await page.locator('#primary-nav').isVisible(), true, 'first Escape only closes disclosure');
+    await page.keyboard.press('Escape');
+    assert.equal(await page.locator('#primary-nav').isVisible(), false);
+    assert.equal(await page.locator('.menu-toggle').evaluate(el => el === document.activeElement), true);
+  }
+  // Outside-pointer dismissal and real internal-link activation.
+  if (mobile) await page.locator('.menu-toggle').click();
+  await toggle.click();
+  await page.locator('.brand').first().click();
+  assert.equal(await disclosure.evaluate(el => el.open), false);
+  if (mobile) await page.locator('.menu-toggle').click();
+  await toggle.click();
+  await page.locator('.nav-dropdown a[href="/music/"]').click();
+  await page.waitForURL(origin+'/music/');
+  assert.equal(await page.locator('.nav-disclosure').evaluate(el=>el.open), false);
+  result.navigation.push({route,width,theme,status:'passed',tests:'Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.',accessibility:scan});
 }
 (async () => {
   if (server) await new Promise(resolve => server.listen(Number(new URL(origin).port), '127.0.0.1', resolve));
   browser = await chromium.launch({ executablePath: process.env.QA_BROWSER || 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: true });
   result.browser = browser.version();
-  for (const width of widths) {
+  await Promise.all(widths.map(async width => {
     for (const theme of themes) {
       const context = await browser.newContext({ viewport: { width, height: 1000 }, colorScheme: theme });
       await context.addInitScript(value => { if (!localStorage.getItem('vega-theme')) localStorage.setItem('vega-theme', value); }, theme);
@@ -212,6 +297,9 @@ async function sharedKeyboardChecks(browser) {
         await page.locator('.theme-toggle').focus();
         const focus = await page.locator('.theme-toggle').evaluate(el => getComputedStyle(el).outlineStyle !== 'none');
         result.interaction.push({ route, width, theme, menu, themeToggle: toggled !== theme, themePersistence: persisted === toggled, skip, skipTarget, focus });
+        await page.evaluate(value => localStorage.setItem('vega-theme', value), theme);
+        await page.reload({waitUntil:'domcontentloaded'});
+        await navigationChecks(page,route,width,theme);
         // Reset persisted theme for the next page in this context.
         await page.evaluate(value => localStorage.setItem('vega-theme', value), theme);
         await page.close();
@@ -219,15 +307,18 @@ async function sharedKeyboardChecks(browser) {
       }
       await context.close();
     }
-  }
+  }));
   for (const width of [1440,320]) {
     const context=await browser.newContext({viewport:{width,height:1000},javaScriptEnabled:false});
     for (const route of routes) {
       const page=await context.newPage(); await page.goto(origin+route); await page.waitForTimeout(200);
       const state=await page.locator('main').evaluate(el=>({hasText:el.innerText.trim().length>0, hiddenReveal:[...el.querySelectorAll('[data-reveal]')].some(node=>getComputedStyle(node).opacity==='0')}));
       const nav=await page.locator('#primary-nav').isVisible();
+      await page.locator('.nav-disclosure > summary').click();
+      const watchLinks = await page.locator('.nav-dropdown a').evaluateAll(nodes => nodes.every(el => el.getClientRects().length > 0));
+      if(route==='/'&&width===320)await page.screenshot({path:path.join(output,'navigation-no-javascript-320.png')});
       const form=route==='/alizarin/'?{hidden:!(await page.locator('#alizarin-beta-form').isVisible()),emailAlternative:await page.locator('main a[href^="mailto:contact@vegalyrae.tech"]').first().isVisible()}:undefined;
-      result.noJavaScript.push({route,width,...state,nav,form});
+      result.noJavaScript.push({route,width,...state,nav,watchLinks,form});
       if(route==='/alizarin/'&&width===320)await page.screenshot({path:path.join(output,'alizarin-no-javascript-320.png'),fullPage:true});
       await page.close();
     }
@@ -251,7 +342,7 @@ async function sharedKeyboardChecks(browser) {
   console.log('Cases: '+result.layouts.length+'; axe violations: '+result.layouts.reduce((n,r)=>n+r.accessibility.violations.length,0)+'; overflowing cases: '+result.layouts.filter(r=>r.geometry.overflowing.length).length);
   const failed = result.layouts.length !== routes.length * widths.length * themes.length || result.layouts.some(r => r.http !== 200 || r.errors.length || r.geometry.unrevealed || r.geometry.brokenImages.length || r.geometry.overflowing.length || r.geometry.scrollWidth > r.geometry.viewport || r.accessibility.violations.length) ||
     result.interaction.some(r => r.menu.startsWith('failed') || !r.themeToggle || !r.themePersistence || !r.skip || !r.skipTarget || !r.focus) ||
-    result.noJavaScript.some(r => !r.hasText || r.hiddenReveal || !r.nav || (r.form && (!r.form.hidden || !r.form.emailAlternative))) ||
-    result.reducedMotion.some(r => !r.reduce || r.scroll !== 'auto' || !r.reveals) || result.form.some(r => r.status !== 'passed') || result.sharedKeyboard?.status !== 'passed' || result.blockedStorage?.status !== 'passed';
+    result.navigation.length !== result.layouts.length || result.noJavaScript.some(r => !r.hasText || r.hiddenReveal || !r.nav || !r.watchLinks || (r.form && (!r.form.hidden || !r.form.emailAlternative))) ||
+    result.reducedMotion.some(r => !r.reduce || r.scroll !== 'auto' || !r.reveals) || result.form.some(r => r.status !== 'passed') || result.sharedKeyboard?.status !== 'passed' || result.blockedStorage?.status !== 'passed' || result.shortMobileNavigation?.status !== 'passed';
   if (failed) process.exitCode = 1;
 });
