@@ -362,6 +362,37 @@
   .alizarin-page .button { white-space: normal; text-align: center; }
 }
 
+/* Task 04B2: native beta application fields and submission feedback. */
+.alizarin-page .alizarin-application { grid-column: 1 / -1; min-width: 0; padding-top: 2rem; border-top: 1px solid var(--line-strong); }
+.alizarin-page .alizarin-application > h3 { font-size: 1.6rem; }
+.alizarin-page #alizarin-form-help { margin-block: 1rem 1.5rem; font-size: .9rem; }
+.alizarin-page .alizarin-form-fields { margin: 0; padding: 0; border: 0; min-width: 0; }
+.alizarin-page .alizarin-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.alizarin-page .alizarin-field { display: grid; gap: .6rem; min-width: 0; margin-bottom: 1.5rem; }
+.alizarin-page .alizarin-field label, .alizarin-page .alizarin-options legend { font-weight: 600; color: var(--text); font-size: .93rem; }
+.alizarin-page .alizarin-application input:not([type="checkbox"]), .alizarin-page .alizarin-application textarea, .alizarin-page .alizarin-application select { width: 100%; min-width: 0; min-height: 48px; padding: .8rem; border: 1px solid var(--line-strong); border-radius: var(--radius-sm); background: var(--bg-raised); color: var(--text); font: inherit; font-size: 1rem; }
+.alizarin-page .alizarin-application textarea { resize: vertical; }
+.alizarin-page .alizarin-application input::placeholder { color: var(--text-muted); opacity: 1; }
+.alizarin-page .alizarin-application input:focus-visible, .alizarin-page .alizarin-application textarea:focus-visible, .alizarin-page .alizarin-application select:focus-visible, .alizarin-page .alizarin-form-success:focus, .alizarin-page .alizarin-form-error:focus { outline: 2px solid var(--cyan); outline-offset: 3px; }
+.alizarin-page .alizarin-options { min-width: 0; margin: 0 0 1.5rem; padding: 1rem; border: 1px solid var(--line-strong); border-radius: var(--radius-md); }
+.alizarin-page .alizarin-option-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem 1rem; margin-top: .75rem; }
+.alizarin-page .alizarin-option-grid label, .alizarin-page .alizarin-acknowledgement { display: flex; align-items: flex-start; gap: .75rem; min-height: 44px; padding-block: .5rem; font-size: .93rem; color: var(--text-soft); cursor: pointer; }
+.alizarin-page .alizarin-application input[type="checkbox"] { flex: 0 0 auto; width: 20px; height: 20px; margin: .2rem 0 0; accent-color: var(--purple); }
+.alizarin-page .alizarin-field-help, .alizarin-page .alizarin-form-privacy, .alizarin-page .alizarin-form-fallback { font-size: .85rem; color: var(--text-soft); }
+.alizarin-page .alizarin-form-privacy { margin-top: 1.5rem; }
+.alizarin-page .alizarin-form-fallback { margin-top: 1.25rem; overflow-wrap: anywhere; }
+.alizarin-page .alizarin-form-error, .alizarin-page .alizarin-form-success { padding: 1.25rem; margin-top: 1rem; border: 1px solid var(--pink); border-radius: var(--radius-md); background: var(--surface-2); overflow-wrap: anywhere; }
+.alizarin-page .alizarin-form-success { border-color: var(--cyan); }
+.alizarin-page .alizarin-form-success p { margin-top: .75rem; }
+.alizarin-page .alizarin-field-error { margin-top: .75rem; color: var(--text); font-weight: 600; }
+.alizarin-page #alizarin-submit-progress { margin-top: 1rem; font-size: .9rem; }
+.alizarin-page #alizarin-beta-submit:disabled { opacity: .7; cursor: wait; transform: none; }
+.alizarin-page .alizarin-honeypot { display: none; }
+@media (max-width: 560px) {
+  .alizarin-page .alizarin-form-grid, .alizarin-page .alizarin-option-grid { grid-template-columns: 1fr; }
+  .alizarin-page #alizarin-beta-submit { width: 100%; }
+}
+
 :root {
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
   --font-body: "DM Sans", "Segoe UI", sans-serif;
