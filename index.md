@@ -149,6 +149,7 @@ permalink: /
     <p>Outside the lab, I spend a lot of time making music. I produce original songs, covers, and music videos using virtual singers, including Synthesizer V, Vocaloid, and custom voicebanks I've developed.</p>
     <p>I handle the creative production myself, from arranging and tuning vocals to mixing the finished tracks. I've also built some of my own tools to make the workflow easier.</p>
     <p>Aurora's singing voice is part of that work. I also experiment with letting her participate conversationally in the creative workflow, while I handle the composition and production.</p>
+    <p><a class="text-link" href="{{ '/music/' | relative_url }}">Explore My Music <span aria-hidden="true">→</span></a></p>
   </div>
   <a class="home-mv-card" href="https://youtu.be/3Xoxgwa6pm4">
     <div class="home-mv-thumbnail"><img src="{{ '/assets/images/web/aurora-looping-cover.jpg' | relative_url }}" width="1280" height="720" loading="lazy" alt="Official music video thumbnail showing Aurora singing into a microphone"><span class="home-mv-play" aria-hidden="true">▶</span></div>
