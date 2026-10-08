@@ -81,6 +81,7 @@ permalink: /
       <p>My original synthetic voice project, developed under Constellation Virtual Media. An experimental voicebank is available to beta testers upon inquiry.</p>
       <p class="card-note">The broader open-source framework is still in development.</p>
       <div class="home-card-links">
+        <a class="text-link" href="{{ '/alizarin/' | relative_url }}">Explore the ALIZARIN Project <span aria-hidden="true">→</span></a>
         <a class="text-link" href="mailto:contact@vegalyrae.tech?subject=ALIZARIN%20beta%20inquiry">Ask about the voicebank beta <span aria-hidden="true">↗</span></a>
         <a class="home-small-link" href="https://github.com/ALIZARINENGINE/AlizarinEngine">ALIZARIN Engine repository <span aria-hidden="true">↗</span></a>
       </div>

@@ -33,6 +33,7 @@ permalink: /projects/
       <ul class="tag-list" aria-label="ALIZARIN development themes"><li>Synthetic source generation</li><li>Formant &amp; algorithmic synthesis</li><li>Speech &amp; singing synthesis</li><li>Voicebank development</li><li>Alternatives to unauthorized voice cloning</li></ul>
       <div class="button-row"><a class="button button-primary" href="mailto:contact@vegalyrae.tech?subject=ALIZARIN%20beta%20inquiry">Ask About Beta Testing <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/ALIZARINENGINE/AlizarinEngine">Explore ALIZARIN on GitHub <span aria-hidden="true">↗</span></a></div>
       <p class="projects-note">Or message <strong>vegalyrae</strong> on Discord. The framework and voicebank assets have different licensing and distribution considerations. Beta access is by inquiry, not a public voicebank download.</p>
+      <p><a class="text-link" href="{{ '/alizarin/' | relative_url }}">Learn More About ALIZARIN <span aria-hidden="true">→</span></a></p>
     </div>
     <figure class="projects-alizarin-art"><img src="{{ '/assets/images/web/alizarin-feature.jpg' | relative_url }}" width="1200" height="1200" loading="lazy" alt="Existing ALIZARIN voice synthesis project artwork"><figcaption>Experimental voicebank. Framework in development.</figcaption></figure>
   </article>

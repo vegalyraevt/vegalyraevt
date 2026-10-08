@@ -285,6 +285,83 @@
   .projects-refresh .button { white-space: normal; text-align: center; }
 }
 
+/* Task 04A: dedicated synthetic voice project presentation. */
+.alizarin-page { padding-bottom: 4rem; }
+.alizarin-page [id] { scroll-margin-top: 100px; }
+.alizarin-page .section-block { padding-block: clamp(3rem, 6vw, 4.5rem); }
+.alizarin-page h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.18; }
+.alizarin-page h3 { font-size: 1.25rem; line-height: 1.3; }
+.alizarin-page .button-primary { color: var(--inverse); }
+.alizarin-page .alizarin-copy > p:not(.eyebrow) { margin-top: 1rem; }
+.alizarin-page .alizarin-copy .eyebrow { margin-bottom: 1rem; }
+.alizarin-page .section-heading > p:not(.eyebrow) { margin-top: 1rem; max-width: 800px; }
+.alizarin-page .alizarin-hero { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(2rem, 4vw, 3.5rem); align-items: center; padding-block: clamp(2rem, 4vw, 3.5rem); }
+.alizarin-page .alizarin-hero h1 { font-size: clamp(2.4rem, 4vw, 3.8rem); line-height: 1.12; }
+.alizarin-page .alizarin-subtitle { color: var(--purple-soft); font-family: var(--font-display); font-size: clamp(1.3rem, 2vw, 1.65rem); line-height: 1.3; }
+.alizarin-page .alizarin-status { padding: .8rem 1rem; border-left: 2px solid var(--pink); background: var(--surface); font-size: .85rem; }
+.alizarin-page .alizarin-hero .button-row { margin-top: 1.25rem; }
+.alizarin-page .alizarin-how-link { margin-top: 1rem; }
+.alizarin-page .alizarin-art { margin: 0; }
+.alizarin-page .alizarin-art img { display: block; width: 100%; height: auto; border: 1px solid var(--line-strong); border-radius: var(--radius-lg); }
+.alizarin-page .alizarin-art figcaption { margin-top: .75rem; color: var(--text-muted); font-size: .72rem; }
+.alizarin-page .alizarin-jump { display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; padding-block: 1rem; border-block: 1px solid var(--line); }
+.alizarin-page .alizarin-jump a { display: inline-flex; align-items: center; min-height: 44px; font-size: .85rem; text-decoration: none; color: var(--text-soft); }
+.alizarin-page .alizarin-jump a:hover { color: var(--purple); }
+.alizarin-page .alizarin-split { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(2rem, 4vw, 3rem); align-items: center; }
+.alizarin-page .alizarin-summary { margin: 0; padding: .5rem 1.5rem; border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); }
+.alizarin-page .alizarin-summary > div { padding-block: 1rem; border-bottom: 1px solid var(--line); }
+.alizarin-page .alizarin-summary > div:last-child { border-bottom: 0; }
+.alizarin-page .alizarin-summary dt { color: var(--pink); font-size: .75rem; font-weight: 700; }
+.alizarin-page .alizarin-summary dd { margin: .4rem 0 0; color: var(--text-soft); font-size: .9rem; }
+.alizarin-page .alizarin-motivation { padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid var(--line-strong); border-radius: var(--radius-lg); background: linear-gradient(115deg, var(--surface-3), var(--surface)); }
+.alizarin-page .alizarin-motivation h2 { margin-top: 1rem; }
+.alizarin-page .alizarin-motivation .alizarin-copy { max-width: 900px; }
+.alizarin-page .alizarin-note { font-size: .85rem; color: var(--text-soft); margin-top: 1rem; }
+.alizarin-page .alizarin-divider { border-top: 1px solid var(--line); }
+.alizarin-page .alizarin-technology { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; padding: 0; margin: 1.5rem 0 0; list-style: none; }
+.alizarin-page .alizarin-technology li { padding-top: 1rem; border-top: 2px solid var(--pink); }
+.alizarin-page .alizarin-label { color: var(--pink); font-size: .7rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+.alizarin-page .alizarin-technology h3 { margin-block: .75rem; }
+.alizarin-page .alizarin-technology p { font-size: .93rem; }
+.alizarin-page .alizarin-components { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.alizarin-page .alizarin-components article { display: flex; flex-direction: column; padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); }
+.alizarin-page .alizarin-components h3 { margin-block: .75rem; font-size: 1.35rem; }
+.alizarin-page .alizarin-components p { font-size: .9rem; margin-bottom: 1rem; }
+.alizarin-page .alizarin-components .text-link { margin-top: auto; min-height: 44px; align-items: center; }
+.alizarin-page .alizarin-progress article { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 2rem; padding-block: 1.5rem; border-top: 1px solid var(--line); }
+.alizarin-page .alizarin-progress h3 { margin-top: .6rem; }
+.alizarin-page .alizarin-progress p { font-size: .93rem; }
+.alizarin-page .alizarin-beta { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(2rem, 4vw, 3rem); padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid var(--pink); border-radius: var(--radius-lg); background: radial-gradient(ellipse at top left, var(--glow), transparent 70%), var(--surface); }
+.alizarin-page .alizarin-beta .button { margin-top: 1.5rem; }
+.alizarin-page .alizarin-inquiry { border-left: 1px solid var(--line-strong); padding-left: 2rem; }
+.alizarin-page .alizarin-inquiry p { margin-top: 1rem; font-size: .93rem; }
+.alizarin-page .alizarin-inquiry a { overflow-wrap: anywhere; }
+.alizarin-page .alizarin-collaborators { padding: 1.5rem; border-left: 2px solid var(--pink); background: var(--surface); }
+.alizarin-page .alizarin-collaborators ul { margin-top: 1rem; padding-left: 1.2rem; color: var(--text-soft); font-size: .93rem; }
+.alizarin-page .alizarin-collaborators li + li { margin-top: .6rem; }
+.alizarin-page .alizarin-copy .button-row { margin-top: 1.5rem; }
+.alizarin-page .alizarin-faq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2.5rem; }
+.alizarin-page .alizarin-faq article { padding-block: 1.25rem; border-top: 1px solid var(--line); }
+.alizarin-page .alizarin-faq p { margin-top: .75rem; font-size: .93rem; }
+.alizarin-page .alizarin-final { padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid var(--line-strong); border-radius: var(--radius-lg); background: var(--surface-2); }
+.alizarin-page .alizarin-final h2 { margin-block: 1rem; }
+.alizarin-page .alizarin-final > p:not(.eyebrow) { max-width: 850px; }
+.alizarin-page .alizarin-final .button-row { margin-top: 1.5rem; }
+.alizarin-page .alizarin-related { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-top: 1.5rem; }
+.alizarin-page .alizarin-related a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (max-width: 980px) {
+  .alizarin-page .alizarin-hero, .alizarin-page .alizarin-split, .alizarin-page .alizarin-beta, .alizarin-page .alizarin-technology, .alizarin-page .alizarin-components { grid-template-columns: 1fr; }
+  .alizarin-page .alizarin-art { width: 100%; max-width: 480px; margin-inline: auto; }
+  .alizarin-page .alizarin-inquiry { border-left: 0; border-top: 1px solid var(--line-strong); padding-left: 0; padding-top: 1.5rem; }
+}
+@media (max-width: 560px) {
+  .alizarin-page .alizarin-hero h1 { font-size: clamp(2.1rem, 9vw, 2.8rem); }
+  .alizarin-page .alizarin-progress article, .alizarin-page .alizarin-faq { grid-template-columns: 1fr; }
+  .alizarin-page .alizarin-progress article { gap: .75rem; }
+  .alizarin-page .button-row .button { width: 100%; }
+  .alizarin-page .button { white-space: normal; text-align: center; }
+}
+
 :root {
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
   --font-body: "DM Sans", "Segoe UI", sans-serif;
