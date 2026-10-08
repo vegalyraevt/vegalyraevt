@@ -98,7 +98,10 @@ if (process.argv.includes('--live')) {
       assert.match(page, new RegExp('<(?:input|textarea)[^>]*name="' + name + '"[^>]*required'));
     });
     assert.match(page, /name="email" type="email"/);
-    assert.match(page, /name="testing_interests" multiple required/);
+    assert.match(page, /<noscript><style>#alizarin-beta-form, #alizarin-native-fallback \{ display: none !important; \}<\/style>/);
+    assert.match(page, /With JavaScript disabled, please send your application details using the beta inquiry email link below/);
+    assert.match(page, /mailto:contact@vegalyrae.tech\?subject=ALIZARIN%20beta%20inquiry/);
+    assert.doesNotMatch(page, /alizarin-testing-fallback/);
     assert.match(page, /name="_gotcha"/);
     assert.match(page, /name="subject" value="ALIZARIN Beta Application"/);
     assert.match(page, /role="alert"/);
@@ -244,5 +247,48 @@ if (process.argv.includes('--live')) {
       assert.match(app.nodes['alizarin-submit-error'].textContent, /not been sent/);
       assert.equal(app.nodes['alizarin-beta-submit'].disabled, false);
     }
+  });
+
+  for (const status of [400, 429, 500]) {
+    test('ordinary HTTP ' + status + ' preserves answers without offering native fallback', async () => {
+      const app = fixture(async () => ({ ok: false, status, json: async () => ({
+        errors: [{ message: 'Test provider failure.' }]
+      }) }));
+      const originalAnswers = Object.fromEntries(Object.entries(app.controls).map(([key, input]) => [key, input.value]));
+      await app.submit();
+      assert.equal(app.nodes['alizarin-native-fallback'].hidden, true);
+      assert.equal(app.nodes['alizarin-submit-success'].hidden, true);
+      assert.match(app.nodes['alizarin-submit-error'].textContent, /couldn't be submitted/);
+      assert.match(app.nodes['alizarin-submit-error'].textContent, /Test provider failure/);
+      assert.equal(app.form.resetCount, 0);
+      for (const key of ['applicant_name', 'email', 'discord_username', 'intended_use', 'experience']) {
+        assert.equal(app.controls[key].value, originalAnswers[key]);
+      }
+      assert.ok(app.interests.every(input => input.checked));
+      assert.ok(app.software.every(input => input.checked));
+      assert.equal(app.nodes['alizarin-beta-submit'].disabled, false);
+      assert.equal(app.nodes['alizarin-application-fields'].disabled, false);
+    });
+  }
+
+  test('an unrelated CAPTCHA rejection does not offer the compatibility fallback', async () => {
+    const app = fixture(async () => ({ ok: false, status: 403, json: async () => ({
+      error: 'reCAPTCHA verification failed.'
+    }) }));
+    await app.submit();
+    assert.equal(app.nodes['alizarin-native-fallback'].hidden, true);
+    assert.match(app.nodes['alizarin-submit-error'].textContent, /couldn't be submitted/);
+  });
+
+  test('ordinary failure hides a fallback offered by an earlier compatibility rejection', async () => {
+    let calls = 0;
+    const app = fixture(async () => ++calls === 1 ?
+      { ok: false, status: 403, json: async () => ({ error: 'In order to submit via AJAX, reCAPTCHA needs a custom key.' }) } :
+      { ok: false, status: 429, json: async () => ({ errors: [{ message: 'Too many requests.' }] }) });
+    await app.submit();
+    assert.equal(app.nodes['alizarin-native-fallback'].hidden, false);
+    await app.submit();
+    assert.equal(app.nodes['alizarin-native-fallback'].hidden, true);
+    assert.equal(app.form.resetCount, 0);
   });
 }

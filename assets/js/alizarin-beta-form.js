@@ -23,7 +23,7 @@
   var tokenField = form.elements.namedItem('g-recaptcha-response');
   var failureMessage = "Your application couldn't be submitted. Please try again, or contact me directly by email.";
 
-  // Native HTML validation remains the fallback when this script is unavailable.
+  // Use native constraints before either JavaScript-enabled submission path.
   form.noValidate = true;
 
   function validateInterests(showError) {
@@ -128,11 +128,13 @@
         var details = Array.isArray(result.errors) ? result.errors.map(function (error) {
           return typeof error.message === 'string' ? error.message : '';
         }).filter(Boolean).join(' ') : '';
-        var securityCheck = response.status === 403 && typeof result.error === 'string' && /reCAPTCHA/i.test(result.error);
+        var securityCheck = response.status === 403 && typeof result.error === 'string' &&
+          /submit via AJAX/i.test(result.error) && /reCAPTCHA/i.test(result.error) &&
+          /custom key/i.test(result.error);
         errorBox.textContent = securityCheck ? 'An additional security check is needed to submit your application. Use standard submission below, or contact me directly by email.' : failureMessage + (details ? ' ' + details : '');
         errorBox.hidden = false;
-        // Offer a manual native POST only after a confirmed provider rejection.
-        nativeFallback.hidden = response.ok;
+        // Only the explicit CAPTCHA/AJAX compatibility rejection supports this fallback.
+        nativeFallback.hidden = !securityCheck;
         errorBox.focus();
         return;
       }
