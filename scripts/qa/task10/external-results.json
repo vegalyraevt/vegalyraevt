@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Twitch profile",
+    "url": "https://www.twitch.tv/vegalyraebard",
+    "destination": "https://www.twitch.tv/vegalyraebard",
+    "status": 200,
+    "title": "vegalyraebard - Twitch",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Volstead collection",
+    "url": "https://www.twitch.tv/collections/5SZ4s4DFrRe9DA",
+    "destination": "https://www.twitch.tv/collections/5SZ4s4DFrRe9DA",
+    "status": 200,
+    "title": "VegaLyraeBard - Twitch",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Horror reading VOD",
+    "url": "https://www.twitch.tv/videos/2877789055",
+    "destination": "https://www.twitch.tv/videos/2877789055",
+    "status": 200,
+    "title": "VegaLyraeBard - Twitch",
+    "classification": "Unverified because of platform restrictions",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Music channel",
+    "url": "https://www.youtube.com/@VegaLyrae",
+    "destination": "https://www.youtube.com/@VegaLyrae",
+    "status": 200,
+    "title": "Vega Lyrae - YouTube",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Clips channel",
+    "url": "https://www.youtube.com/@VegaAuroraClips",
+    "destination": "https://www.youtube.com/@VegaAuroraClips",
+    "status": 200,
+    "title": "Vega & Aurora Clips - YouTube",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Technical channel",
+    "url": "https://www.youtube.com/@VegaLDev",
+    "destination": "https://www.youtube.com/@VegaLDev",
+    "status": 200,
+    "title": "VegaDev - YouTube",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Featured cover",
+    "url": "https://youtu.be/3Xoxgwa6pm4",
+    "destination": "https://www.youtube.com/watch?v=3Xoxgwa6pm4",
+    "status": 200,
+    "title": "Looping in the Rooms English Cover - AuroraChan - YouTube",
+    "classification": "Redirected to a valid destination",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Aurora playlist",
+    "url": "https://www.youtube.com/watch?v=3Xoxgwa6pm4&list=PLp2tGsotekMwhZarf9SFwIOiNX7mMJeDF",
+    "destination": "https://www.youtube.com/watch?v=3Xoxgwa6pm4&list=PLp2tGsotekMwhZarf9SFwIOiNX7mMJeDF",
+    "status": 200,
+    "title": "Looping in the Rooms English Cover - AuroraChan - YouTube",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Other covers playlist",
+    "url": "https://www.youtube.com/watch?v=QgySd_Pq5cY&list=PLp2tGsotekMwOQKgH1yXwmUF72NF9DoRb",
+    "destination": "https://www.youtube.com/watch?v=QgySd_Pq5cY&list=PLp2tGsotekMwOQKgH1yXwmUF72NF9DoRb",
+    "status": 200,
+    "title": "【Eleanor Forte】Whats My Age Again?【SynthV Cover】 - YouTube",
+    "classification": "Unverified because of platform restrictions",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "SoundCloud",
+    "url": "https://soundcloud.com/vegalyrae",
+    "destination": "https://soundcloud.com/vegalyrae",
+    "status": 200,
+    "title": "Stream Vega Lyrae music | Listen to songs, albums, playlists for free on SoundCloud",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Ko-fi",
+    "url": "https://ko-fi.com/vegalyrae",
+    "destination": "https://ko-fi.com/vegalyrae",
+    "status": 403,
+    "title": "Just a moment...",
+    "classification": "Unverified because of platform restrictions",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Chiptune Constellations",
+    "url": "https://ko-fi.com/s/768000eed8",
+    "destination": "https://ko-fi.com/s/768000eed8",
+    "status": 403,
+    "title": "Just a moment...",
+    "classification": "Unverified because of platform restrictions",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Funky Computer",
+    "url": "https://on.soundcloud.com/tEzd1QGjq29WjTAC6",
+    "destination": "https://soundcloud.com/vegalyrae/funky-computer?ref=clipboard&p=i&c=1&si=7443AC1CC0954D7CAB84427EACC7A7D9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    "status": 200,
+    "title": "Stream Funky Computer by Vega Lyrae | Listen online for free on SoundCloud",
+    "classification": "Redirected to a valid destination",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "Discord invite",
+    "url": "https://discord.gg/UPQgsszwZA",
+    "destination": "https://discord.com/invite/UPQgsszwZA",
+    "status": 200,
+    "title": "Discord",
+    "classification": "Unverified because of platform restrictions",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "GitHub profile",
+    "url": "https://github.com/vegalyraevt",
+    "destination": "https://github.com/vegalyraevt",
+    "status": 200,
+    "title": "vegalyraevt (Vega Lyrae) · GitHub",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "LinkBot repository",
+    "url": "https://github.com/vegalyraevt/Discord_LinkBot",
+    "destination": "https://github.com/vegalyraevt/Discord_LinkBot",
+    "status": 200,
+    "title": "GitHub - vegalyraevt/Discord_LinkBot: HYYAAAAA! A modular Discord bot that keeps links safe with phishing detection, VirusTotal scanning, and domain age checks. Fixes broken embeds for Twitter/X, TikTok, Instagram, Reddit, Pixiv, Bluesky, and Threads. Enriches links with previews for YouTube, Twitch, Steam, GitHub, Amazon, IMDb, Wikipedia, and more. All with a Legend of Zelda theme. · GitHub",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "ALIZARIN repository",
+    "url": "https://github.com/ALIZARINENGINE/AlizarinEngine",
+    "destination": "https://github.com/ALIZARINENGINE/AlizarinEngine",
+    "status": 200,
+    "title": "GitHub - ALIZARINENGINE/AlizarinEngine: The ALIZARIN Engine is a high-level experimental voice framework for generating multiple voice synthesis products (real-time TTS, AI singing, and concatenative singing) from a single, 100% synthetic source. · GitHub",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "826michigan",
+    "url": "https://www.826michigan.org/about/",
+    "destination": "https://www.826michigan.org/about/",
+    "status": 200,
+    "title": "About 826michigan - 826michigan",
+    "classification": "Verified",
+    "scope": "Rendered anonymous page; no media playback test"
+  },
+  {
+    "name": "X profile",
+    "url": "https://x.com/VegaLyraeVT",
+    "destination": "about:blank",
+    "title": "",
+    "classification": "Unverified because of platform restrictions",
+    "error": "page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://x.com/VegaLyraeVT",
+    "scope": "Rendered anonymous page; no media playback test"
+  }
+]

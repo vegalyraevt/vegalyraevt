@@ -6,7 +6,9 @@
     <meta name="theme-color" content="#090817">
     <script>
       (function () {
-        var saved = localStorage.getItem('vega-theme');
+        document.documentElement.classList.add('has-js');
+        var saved;
+        try { saved = localStorage.getItem('vega-theme'); } catch (error) {}
         var preferred = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
         document.documentElement.dataset.theme = saved || preferred;
       })();
@@ -51,7 +53,7 @@
       </div>
     </header>
 
-    <main id="main-content" class="site-main">
+    <main id="main-content" class="site-main" tabindex="-1">
       {{ content }}
     </main>
 
@@ -88,7 +90,7 @@
         themeButton.addEventListener('click', function () {
           var next = root.dataset.theme === 'dark' ? 'light' : 'dark';
           root.dataset.theme = next;
-          localStorage.setItem('vega-theme', next);
+          try { localStorage.setItem('vega-theme', next); } catch (error) {}
         });
 
         menuButton.addEventListener('click', function () {
@@ -98,9 +100,17 @@
         });
 
         nav.addEventListener('click', function (event) {
-          if (event.target.matches('a')) {
+          if (event.target.closest('a')) {
             menuButton.setAttribute('aria-expanded', 'false');
             nav.classList.remove('is-open');
+          }
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+            menuButton.setAttribute('aria-expanded', 'false');
+            nav.classList.remove('is-open');
+            menuButton.focus();
           }
         });
 
@@ -113,6 +123,7 @@
               }
             });
           }, { threshold: 0.12 });
+          root.classList.add('reveal-ready');
           document.querySelectorAll('[data-reveal]').forEach(function (element) { observer.observe(element); });
         } else {
           document.querySelectorAll('[data-reveal]').forEach(function (element) { element.classList.add('is-visible'); });

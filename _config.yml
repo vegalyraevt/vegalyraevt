@@ -36,3 +36,6 @@ sass:
 exclude:
   - README.md
   - scripts
+  - artifacts
+  - Gemfile
+  - Gemfile.lock

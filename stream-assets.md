@@ -1,5 +1,5 @@
 ---
-title: Creative Credits — Vega Lyrae
+title: Creative Credits | Vega Lyrae
 description: Credits and licensing notes for the artists, designers, musicians, and tools represented on Vega Lyrae's streams.
 permalink: /stream-assets/
 ---

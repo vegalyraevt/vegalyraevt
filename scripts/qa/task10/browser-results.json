@@ -1,0 +1,2808 @@
+{
+  "date": "2026-10-08",
+  "browser": "154.0.4258.62",
+  "method": "Independent Playwright with installed Microsoft Edge; production Jekyll snapshot",
+  "provenance": "88-case sweep; initial homepage desktop-dark missed reveal was explicitly detected, then rerun with real scrolling; targeted result supersedes only that case.",
+  "rows": [
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "targeted rerun"
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": [],
+      "source": "full sweep"
+    }
+  ],
+  "interaction": [
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    }
+  ],
+  "noJavaScript": [
+    {
+      "route": "/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "form": {
+        "hidden": true,
+        "emailAlternative": true
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "form": {
+        "hidden": true,
+        "emailAlternative": true
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true
+    }
+  ],
+  "reducedMotion": [
+    {
+      "route": "/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/aurora/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/projects/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/alizarin/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/streaming/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/about/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/portfolio/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/contact/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/music/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/support/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/stream-assets/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    }
+  ],
+  "form": [
+    {
+      "status": "passed",
+      "tests": "Native required/email/group/ack validation; keyboard submission and focus; processing/duplicate guard; retained inputs; mocked HTTP 400/429/500; all field serialization; acknowledged success focus. No live requests."
+    }
+  ],
+  "sharedKeyboard": {
+    "status": "passed",
+    "tests": "Space opens menu; Tab reaches every primary link with visible outline; Escape returns focus; both complete music-video cards are keyboard focusable."
+  },
+  "blockedStorage": {
+    "status": "passed",
+    "tests": "Theme and mobile menu remain functional with Storage access denied."
+  }
+}

@@ -38,8 +38,8 @@ permalink: /
   <div class="hero-visual" data-reveal>
     <div class="portrait-frame">
       <div class="portrait-orbit" aria-hidden="true"></div>
-      <img class="portrait-image" src="{{ '/assets/images/web/vega-profile.jpg' | relative_url }}" alt="Illustrated portrait of Vega Lyrae">
-      <img class="portrait-wordmark" src="{{ '/assets/images/web/vega-wordmark.png' | relative_url }}" alt="Vega Lyrae">
+      <img class="portrait-image" src="{{ '/assets/images/web/vega-profile.jpg' | relative_url }}" width="720" height="720" alt="Illustrated portrait of Vega Lyrae">
+      <img class="portrait-wordmark" src="{{ '/assets/images/web/vega-wordmark.png' | relative_url }}" width="1600" height="894" alt="Vega Lyrae">
       <span class="portrait-label portrait-label-top">EXPERIMENTS &amp; ENTERTAINMENT</span>
       <span class="portrait-label portrait-label-bottom">PROBABLY HAUNTED</span>
     </div>
@@ -54,6 +54,7 @@ permalink: /
 </section>
 
 <section class="section-shell section-block home-aurora" id="home-aurora" aria-labelledby="home-aurora-title" data-reveal>
+  <span id="cast" class="sr-only" aria-hidden="true"></span>
   <div class="home-aurora-visual">
     <img src="{{ '/assets/images/web/aurora-model.jpg' | relative_url }}" width="1440" height="810" loading="lazy" alt="AuroraChan, a white-haired chimera dragon girl, posing in a cyan-lit virtual scene">
     <span class="cast-label">Operational AI VTuber / Active development</span>
