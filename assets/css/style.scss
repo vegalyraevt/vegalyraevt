@@ -642,6 +642,84 @@
   .portfolio-refresh .portfolio-case-evidence > .portfolio-label { width: 100%; }
 }
 
+/* Task 08: business contact, partnership proposals and community routes. */
+.contact-refresh { padding-bottom: 1rem; }
+.contact-refresh *, .contact-refresh *::before, .contact-refresh *::after { min-width: 0; }
+.contact-refresh [id] { scroll-margin-top: 7rem; }
+.contact-refresh h1 { font-size: clamp(2.2rem, 4.6vw, 3.85rem); line-height: 1.1; }
+.contact-refresh h2 { font-size: clamp(1.85rem, 3.4vw, 2.8rem); line-height: 1.15; }
+.contact-refresh h3 { font-size: clamp(1.15rem, 2vw, 1.4rem); line-height: 1.25; }
+.contact-refresh h1, .contact-refresh h2, .contact-refresh h3, .contact-refresh a { overflow-wrap: anywhere; }
+.contact-refresh em { color: var(--purple); font-style: normal; }
+.contact-refresh p, .contact-refresh dd { line-height: 1.75; }
+.contact-refresh .section-block { padding-block: clamp(2.75rem, 6vw, 4.5rem); }
+.contact-refresh .contact-copy > .eyebrow { margin-bottom: 1rem; }
+.contact-refresh .contact-copy > p:not(.eyebrow) { max-width: 68ch; margin-top: 1rem; }
+.contact-refresh .section-heading > p:last-child:not(.eyebrow) { max-width: 850px; margin-top: 1rem; }
+.contact-refresh .button-row { margin-top: 1.5rem; }
+.contact-refresh .button { max-width: 100%; white-space: normal; text-align: center; }
+.contact-refresh .button-primary { color: var(--inverse); }
+.contact-refresh .contact-label { display: block; color: var(--purple); font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .11em; line-height: 1.6; }
+.contact-refresh .contact-note { font-size: .88rem; }
+.contact-refresh .contact-inline-links { display: flex; flex-wrap: wrap; gap: .85rem 1.5rem; margin-top: 1.25rem; }
+.contact-refresh .contact-hero { display: grid; grid-template-columns: 1.25fr .85fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; padding-block: clamp(2.5rem, 5vw, 4rem); }
+.contact-refresh .contact-email-panel { padding: clamp(1.25rem, 3vw, 1.75rem); border: 1px solid var(--line-strong); border-top: 3px solid var(--purple); border-radius: var(--radius-md); background: var(--surface); }
+.contact-refresh .contact-email-panel h2 { font-size: 1.4rem; margin-top: .75rem; }
+.contact-refresh .contact-email-panel > p:not(.contact-label) { margin-top: 1rem; }
+.contact-refresh .contact-email-address { display: block; min-height: 44px; max-width: 100%; padding-block: .5rem; margin-top: .75rem; color: var(--purple); font-family: var(--font-display); font-weight: 700; font-size: clamp(1.1rem, 2.2vw, 1.65rem); line-height: 1.5; text-underline-offset: .2em; overflow-wrap: anywhere; }
+.contact-refresh .contact-jump { display: flex; flex-wrap: wrap; gap: .35rem 1.5rem; padding-block: .75rem; border-block: 1px solid var(--line); }
+.contact-refresh .contact-jump a { display: inline-flex; align-items: center; min-height: 44px; font-size: .86rem; font-weight: 600; color: var(--text-soft); text-underline-offset: .35em; }
+.contact-refresh .contact-jump a:hover { color: var(--purple); }
+.contact-refresh .contact-partnerships { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(1.5rem, 5vw, 4rem); align-items: center; }
+.contact-refresh .contact-partnerships .button { margin-top: 1.5rem; }
+.contact-refresh .contact-product-interests { padding-left: 1.5rem; border-left: 2px solid var(--line-strong); }
+.contact-refresh .contact-product-interests ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem 1.5rem; margin: 1.1rem 0 0; padding-left: 1.1rem; color: var(--text-soft); font-size: .93rem; }
+.contact-refresh .contact-technical { display: grid; grid-template-columns: 1.1fr .9fr; gap: 1.5rem clamp(1.5rem, 4vw, 3rem); padding: clamp(1.25rem, 4vw, 2.75rem); border: 1px solid var(--line-strong); border-radius: var(--radius-lg); background: var(--surface); }
+.contact-refresh .contact-technical-note { padding-left: 1.5rem; border-left: 1px solid var(--line-strong); }
+.contact-refresh .contact-technical-note h3 { margin-top: .75rem; }
+.contact-refresh .contact-technical-note > p:not(.contact-label) { margin-top: 1rem; font-size: .93rem; }
+.contact-refresh .contact-technical-cta { grid-column: 1 / -1; justify-self: start; }
+.contact-refresh .contact-creative-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.5rem, 5vw, 4rem); }
+.contact-refresh .contact-creative-pair .eyebrow { margin-bottom: 1rem; }
+.contact-refresh .contact-creative-pair h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); }
+.contact-refresh .contact-creative-pair section > p:not(.eyebrow) { margin-top: 1rem; }
+.contact-refresh .contact-creative-pair section > .text-link { margin-top: 1.25rem; }
+.contact-refresh .contact-creative-pair .button { display: flex; width: fit-content; margin-top: 1.5rem; }
+.contact-refresh .contact-principles { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(1.5rem, 5vw, 4rem); padding-block: 2rem; border-block: 1px solid var(--line-strong); }
+.contact-refresh .contact-principle-list { margin: 0; }
+.contact-refresh .contact-principle-list > div + div { margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--line); }
+.contact-refresh .contact-principle-list dt { color: var(--text); font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; }
+.contact-refresh .contact-principle-list dd { margin: .5rem 0 0; color: var(--text-soft); }
+.contact-refresh .contact-proposal-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 3rem; margin: 1.75rem 0 0; padding-left: 1.5rem; color: var(--purple); }
+.contact-refresh .contact-proposal-list li { padding-left: .4rem; padding-bottom: 1rem; border-bottom: 1px solid var(--line); }
+.contact-refresh .contact-proposal-list h3 { margin-bottom: .55rem; }
+.contact-refresh .contact-evidence { padding-block: 2rem; border-block: 1px solid var(--line); }
+.contact-refresh .contact-evidence-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem 2rem; list-style: none; margin: 1.5rem 0 0; padding: 0; }
+.contact-refresh .contact-evidence-links a { display: flex; flex-direction: column; justify-content: center; gap: .4rem; min-height: 90px; height: 100%; padding-block: .9rem; border-bottom: 1px solid var(--line); text-decoration: none; }
+.contact-refresh .contact-evidence-links strong { color: var(--text); }
+.contact-refresh .contact-evidence-links a > span { color: var(--text-soft); font-size: .9rem; }
+.contact-refresh .contact-evidence-links a:hover strong { color: var(--purple); }
+.contact-refresh .contact-community { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(1.5rem, 5vw, 4rem); }
+.contact-refresh .contact-community-links { list-style: none; margin: 0; padding: 0; }
+.contact-refresh .contact-community-links a { display: flex; flex-direction: column; gap: .25rem; padding-block: 1rem; border-bottom: 1px solid var(--line); text-decoration: none; }
+.contact-refresh .contact-community-links strong { color: var(--text); }
+.contact-refresh .contact-community-links a > span { font-size: .87rem; color: var(--text-soft); }
+.contact-refresh .contact-community-links a:hover strong { color: var(--purple); }
+.contact-refresh .contact-final { padding: clamp(1.25rem, 4vw, 3rem); border: 1px solid var(--line-strong); border-radius: var(--radius-lg); background: linear-gradient(130deg, var(--glow), transparent 75%), var(--surface); }
+.contact-refresh .contact-final h2 { max-width: 850px; margin-top: 1rem; }
+.contact-refresh .contact-final > p:not(.eyebrow) { max-width: 850px; margin-top: 1rem; }
+@media (max-width: 850px) {
+  .contact-refresh .contact-hero, .contact-refresh .contact-partnerships, .contact-refresh .contact-technical, .contact-refresh .contact-principles, .contact-refresh .contact-community { grid-template-columns: 1fr; }
+  .contact-refresh .contact-email-panel { max-width: 650px; }
+  .contact-refresh .contact-technical-note { padding: 1.5rem 0 0; border-left: 0; border-top: 1px solid var(--line-strong); }
+  .contact-refresh .contact-creative-pair { gap: 2rem; }
+}
+@media (max-width: 560px) {
+  .contact-refresh .contact-creative-pair, .contact-refresh .contact-proposal-list, .contact-refresh .contact-evidence-links, .contact-refresh .contact-product-interests ul { grid-template-columns: 1fr; }
+  .contact-refresh .contact-jump { gap: .25rem 1rem; }
+  .contact-refresh .button-row .button, .contact-refresh .contact-creative-pair .button { width: 100%; }
+}
+
 :root {
   --font-display: "Space Grotesk", "Segoe UI", sans-serif;
   --font-body: "DM Sans", "Segoe UI", sans-serif;
