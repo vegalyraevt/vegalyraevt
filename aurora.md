@@ -40,7 +40,6 @@ permalink: /aurora/
     <p>She's still very much a dragon, even if she's now made of code, questionable engineering decisions, and a collection of systems stitched together.</p>
     <p>And while most dragons collect gold, Aurora collects memories. Every friendship, strange conversation, and ridiculous moment becomes another little treasure in her hoard.</p>
     <p>Somewhere beneath her grand declarations and endless teasing is a much bigger question she's trying to answer: <strong>what does it mean to have a heart?</strong></p>
-    <p class="aurora-note">This is Aurora's fictional backstory, not a literal account of the software or a claim about AI experience.</p>
   </div>
 </section>
 
@@ -50,7 +49,7 @@ permalink: /aurora/
     <p>Sometimes things work exactly as intended. Sometimes I end up debugging something while a dragon insults me.</p><p><strong>Both are fairly normal around here.</strong></p>
     <div class="button-row"><a class="button button-primary" href="https://www.twitch.tv/vegalyraebard">Watch on Twitch <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="https://www.youtube.com/@VegaAuroraClips">Clips &amp; Highlights <span aria-hidden="true">↗</span></a></div>
   </div>
-  <aside class="aurora-stream-note" aria-label="What to expect"><p class="eyebrow">A little science. A lot of sass.</p><h3>Conversation, chaos, and live experiments.</h3><p>Aurora participates in conversational interaction and responds to stream events through supporting software tools. Game integrations and virtual performances are also part of the experiments.</p><p class="aurora-note">Her gameplay appearances are less frequent than Vega's regular streams. There is no fixed daily or weekly Aurora show.</p></aside>
+  <aside class="aurora-stream-note" aria-label="What to expect"><p class="eyebrow">A little science. A lot of sass.</p><h3>Conversation, chaos, and live experiments.</h3><p>Aurora participates in conversational interaction and responds to stream events through supporting software tools. Game integrations and virtual performances are also part of the experiments.</p><p class="aurora-note">Aurora makes occasional game appearances and joins Vega for special streams and experiments. Follow Twitch and the clips channel for the latest.</p></aside>
 </section>
 
 <section class="section-shell section-block aurora-divider" id="aurora-games" aria-labelledby="aurora-games-title">
@@ -62,7 +61,7 @@ permalink: /aurora/
     <li><h3>Voices of the Void</h3><span class="status-pill">Partially integrated</span><p>Partial integration, with ongoing work.</p></li>
     <li><h3>Other games</h3><span class="status-pill">Planned</span><p>Further compatibility and modding experiments.</p></li>
   </ul>
-  <p class="aurora-note">Supporting software connects these integrations to Aurora's agent system. Supported actions vary by game. Functional interaction does not mean unrestricted gameplay, and no official developer endorsement is implied.</p>
+  <p class="aurora-note">Each integration supports different interactions, and I'm continuing to expand what Aurora can do across games.</p>
 </section>
 
 <section class="section-shell section-block aurora-split aurora-divider" id="aurora-music" aria-labelledby="aurora-music-title">
@@ -81,15 +80,15 @@ permalink: /aurora/
     <article><span class="aurora-label">Supported integrations</span><h3>Tools and Game Integration</h3><p>Interfaces that let Aurora interact with supported software, games, and stream systems. Integration maturity varies.</p></article>
     <article><span class="aurora-label">Active research</span><h3>Behavioral Research</h3><p>Ongoing testing of adaptive behavior, agent steering, model adaptation, and more coherent long-term interaction.</p></article>
   </div>
-  <p class="aurora-note">These are engineering capabilities and research directions, not evidence of consciousness, human-equivalent experience, or unrestricted autonomy.</p>
+  <p class="aurora-note">Much of this work is experimental, with reliability, safety, and controllability remaining important research goals.</p>
 </section>
 
 <section class="section-shell section-block aurora-divider" aria-labelledby="aurora-roadmap-title">
-  <div class="section-heading"><p class="eyebrow">Current development &amp; future research</p><h2 id="aurora-roadmap-title">Still a Work in Progress. Still a Dragon.</h2><p>Here's what I'm working on and where I'd like to take it next. Upcoming experiments and long-term goals are not scheduled releases.</p></div>
+  <div class="section-heading"><p class="eyebrow">Current development &amp; future research</p><h2 id="aurora-roadmap-title">Still a Work in Progress. Still a Dragon.</h2><p>Here's what I'm working on and where I'd like to take it next.</p></div>
   <div class="aurora-roadmap">
     <article><span class="aurora-label">01 / Underway</span><h3>Active development</h3><ul><li>Reliability and conversational interaction</li><li>Memory and context management</li><li>Additional software and game integration</li><li>Behavioral experiments and model adaptation</li></ul></article>
-    <article><span class="aurora-label">02 / Upcoming experiments</span><h3>More ways to interact</h3><ul><li>Community drawing functionality</li><li>Expanded autonomous interaction</li><li>More virtual entertainment experiences</li></ul><p class="aurora-note">Drawing is an upcoming experiment, not an operating public model.</p></article>
-    <article><span class="aurora-label">03 / Long-term research</span><h3>Beyond the virtual world</h3><ul><li>Physical-world interaction</li><li>Robotics and embodied AI</li><li>Agent safety and controllability in more complex environments</li></ul><p class="aurora-note">Research goals, not current physical capabilities.</p></article>
+    <article><span class="aurora-label">02 / Upcoming experiments</span><h3>More ways to interact</h3><ul><li>Community drawing functionality</li><li>Expanded autonomous interaction</li><li>More virtual entertainment experiences</li></ul></article>
+    <article><span class="aurora-label">03 / Long-term research</span><h3>Beyond the virtual world</h3><ul><li>Physical-world interaction</li><li>Robotics and embodied AI</li><li>Agent safety and controllability in more complex environments</li></ul></article>
   </div>
 </section>
 
