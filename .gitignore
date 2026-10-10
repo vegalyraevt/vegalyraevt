@@ -31,3 +31,6 @@ Desktop.ini
 # Local environment files
 .env
 .env.local
+
+# Local release QA tools and generated evidence, never deployment assets.
+artifacts/task10-*

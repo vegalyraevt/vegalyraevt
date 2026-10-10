@@ -1,0 +1,3689 @@
+{
+  "date": "2026-10-08",
+  "browser": "154.0.4258.62",
+  "origin": "http://localhost:4174",
+  "build": "Final navigation snapshot; production source unchanged between full sweep and short-screen rerun",
+  "provenance": "88 complete rendered/layout/open-disclosure cases, 22 no-JS and 11 reduced-motion checks. Initial short-screen assertion raced smooth focus scrolling; allowed it to settle and reran on identical build. Supplementary keyboard/storage/short-screen/form results below are the successful rerun; original outputs preserved locally.",
+  "rows": [
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "dark",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "light",
+      "http": 200,
+      "overflow": 0,
+      "sidewaysScrolling": false,
+      "brokenImages": 0,
+      "unrevealed": 0,
+      "axeViolations": 0,
+      "axeManualReview": [
+        "color-contrast"
+      ],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "navigation": [
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "dark",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          "color-contrast"
+        ]
+      }
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "light",
+      "status": "passed",
+      "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+      "accessibility": {
+        "violations": [],
+        "incomplete": []
+      }
+    }
+  ],
+  "interaction": [
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "dark",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "dark",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "theme": "light",
+      "menu": "desktop",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 768,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 390,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "theme": "light",
+      "menu": "passed",
+      "themeToggle": true,
+      "themePersistence": true,
+      "skip": true,
+      "skipTarget": true,
+      "focus": true
+    }
+  ],
+  "noJavaScript": [
+    {
+      "route": "/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/projects/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true,
+      "form": {
+        "hidden": true,
+        "emailAlternative": true
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/music/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/support/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 1440,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/aurora/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/projects/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/alizarin/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true,
+      "form": {
+        "hidden": true,
+        "emailAlternative": true
+      }
+    },
+    {
+      "route": "/streaming/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/about/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/portfolio/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/music/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/support/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    },
+    {
+      "route": "/stream-assets/",
+      "width": 320,
+      "hasText": true,
+      "hiddenReveal": false,
+      "nav": true,
+      "watchLinks": true
+    }
+  ],
+  "reducedMotion": [
+    {
+      "route": "/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/aurora/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/projects/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/alizarin/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/streaming/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/about/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/portfolio/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/contact/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/music/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/support/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    },
+    {
+      "route": "/stream-assets/",
+      "reduce": true,
+      "scroll": "auto",
+      "reveals": true
+    }
+  ],
+  "sharedKeyboard": {
+    "status": "passed",
+    "tests": "Space opens mobile menu and native disclosure; Tab reaches every primary/group link with visible outline; leaving group closes it; Escape returns focus; both complete music-video cards are keyboard focusable."
+  },
+  "blockedStorage": {
+    "status": "passed",
+    "tests": "Theme and mobile menu remain functional with Storage access denied."
+  },
+  "shortMobileNavigation": {
+    "status": "passed",
+    "tests": "320x480 expanded menu reaches Contact using Tab; no-JS header scrolls out of the way and main content remains reachable."
+  },
+  "form": [
+    {
+      "status": "passed",
+      "tests": "Native required/email/group/ack validation; keyboard submission and focus; processing/duplicate guard; retained inputs; mocked HTTP 400/429/500; all field serialization; acknowledged success focus. No live requests."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-title: Vega Lyrae — Engineer, Researcher & Creator
-description: Mechatronics and computer science student building ethical AI, robotics, voice technology, and interactive systems.
+title: Vega Lyrae | VTuber, Developer & Music Producer
+description: A scientist-themed VTuber exploring horror games, making music, and building experimental AI, robotics, and interactive systems.
 url: "https://vegalyrae.tech"
 baseurl: ""
 permalink: /:title/
@@ -36,3 +36,6 @@ sass:
 exclude:
   - README.md
   - scripts
+  - artifacts
+  - Gemfile
+  - Gemfile.lock
