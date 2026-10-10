@@ -6,14 +6,14 @@ const toolsRoot = process.env.QA_TOOLS_ROOT || path.resolve('artifacts/task10-to
 const { chromium } = require(path.join(toolsRoot, 'playwright'));
 const axe = require(path.join(toolsRoot, 'axe-core'));
 const http = require('node:http');
-const routes = process.env.QA_ROUTES ? process.env.QA_ROUTES.split(',') : ['/', '/aurora/', '/projects/', '/alizarin/', '/streaming/', '/about/', '/portfolio/', '/contact/', '/music/', '/support/', '/stream-assets/'];
+const routes = process.env.QA_ROUTES ? process.env.QA_ROUTES.split(',') : ['/', '/aurora/', '/projects/', '/alizarin/', '/streaming/', '/about/', '/portfolio/', '/contact/', '/music/', '/support/', '/stream-assets/','/lore/'];
 const widths = process.env.QA_WIDTHS ? process.env.QA_WIDTHS.split(',').map(Number) : [1440,768,390,320];
 const themes = process.env.QA_THEMES ? process.env.QA_THEMES.split(',') : ['dark','light'];
 const phase = process.argv[2] || 'audit';
 const output = path.resolve('artifacts/task10-' + phase + '-' + Date.now());
 const origin = process.env.QA_ORIGIN || (process.env.QA_SITE_DIR ? 'http://localhost:4173' : 'http://localhost:4000');
 fs.mkdirSync(output, { recursive: true });
-const result = { phase, origin, browser: '', output, layouts: [], interaction: [], navigation: [], noJavaScript: [], reducedMotion: [], form: [] };
+const result = { phase, origin, browser: '', output, layouts: [], interaction: [], navigation: [], noJavaScript: [], reducedMotion: [], form: [], lore: [] };
 let browser, server;
 if (process.env.QA_SITE_DIR) {
   const site = path.resolve(process.env.QA_SITE_DIR);
@@ -48,6 +48,65 @@ async function reveal(page) {
     }
   }
   await page.evaluate(() => scrollTo(0,0));
+}
+async function loreChecks(page, width, theme) {
+  const input = page.locator('#lore-command'), log = page.locator('#lore-output');
+  assert.equal(await input.evaluate(el => el === document.activeElement), false, 'no autofocus');
+  assert.equal(await page.locator('h1').innerText(), 'ARCHIVE OFFLINE');
+  assert.equal(await log.getAttribute('role'), 'log');
+  assert.equal(await log.getAttribute('aria-live'), 'polite');
+  assert.equal(await page.locator('#primary-nav a[href="/lore/"]').count(), 0);
+  assert.equal(await page.locator('.footer-links a[href="/lore/"]').count(), 1);
+  const storage = await page.evaluate(() => [JSON.stringify(localStorage), JSON.stringify(sessionStorage)]);
+  const requests = [], onRequest = request => requests.push(request.url());
+  page.on('request', onRequest);
+  async function command(value, expected) {
+    await input.fill(value);
+    await input.press('Enter');
+    assert.ok((await log.locator('.lore-response').last().innerText()).includes(expected), value);
+    assert.equal(await input.evaluate(el => el === document.activeElement), true);
+    assert.notEqual(await input.evaluate(el => getComputedStyle(el).outlineStyle), 'none');
+  }
+  for (const [value, expected] of [
+    [' HeLP ', 'LOCAL COMMANDS'], ['status', 'Remote archive: OFFLINE'],
+    ['whoami', 'You are not the first'], ['ls', '[CACHED / READABLE]'],
+    ['CaT   001', "It knows we're listening."], ['reconnect', 'Packet origin: UNKNOWN.'],
+    ['signal', 'Do not answer a transmission that knows your name.'], ['vega', 'Operator note:']
+  ]) await command(value, expected);
+  await command('help', 'reconnect');
+  assert.equal((await log.locator('.lore-response').last().innerText()).includes('vega'), false);
+  for (const value of ['constructor', '__proto__', 'cat ../../private', 'status;alert(1)', '<img src=x onerror="window.loreInjected=1">', '<script>window.loreInjected=1</script>', 'x'.repeat(160)]) {
+    await command(value, 'Unknown command. Type help');
+    assert.equal(await log.locator('.lore-echo').last().textContent(), '> ' + value);
+  }
+  assert.equal(await log.locator('img,script').count(), 0);
+  assert.equal(await page.evaluate(() => window.loreInjected), undefined);
+  assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+  assert.deepEqual(await page.evaluate(() => [JSON.stringify(localStorage), JSON.stringify(sessionStorage)]), storage);
+  assert.deepEqual(requests, [], 'commands do not make network requests');
+  page.off('request', onRequest);
+  await input.press('Shift+Tab');
+  assert.equal(await log.evaluate(el => el === document.activeElement), true);
+  await page.keyboard.press('Tab');
+  assert.equal(await input.evaluate(el => el === document.activeElement), true);
+  await page.keyboard.press('Tab');
+  assert.equal(await page.locator('#lore-command-form button').evaluate(el => el === document.activeElement), true);
+  await page.keyboard.press('Tab');
+  assert.equal(await page.locator('#lore-command-form').evaluate(el => el.contains(document.activeElement)), false, 'no focus trap');
+  await input.fill('clear'); await input.press('Enter');
+  assert.equal(await log.locator('.lore-entry').count(), 0);
+  await page.waitForFunction(() => document.getElementById('lore-announcement').textContent === 'Terminal output cleared.');
+  await command('cat 001', "It knows we're listening.");
+  if ((width === 1440 && theme === 'dark') || (width === 320 && theme === 'light')) {
+    await page.evaluate(() => scrollTo({ top: 0, behavior: 'instant' }));
+    await page.waitForTimeout(250);
+    await page.screenshot({ path: path.join(output, 'lore-record-' + width + '-' + theme + '.png'), fullPage: true });
+  }
+  await page.reload({ waitUntil: 'networkidle' });
+  assert.equal(await input.inputValue(), '');
+  assert.equal(await log.locator('.lore-entry').count(), 0);
+  assert.equal(await input.evaluate(el => el === document.activeElement), false);
+  result.lore.push({ width, theme, status: 'passed', tests: 'All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link.' });
 }
 async function formChecks(browser) {
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
@@ -194,10 +253,10 @@ async function navigationChecks(page, route, width, theme) {
   assert.deepEqual(await page.locator('.nav-dropdown a').evaluateAll(nodes => nodes.map(el => [el.textContent.trim(),el.getAttribute('href')])), [
     ['Streaming','/streaming/'],['Music','/music/'],['Watch Live','https://www.twitch.tv/vegalyraebard'],['Videos & Clips','https://www.youtube.com/@VegaAuroraClips']
   ]);
-  for (const [name,href] of [['Aurora','/aurora/'],['ALIZARIN','/alizarin/'],['Support','/support/'],['Credits','/stream-assets/']]) {
+  for (const [name,href] of [['Aurora','/aurora/'],['ALIZARIN','/alizarin/'],['Support','/support/'],['Credits','/stream-assets/'],['Lore','/lore/']]) {
     assert.equal(await page.locator('.footer-links a').filter({hasText:new RegExp('^'+name+'$')}).getAttribute('href'), href);
   }
-  assert.deepEqual(await page.locator('.footer-links [aria-current="page"]').evaluateAll(nodes=>nodes.map(el=>el.getAttribute('href'))), ['/aurora/','/alizarin/','/support/','/stream-assets/'].includes(route)?[route]:[]);
+  assert.deepEqual(await page.locator('.footer-links [aria-current="page"]').evaluateAll(nodes=>nodes.map(el=>el.getAttribute('href'))), ['/aurora/','/alizarin/','/support/','/stream-assets/','/lore/'].includes(route)?[route]:[]);
   if (mobile) await page.locator('.menu-toggle').click();
   await toggle.focus();
   await page.keyboard.press('Space');
@@ -274,6 +333,7 @@ async function navigationChecks(page, route, width, theme) {
         await page.screenshot({ path: screenshot, fullPage: true });
         await page.screenshot({ path: path.join(output, slug + '-' + width + '-' + theme + '-viewport.png') });
         result.layouts.push({ route, width, theme, http: response.status(), geometry, accessibility, errors, failedRequests, screenshot });
+        if (route === '/lore/') await loreChecks(page, width, theme);
         fs.writeFileSync(path.join(output,'results.json'),JSON.stringify(result,null,2));
         // Exercise actual browser controls; this is separate from source inspection.
         let menu = 'desktop';
@@ -318,6 +378,12 @@ async function navigationChecks(page, route, width, theme) {
       const watchLinks = await page.locator('.nav-dropdown a').evaluateAll(nodes => nodes.every(el => el.getClientRects().length > 0));
       if(route==='/'&&width===320)await page.screenshot({path:path.join(output,'navigation-no-javascript-320.png')});
       const form=route==='/alizarin/'?{hidden:!(await page.locator('#alizarin-beta-form').isVisible()),emailAlternative:await page.locator('main a[href^="mailto:contact@vegalyrae.tech"]').first().isVisible()}:undefined;
+      if (route === '/lore/') {
+        assert.equal(await page.locator('#lore-session').isVisible(), false);
+        assert.equal(await page.locator('#lore-fallback').isVisible(), true);
+        assert.equal(await page.locator('h1').innerText(), 'ARCHIVE OFFLINE');
+        if (width === 320) await page.screenshot({path:path.join(output,'lore-no-javascript-320.png'),fullPage:true});
+      }
       result.noJavaScript.push({route,width,...state,nav,watchLinks,form});
       if(route==='/alizarin/'&&width===320)await page.screenshot({path:path.join(output,'alizarin-no-javascript-320.png'),fullPage:true});
       await page.close();
@@ -327,6 +393,12 @@ async function navigationChecks(page, route, width, theme) {
   const reduced=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});
   for(const route of routes){
     const page=await reduced.newPage();await page.goto(origin+route);
+    if (route === '/lore/') {
+      await page.locator('#lore-command').fill('signal');
+      await page.locator('#lore-command').press('Enter');
+      assert.ok((await page.locator('.lore-response').innerText()).includes('Do not answer'));
+      assert.equal(await page.locator('.lore-terminal').evaluate(el => [el, ...el.querySelectorAll('*')].every(node => getComputedStyle(node).animationName === 'none')), true);
+    }
     result.reducedMotion.push({route,...await page.evaluate(()=>({reduce:matchMedia('(prefers-reduced-motion: reduce)').matches,scroll:getComputedStyle(document.documentElement).scrollBehavior,reveals:[...document.querySelectorAll('[data-reveal]')].every(el=>getComputedStyle(el).opacity==='1'&&getComputedStyle(el).transform==='none')}))});
     await page.close();
   }
@@ -344,5 +416,5 @@ async function navigationChecks(page, route, width, theme) {
     result.interaction.some(r => r.menu.startsWith('failed') || !r.themeToggle || !r.themePersistence || !r.skip || !r.skipTarget || !r.focus) ||
     result.navigation.length !== result.layouts.length || result.noJavaScript.some(r => !r.hasText || r.hiddenReveal || !r.nav || !r.watchLinks || (r.form && (!r.form.hidden || !r.form.emailAlternative))) ||
     result.reducedMotion.some(r => !r.reduce || r.scroll !== 'auto' || !r.reveals) || result.form.some(r => r.status !== 'passed') || result.sharedKeyboard?.status !== 'passed' || result.blockedStorage?.status !== 'passed' || result.shortMobileNavigation?.status !== 'passed';
-  if (failed) process.exitCode = 1;
+  if (failed || (routes.includes('/lore/') && result.lore.length !== widths.length * themes.length)) process.exitCode = 1;
 });

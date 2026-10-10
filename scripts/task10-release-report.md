@@ -1,5 +1,10 @@
 # Task 10: integration review and release recommendation
 
+Task 11 extends the current automated route inventory to **12 pages** by adding
+`/lore/`. The 11-page / 88-case Task 10 results below remain historical evidence,
+not claims about the new page. See the [Task 11 report](task11-lore-report.md)
+for the additional implementation and regression results.
+
 Review date: 2026-10-08. Branch: review/site-release-task10.
 Starting commit: fd19abd671a80baee79a7f61a87a4dcc8217978d.
 The final commit is the commit containing this report; its SHA is supplied in the handoff.

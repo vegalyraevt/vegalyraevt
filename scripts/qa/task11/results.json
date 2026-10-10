@@ -1,0 +1,6174 @@
+{
+  "baseCommit": "3f4376e92b806e40eb57a506ba6a9586d93f1fb8",
+  "branch": "review/lore-task11",
+  "browserRun": {
+    "phase": "lore-final",
+    "origin": "http://localhost:4173",
+    "browser": "155.0.4283.45",
+    "output": "Local generated screenshots; selected images retained alongside this file.",
+    "layouts": [
+      {
+        "route": "/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": [
+            "/assets/icons/twitch.svg",
+            "/assets/icons/youtube.svg",
+            "/assets/icons/discord.svg",
+            "/assets/icons/x.svg",
+            "/assets/icons/tiktok.svg",
+            "/assets/icons/soundcloud.svg",
+            "/assets/icons/github.svg",
+            "/assets/icons/kofi.svg",
+            "/assets/icons/throne.svg",
+            "/assets/icons/reddit.svg"
+          ]
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "home-1440-dark.png"
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": [
+            "/assets/icons/twitch.svg",
+            "/assets/icons/youtube.svg",
+            "/assets/icons/discord.svg",
+            "/assets/icons/x.svg",
+            "/assets/icons/tiktok.svg",
+            "/assets/icons/soundcloud.svg",
+            "/assets/icons/github.svg",
+            "/assets/icons/kofi.svg",
+            "/assets/icons/throne.svg",
+            "/assets/icons/reddit.svg"
+          ]
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "home-768-dark.png"
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": [
+            "/assets/icons/twitch.svg",
+            "/assets/icons/youtube.svg",
+            "/assets/icons/discord.svg",
+            "/assets/icons/x.svg",
+            "/assets/icons/tiktok.svg",
+            "/assets/icons/soundcloud.svg",
+            "/assets/icons/github.svg",
+            "/assets/icons/kofi.svg",
+            "/assets/icons/throne.svg",
+            "/assets/icons/reddit.svg"
+          ]
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "home-390-dark.png"
+      },
+      {
+        "route": "/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": [
+            "/assets/icons/twitch.svg",
+            "/assets/icons/youtube.svg",
+            "/assets/icons/discord.svg",
+            "/assets/icons/x.svg",
+            "/assets/icons/tiktok.svg",
+            "/assets/icons/soundcloud.svg",
+            "/assets/icons/github.svg",
+            "/assets/icons/kofi.svg",
+            "/assets/icons/throne.svg",
+            "/assets/icons/reddit.svg"
+          ]
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "home-320-dark.png"
+      },
+      {
+        "route": "/aurora/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "aurora-1440-dark.png"
+      },
+      {
+        "route": "/aurora/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "aurora-768-dark.png"
+      },
+      {
+        "route": "/aurora/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "aurora-390-dark.png"
+      },
+      {
+        "route": "/aurora/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "aurora-320-dark.png"
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "projects-1440-dark.png"
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "projects-768-dark.png"
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "projects-390-dark.png"
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "projects-320-dark.png"
+      },
+      {
+        "route": "/alizarin/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "alizarin-1440-dark.png"
+      },
+      {
+        "route": "/alizarin/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "alizarin-768-dark.png"
+      },
+      {
+        "route": "/alizarin/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "alizarin-390-dark.png"
+      },
+      {
+        "route": "/alizarin/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "alizarin-320-dark.png"
+      },
+      {
+        "route": "/streaming/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "streaming-1440-dark.png"
+      },
+      {
+        "route": "/streaming/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "streaming-768-dark.png"
+      },
+      {
+        "route": "/streaming/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "streaming-390-dark.png"
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "about-1440-dark.png"
+      },
+      {
+        "route": "/streaming/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "streaming-320-dark.png"
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "about-768-dark.png"
+      },
+      {
+        "route": "/portfolio/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "portfolio-1440-dark.png"
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "about-390-dark.png"
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "about-320-dark.png"
+      },
+      {
+        "route": "/portfolio/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "portfolio-768-dark.png"
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "contact-1440-dark.png"
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "contact-768-dark.png"
+      },
+      {
+        "route": "/portfolio/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "portfolio-390-dark.png"
+      },
+      {
+        "route": "/portfolio/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "portfolio-320-dark.png"
+      },
+      {
+        "route": "/music/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "music-1440-dark.png"
+      },
+      {
+        "route": "/music/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "music-768-dark.png"
+      },
+      {
+        "route": "/support/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "support-1440-dark.png"
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "contact-390-dark.png"
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "contact-320-dark.png"
+      },
+      {
+        "route": "/support/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "support-768-dark.png"
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "stream-assets-1440-dark.png"
+      },
+      {
+        "route": "/music/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "music-390-dark.png"
+      },
+      {
+        "route": "/music/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "music-320-dark.png"
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "stream-assets-768-dark.png"
+      },
+      {
+        "route": "/lore/",
+        "width": 1440,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "lore-1440-dark.png"
+      },
+      {
+        "route": "/support/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "support-390-dark.png"
+      },
+      {
+        "route": "/support/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "support-320-dark.png"
+      },
+      {
+        "route": "/lore/",
+        "width": 768,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "lore-768-dark.png"
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "stream-assets-390-dark.png"
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "stream-assets-320-dark.png"
+      },
+      {
+        "route": "/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": [
+            "/assets/icons/twitch.svg",
+            "/assets/icons/youtube.svg",
+            "/assets/icons/discord.svg",
+            "/assets/icons/x.svg",
+            "/assets/icons/tiktok.svg",
+            "/assets/icons/soundcloud.svg",
+            "/assets/icons/github.svg",
+            "/assets/icons/kofi.svg",
+            "/assets/icons/throne.svg",
+            "/assets/icons/reddit.svg"
+          ]
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "home-1440-light.png"
+      },
+      {
+        "route": "/lore/",
+        "width": 390,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "lore-390-dark.png"
+      },
+      {
+        "route": "/lore/",
+        "width": 320,
+        "theme": "dark",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "lore-320-dark.png"
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": [
+            "/assets/icons/twitch.svg",
+            "/assets/icons/youtube.svg",
+            "/assets/icons/discord.svg",
+            "/assets/icons/x.svg",
+            "/assets/icons/tiktok.svg",
+            "/assets/icons/soundcloud.svg",
+            "/assets/icons/github.svg",
+            "/assets/icons/kofi.svg",
+            "/assets/icons/throne.svg",
+            "/assets/icons/reddit.svg"
+          ]
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "home-768-light.png"
+      },
+      {
+        "route": "/aurora/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "aurora-1440-light.png"
+      },
+      {
+        "route": "/aurora/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "aurora-768-light.png"
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "projects-1440-light.png"
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": [
+            "/assets/icons/twitch.svg",
+            "/assets/icons/youtube.svg",
+            "/assets/icons/discord.svg",
+            "/assets/icons/x.svg",
+            "/assets/icons/tiktok.svg",
+            "/assets/icons/soundcloud.svg",
+            "/assets/icons/github.svg",
+            "/assets/icons/kofi.svg",
+            "/assets/icons/throne.svg",
+            "/assets/icons/reddit.svg"
+          ]
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "home-390-light.png"
+      },
+      {
+        "route": "/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": [
+            "/assets/icons/twitch.svg",
+            "/assets/icons/youtube.svg",
+            "/assets/icons/discord.svg",
+            "/assets/icons/x.svg",
+            "/assets/icons/tiktok.svg",
+            "/assets/icons/soundcloud.svg",
+            "/assets/icons/github.svg",
+            "/assets/icons/kofi.svg",
+            "/assets/icons/throne.svg",
+            "/assets/icons/reddit.svg"
+          ]
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "home-320-light.png"
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "projects-768-light.png"
+      },
+      {
+        "route": "/alizarin/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "alizarin-1440-light.png"
+      },
+      {
+        "route": "/aurora/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "aurora-390-light.png"
+      },
+      {
+        "route": "/alizarin/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "alizarin-768-light.png"
+      },
+      {
+        "route": "/streaming/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "streaming-1440-light.png"
+      },
+      {
+        "route": "/aurora/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "aurora-320-light.png"
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "projects-390-light.png"
+      },
+      {
+        "route": "/streaming/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "streaming-768-light.png"
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "about-1440-light.png"
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "projects-320-light.png"
+      },
+      {
+        "route": "/alizarin/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "alizarin-390-light.png"
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "about-768-light.png"
+      },
+      {
+        "route": "/portfolio/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "portfolio-1440-light.png"
+      },
+      {
+        "route": "/alizarin/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "alizarin-320-light.png"
+      },
+      {
+        "route": "/streaming/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "streaming-390-light.png"
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "contact-1440-light.png"
+      },
+      {
+        "route": "/portfolio/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "portfolio-768-light.png"
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "about-390-light.png"
+      },
+      {
+        "route": "/streaming/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "streaming-320-light.png"
+      },
+      {
+        "route": "/music/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "music-1440-light.png"
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "contact-768-light.png"
+      },
+      {
+        "route": "/support/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "support-1440-light.png"
+      },
+      {
+        "route": "/music/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "music-768-light.png"
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "about-320-light.png"
+      },
+      {
+        "route": "/portfolio/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "portfolio-390-light.png"
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "stream-assets-1440-light.png"
+      },
+      {
+        "route": "/support/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "support-768-light.png"
+      },
+      {
+        "route": "/lore/",
+        "width": 1440,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 1440,
+          "viewport": 1440,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "lore-1440-light.png"
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "contact-390-light.png"
+      },
+      {
+        "route": "/portfolio/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "portfolio-320-light.png"
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "stream-assets-768-light.png"
+      },
+      {
+        "route": "/lore/",
+        "width": 768,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 768,
+          "viewport": 768,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "lore-768-light.png"
+      },
+      {
+        "route": "/music/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "music-390-light.png"
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "contact-320-light.png"
+      },
+      {
+        "route": "/support/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "support-390-light.png"
+      },
+      {
+        "route": "/music/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "music-320-light.png"
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "stream-assets-390-light.png"
+      },
+      {
+        "route": "/support/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "support-320-light.png"
+      },
+      {
+        "route": "/lore/",
+        "width": 390,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 390,
+          "viewport": 390,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "lore-390-light.png"
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "stream-assets-320-light.png"
+      },
+      {
+        "route": "/lore/",
+        "width": 320,
+        "theme": "light",
+        "http": 200,
+        "geometry": {
+          "scrollWidth": 320,
+          "viewport": 320,
+          "unrevealed": 0,
+          "overflowing": [],
+          "brokenImages": [],
+          "undimensionedImages": []
+        },
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        },
+        "errors": [],
+        "failedRequests": [],
+        "screenshot": "lore-320-light.png"
+      }
+    ],
+    "interaction": [
+      {
+        "route": "/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/streaming/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/streaming/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/streaming/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/streaming/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/music/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/music/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/support/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/support/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/music/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/music/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/lore/",
+        "width": 1440,
+        "theme": "dark",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/support/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/support/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/lore/",
+        "width": 768,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/lore/",
+        "width": 390,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/lore/",
+        "width": 320,
+        "theme": "dark",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/streaming/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/streaming/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/streaming/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/music/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/streaming/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/support/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/music/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/support/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/lore/",
+        "width": 1440,
+        "theme": "light",
+        "menu": "desktop",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/music/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/lore/",
+        "width": 768,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/support/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/music/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/support/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/lore/",
+        "width": 390,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      },
+      {
+        "route": "/lore/",
+        "width": 320,
+        "theme": "light",
+        "menu": "passed",
+        "themeToggle": true,
+        "themePersistence": true,
+        "skip": true,
+        "skipTarget": true,
+        "focus": true
+      }
+    ],
+    "navigation": [
+      {
+        "route": "/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/aurora/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/aurora/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/aurora/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/aurora/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/alizarin/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/alizarin/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/alizarin/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/alizarin/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/portfolio/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/portfolio/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/portfolio/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/music/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/portfolio/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/music/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/support/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/support/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/music/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/music/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/lore/",
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/support/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/support/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/lore/",
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/lore/",
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/aurora/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/lore/",
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/aurora/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/alizarin/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/aurora/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/alizarin/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/aurora/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/alizarin/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/portfolio/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/alizarin/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/portfolio/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/music/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/support/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/music/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/portfolio/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/support/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/lore/",
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": [
+            "color-contrast"
+          ]
+        }
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/portfolio/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/music/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/lore/",
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/support/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/music/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/support/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/lore/",
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      },
+      {
+        "route": "/lore/",
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "Destinations/order/current states; keyboard disclosure; open-panel axe/geometry; nested Escape/focus; outside click; actual Music navigation.",
+        "accessibility": {
+          "violations": [],
+          "incomplete": []
+        }
+      }
+    ],
+    "noJavaScript": [
+      {
+        "route": "/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true,
+        "form": {
+          "hidden": true,
+          "emailAlternative": true
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/music/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/support/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/lore/",
+        "width": 1440,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/aurora/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/alizarin/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true,
+        "form": {
+          "hidden": true,
+          "emailAlternative": true
+        }
+      },
+      {
+        "route": "/streaming/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/portfolio/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/music/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/support/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/stream-assets/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      },
+      {
+        "route": "/lore/",
+        "width": 320,
+        "hasText": true,
+        "hiddenReveal": false,
+        "nav": true,
+        "watchLinks": true
+      }
+    ],
+    "reducedMotion": [
+      {
+        "route": "/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/aurora/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/projects/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/alizarin/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/streaming/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/about/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/portfolio/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/contact/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/music/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/support/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/stream-assets/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      },
+      {
+        "route": "/lore/",
+        "reduce": true,
+        "scroll": "auto",
+        "reveals": true
+      }
+    ],
+    "form": [
+      {
+        "status": "passed",
+        "tests": "Native required/email/group/ack validation; keyboard submission and focus; processing/duplicate guard; retained inputs; mocked HTTP 400/429/500; all field serialization; acknowledged success focus. No live requests."
+      }
+    ],
+    "lore": [
+      {
+        "width": 1440,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link."
+      },
+      {
+        "width": 768,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link."
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link."
+      },
+      {
+        "width": 320,
+        "theme": "dark",
+        "status": "passed",
+        "tests": "All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link."
+      },
+      {
+        "width": 1440,
+        "theme": "light",
+        "status": "passed",
+        "tests": "All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link."
+      },
+      {
+        "width": 768,
+        "theme": "light",
+        "status": "passed",
+        "tests": "All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link."
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "status": "passed",
+        "tests": "All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link."
+      },
+      {
+        "width": 320,
+        "theme": "light",
+        "status": "passed",
+        "tests": "All nine commands; case/whitespace normalization; hidden Easter egg; seven unknown/injection probes rendered as text; no command requests or storage changes; Enter/focus/Tab escape; polite log and clear announcement; reload clears transcript; footer-only link."
+      }
+    ],
+    "sharedKeyboard": {
+      "status": "passed",
+      "tests": "Space opens mobile menu and native disclosure; Tab reaches every primary/group link with visible outline; leaving group closes it; Escape returns focus; both complete music-video cards are keyboard focusable."
+    },
+    "blockedStorage": {
+      "status": "passed",
+      "tests": "Theme and mobile menu remain functional with Storage access denied."
+    },
+    "shortMobileNavigation": {
+      "status": "passed",
+      "tests": "320x480 expanded menu reaches Contact using Tab; no-JS header scrolls out of the way and main content remains reachable."
+    }
+  },
+  "static": {
+    "routes": [
+      {
+        "route": "/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Vega Lyrae VTuber, Music &amp; Experimental Tech | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "A scientist-themed VTuber playing horror games, making music, running D&amp;D, and building AI, robotics, and questionable inventions. Meet Vega and AuroraChan.",
+        "canonical": "https://vegalyrae.tech/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/aurora/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "AuroraChan AI AI VTuber &amp; Interactive Agent Project | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Meet AuroraChan, Vega Lyrae’s AI chimera dragon girl. Explore her lore, livestream appearances, music, game integrations, and ongoing AI research.",
+        "canonical": "https://vegalyrae.tech/aurora/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/projects/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Projects Vega Lyrae | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Explore Vega Lyrae’s AI agents, robotics research, game modding, synthetic voice technology, music tools, and interactive projects.",
+        "canonical": "https://vegalyrae.tech/projects/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/alizarin/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "ALIZARIN Engine Synthetic Voice Research by Vega Lyrae | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Explore ALIZARIN Engine, Vega Lyrae’s original synthetic voice project, including its open-source framework, experimental voicebank beta, and audio research.",
+        "canonical": "https://vegalyrae.tech/alizarin/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/streaming/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Streaming, Horror &amp; D&amp;D Vega Lyrae | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Explore Vega Lyrae’s VTuber streams, horror gaming, Shadow over Volstead D&amp;D campaign, literature events, and interactive community experiments.",
+        "canonical": "https://vegalyrae.tech/streaming/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/about/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "About Vega Lyrae VTuber, Developer &amp; Creative Technologist | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Learn about Vega Lyrae, a VTuber, developer, music producer, and engineering student creating experimental AI, robotics, synthetic voices, and interactive media.",
+        "canonical": "https://vegalyrae.tech/about/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/portfolio/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Technical Portfolio &amp; Experience Vega Lyrae | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Explore Vega Lyrae’s technical portfolio, including software engineering, AI agents, systems infrastructure, synthetic voice research, and ongoing robotics development.",
+        "canonical": "https://vegalyrae.tech/portfolio/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/contact/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Contact &amp; Partnerships Vega Lyrae | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Contact Vega Lyrae about brand sponsorships, AI and robotics collaboration, indie games, music technology, and professional opportunities.",
+        "canonical": "https://vegalyrae.tech/contact/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/music/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Music &amp; Vocal Synthesis Vega Lyrae | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Explore Vega Lyrae’s original music, vocal synth covers, AuroraChan music videos, virtual singers, and experimental audio production.",
+        "canonical": "https://vegalyrae.tech/music/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/support/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Support Vega Lyrae’s Work | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Ways to support Vega Lyrae’s independent research, open-source development, and livestreamed creative technology work.",
+        "canonical": "https://vegalyrae.tech/support/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/stream-assets/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Creative Credits Vega Lyrae | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "Credits and licensing notes for the artists, designers, musicians, and tools represented on Vega Lyrae’s streams.",
+        "canonical": "https://vegalyrae.tech/stream-assets/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      },
+      {
+        "route": "/lore/",
+        "h1": 1,
+        "duplicates": [],
+        "title": "Constellation Archive Lore | Vega Lyrae VTuber, Developer &amp; Music Producer",
+        "description": "An interactive fictional archive terminal. The primary archive is offline, but a few cached fragments remain.",
+        "canonical": "https://vegalyrae.tech/lore/",
+        "ogTitle": true,
+        "ogImage": false,
+        "inSitemap": true
+      }
+    ],
+    "broken": [],
+    "mailto": [
+      {
+        "route": "/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "ALIZARIN beta inquiry"
+      },
+      {
+        "route": "/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/aurora/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/aurora/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/projects/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "ALIZARIN beta inquiry"
+      },
+      {
+        "route": "/projects/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/alizarin/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "ALIZARIN beta inquiry"
+      },
+      {
+        "route": "/alizarin/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/alizarin/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "ALIZARIN beta inquiry"
+      },
+      {
+        "route": "/alizarin/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/alizarin/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "ALIZARIN beta inquiry"
+      },
+      {
+        "route": "/alizarin/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/alizarin/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "ALIZARIN beta inquiry"
+      },
+      {
+        "route": "/alizarin/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/streaming/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/about/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/portfolio/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "Brand and Sponsorship Inquiry"
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "Technical Collaboration Inquiry"
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "Game Collaboration Inquiry"
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": "Music and Creative Technology Inquiry"
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/contact/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/music/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/support/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/stream-assets/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      },
+      {
+        "route": "/lore/",
+        "address": "contact@vegalyrae.tech",
+        "subject": null
+      }
+    ],
+    "scripts": [
+      {
+        "route": "/alizarin/",
+        "src": "https://www.google.com/recaptcha/api.js?render=6Ldin-QtAAAAAOZXYuliFuWYEyOi5NNbRYGSYdYj"
+      },
+      {
+        "route": "/alizarin/",
+        "src": "/assets/js/alizarin-beta-form.js"
+      },
+      {
+        "route": "/lore/",
+        "src": "/assets/js/lore-terminal.js"
+      }
+    ],
+    "legacy": [
+      {
+        "file": "about.md",
+        "route": "/about/",
+        "missingAnchors": []
+      },
+      {
+        "file": "alizarin.md",
+        "route": "/alizarin/",
+        "missingAnchors": []
+      },
+      {
+        "file": "aurora.md",
+        "route": "/aurora/",
+        "missingAnchors": []
+      },
+      {
+        "file": "contact.md",
+        "route": "/contact/",
+        "missingAnchors": []
+      },
+      {
+        "file": "index.md",
+        "route": "/",
+        "missingAnchors": []
+      },
+      {
+        "file": "music.md",
+        "route": "/music/",
+        "missingAnchors": []
+      },
+      {
+        "file": "portfolio.md",
+        "route": "/portfolio/",
+        "missingAnchors": []
+      },
+      {
+        "file": "projects.md",
+        "route": "/projects/",
+        "missingAnchors": []
+      },
+      {
+        "file": "stream-assets.md",
+        "route": "/stream-assets/",
+        "missingAnchors": []
+      },
+      {
+        "file": "streaming.md",
+        "route": "/streaming/",
+        "missingAnchors": []
+      },
+      {
+        "file": "support.md",
+        "route": "/support/",
+        "missingAnchors": []
+      }
+    ],
+    "emDashes": [
+      {
+        "file": "README.md",
+        "scope": "tracked source",
+        "count": 4
+      }
+    ],
+    "history": {
+      "commitsScanned": 73,
+      "scope": "tracked text on all reachable refs; token-pattern scan, not proof of absence of every possible secret"
+    },
+    "security": [],
+    "assets": [
+      {
+        "file": "assets/css/images/pfp1.jpg",
+        "bytes": 101009
+      },
+      {
+        "file": "assets/icons/discord.svg",
+        "bytes": 1389
+      },
+      {
+        "file": "assets/icons/github.svg",
+        "bytes": 837
+      },
+      {
+        "file": "assets/icons/kofi.svg",
+        "bytes": 1133
+      },
+      {
+        "file": "assets/icons/reddit.svg",
+        "bytes": 1248
+      },
+      {
+        "file": "assets/icons/soundcloud.svg",
+        "bytes": 1193
+      },
+      {
+        "file": "assets/icons/throne.svg",
+        "bytes": 437
+      },
+      {
+        "file": "assets/icons/tiktok.svg",
+        "bytes": 722
+      },
+      {
+        "file": "assets/icons/twitch.svg",
+        "bytes": 307
+      },
+      {
+        "file": "assets/icons/x.svg",
+        "bytes": 314
+      },
+      {
+        "file": "assets/icons/youtube.svg",
+        "bytes": 474
+      },
+      {
+        "file": "assets/images/AuroraLogo.png",
+        "bytes": 122643
+      },
+      {
+        "file": "assets/images/Constelation (800 x 500 px) (800 x 500 px).png",
+        "bytes": 111770
+      },
+      {
+        "file": "assets/images/web/alizarin-feature.jpg",
+        "bytes": 75721
+      },
+      {
+        "file": "assets/images/web/aurora-looping-cover.jpg",
+        "bytes": 136508
+      },
+      {
+        "file": "assets/images/web/aurora-model.jpg",
+        "bytes": 190641
+      },
+      {
+        "file": "assets/images/web/vega-model.jpg",
+        "bytes": 74906
+      },
+      {
+        "file": "assets/images/web/vega-profile.jpg",
+        "bytes": 93534
+      },
+      {
+        "file": "assets/images/web/vega-wordmark.png",
+        "bytes": 387964
+      },
+      {
+        "file": "scripts/qa/task10/aurora-mobile-dark.png",
+        "bytes": 162061
+      },
+      {
+        "file": "scripts/qa/task10/aurora-tablet-light.png",
+        "bytes": 100528
+      },
+      {
+        "file": "scripts/qa/task10/beta-narrow-dark.png",
+        "bytes": 153902
+      },
+      {
+        "file": "scripts/qa/task10/home-desktop-light.png",
+        "bytes": 368574
+      },
+      {
+        "file": "scripts/qa/task10/mobile-menu-light.png",
+        "bytes": 81186
+      },
+      {
+        "file": "scripts/qa/task10/navigation-desktop-dark.png",
+        "bytes": 372352
+      },
+      {
+        "file": "scripts/qa/task10/navigation-footer-dark.png",
+        "bytes": 16508
+      },
+      {
+        "file": "scripts/qa/task10/navigation-mobile-light.png",
+        "bytes": 57772
+      },
+      {
+        "file": "scripts/qa/task10/navigation-no-javascript.png",
+        "bytes": 40467
+      },
+      {
+        "file": "scripts/qa/task10/portfolio-narrow-light.png",
+        "bytes": 78381
+      }
+    ],
+    "css": {
+      "bytes": 112648,
+      "gzipBytes": 17819
+    },
+    "external": [
+      "https://discord.gg/UPQgsszwZA",
+      "https://fonts.googleapis.com",
+      "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap",
+      "https://fonts.gstatic.com",
+      "https://github.com/ALIZARINENGINE/AlizarinEngine",
+      "https://github.com/ALIZARINENGINE/AlizarinEngine/blob/main/.github/LICENSE",
+      "https://github.com/ALIZARINENGINE/AlizarinEngine/blob/main/README.md",
+      "https://github.com/ALIZARINENGINE/AlizarinEngine/blob/main/USAGE_GUIDE.md",
+      "https://github.com/vegalyraevt",
+      "https://github.com/vegalyraevt/Discord_LinkBot",
+      "https://ko-fi.com/madohime",
+      "https://ko-fi.com/s/768000eed8",
+      "https://ko-fi.com/vegalyrae",
+      "https://linktr.ee/mambakuroo",
+      "https://mintami.booth.pm/items/3775687",
+      "https://on.soundcloud.com/tEzd1QGjq29WjTAC6",
+      "https://soundcloud.com/vegalyrae",
+      "https://t.co/7z6cWPQ5XW",
+      "https://throne.com/vegalyrae",
+      "https://tiktok.com/@vegalyraevtuber",
+      "https://twitch.tv/vegalyraebard",
+      "https://www.826michigan.org/about/",
+      "https://www.etsy.com/listing/1331727607/starry-mic-celestial-vtuber-asset",
+      "https://www.etsy.com/listing/1404958620/remakemoon-twitch-goal-widget-for-stream",
+      "https://www.etsy.com/shop/CreativeStreamDesign",
+      "https://www.etsy.com/shop/SylphVisuals",
+      "https://www.etsy.com/shop/VidElement",
+      "https://www.fiverr.com/famahima",
+      "https://www.fiverr.com/fruxeyot",
+      "https://www.fiverr.com/tuongvy84",
+      "https://www.fiverr.com/vtuber_graphics",
+      "https://www.google.com/recaptcha/api.js?render=6Ldin-QtAAAAAOZXYuliFuWYEyOi5NNbRYGSYdYj",
+      "https://www.reddit.com/r/ArtificialVTubers/s/LStb0HMwW8",
+      "https://www.twitch.tv/buttercream24",
+      "https://www.twitch.tv/collections/5SZ4s4DFrRe9DA",
+      "https://www.twitch.tv/spidermaree",
+      "https://www.twitch.tv/vegalyraebard",
+      "https://www.twitch.tv/videos/2877789055",
+      "https://www.youtube.com/@VegaAuroraClips",
+      "https://www.youtube.com/@VegaLDev",
+      "https://www.youtube.com/@VegaLyrae",
+      "https://www.youtube.com/@beatricebellamour",
+      "https://www.youtube.com/watch?v=3Xoxgwa6pm4&list=PLp2tGsotekMwhZarf9SFwIOiNX7mMJeDF",
+      "https://www.youtube.com/watch?v=QgySd_Pq5cY&list=PLp2tGsotekMwOQKgH1yXwmUF72NF9DoRb",
+      "https://x.com/0x4682b4?s=21",
+      "https://x.com/Ananda_And01",
+      "https://x.com/VegaLyraeVT",
+      "https://x.com/ryufboi?s=21",
+      "https://youtu.be/3Xoxgwa6pm4",
+      "https://youtube.com/@VegaLyrae",
+      "https://zaytri.com/"
+    ],
+    "exclusions": {
+      "artifacts": true,
+      "scripts": true,
+      "readme": true
+    }
+  },
+  "linkAndBounds": {
+    "status": "passed",
+    "viewport": {
+      "width": 320,
+      "height": 640
+    },
+    "tests": "Actual homepage footer -> Lore and Return to homepage navigation; no autofocus; blank input no-op; transcript capped at 40 entries after 43 commands; pointer submit works."
+  },
+  "accessibilityDetail": [
+    {
+      "theme": "dark",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "a[aria-label=\"Vega Lyrae, home\"] > .brand-mark[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.9pt (11.84px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[aria-label=\"Vega Lyrae, home\"] > .brand-copy > strong"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "11.4pt (15.2px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".lore-topline > a[href=\"/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.6pt (11.52px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".lore-topline > span"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.6pt (11.52px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "button[type=\"submit\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters",
+                  "data": {
+                    "messageKey": "nonBmp"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".lore-fiction"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.6pt (11.52px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".footer-brand > .brand-mark[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.9pt (11.84px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".footer-brand > .brand-copy > strong"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "11.4pt (15.2px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"aurora/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"alizarin/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"support/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"stream-assets/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[aria-current=\"page\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"vegalyraevt\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a:nth-child(7)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"@VegaLyrae\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"VegaLyraeVT\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href=\"mailto:contact@vegalyrae.tech\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".footer-meta > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.2pt (10.88px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".footer-meta > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.2pt (10.88px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "a[aria-label=\"Vega Lyrae, home\"] > .brand-mark[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.9pt (11.84px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".lore-topline > a[href=\"/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.6pt (11.52px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".lore-topline > span"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.6pt (11.52px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "button[type=\"submit\"] > span[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element content contains only non-text characters",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters",
+                  "data": {
+                    "messageKey": "nonBmp"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".lore-fiction"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.6pt (11.52px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".footer-brand > .brand-mark[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.9pt (11.84px)",
+                    "fontWeight": "bold",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".footer-brand > .brand-copy > strong"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "11.4pt (15.2px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"aurora/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"alizarin/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"support/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"stream-assets/\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[aria-current=\"page\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"vegalyraevt\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a:nth-child(7)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"@VegaLyrae\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href$=\"VegaLyraeVT\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                "a[href=\"mailto:contact@vegalyrae.tech\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "9.6pt (12.8px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".footer-meta > span:nth-child(1)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.2pt (10.88px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            },
+            {
+              "target": [
+                ".footer-meta > span:nth-child(2)"
+              ],
+              "summary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient",
+                  "data": {
+                    "contrastRatio": 0,
+                    "fontSize": "8.2pt (10.88px)",
+                    "fontWeight": "normal",
+                    "messageKey": "bgGradient",
+                    "expectedContrastRatio": "4.5:1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contrast": {
+    "method": "WCAG relative luminance using source colors and maximum gradient alpha; terminal colors are fixed in both themes.",
+    "checks": [
+      {
+        "text": "#9bb1aa",
+        "background": "peak purple gradient over #070d10",
+        "ratio": 8.17
+      },
+      {
+        "text": "#91dccb",
+        "background": "peak purple gradient over #070d10",
+        "ratio": 11.74
+      },
+      {
+        "text": "#91dccb",
+        "background": "#22473f (submit hover and decorative arrow)",
+        "ratio": 6.52
+      }
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 // Dependency-free audit of a production build. Never prints candidate secret values.
 const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process'),zlib=require('node:zlib');
 const root=path.resolve(process.env.QA_SITE_DIR||'artifacts/task10-build');
-const git=args=>cp.execFileSync('git',['-c','safe.directory=D:/Personal repository/vegalyraevt',...args],{encoding:'utf8',stdio:['ignore','pipe','pipe'],maxBuffer:20*1024*1024});
+const git=args=>cp.execFileSync('git',['-c','safe.directory='+process.cwd().replaceAll('\\','/'),...args],{encoding:'utf8',stdio:['ignore','pipe','pipe'],maxBuffer:20*1024*1024});
 const read=p=>fs.readFileSync(p,'utf8');
-const routes=['/','/aurora/','/projects/','/alizarin/','/streaming/','/about/','/portfolio/','/contact/','/music/','/support/','/stream-assets/'];
+const routes=['/','/aurora/','/projects/','/alizarin/','/streaming/','/about/','/portfolio/','/contact/','/music/','/support/','/stream-assets/','/lore/'];
 const files=git(['ls-files','-z']).split('\0').filter(Boolean);
 const report={routes:[],broken:[],mailto:[],scripts:[],legacy:[],emDashes:[],history:[],security:[],assets:[],css:{},external:[]};
 const external=new Set();
